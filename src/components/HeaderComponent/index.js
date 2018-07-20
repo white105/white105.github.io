@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Link, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 class HeaderComponent extends Component {
 
   render() {
     return (
       <div className='headerDiv'>
-        <h1>Nicholas <b>White</b></h1>
+        <h1>Nicholas White</h1>
 
         <ul id='mainHeaderSubList'>
           <li><Link to='/resume'>Resume</Link></li>

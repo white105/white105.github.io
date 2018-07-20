@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import NCSA_Poster from './NCSA_Poster.png';
 
 class Research extends Component {
 
   render() {
     return (
       <div>
-        <h1>Research</h1>
+        <img id='ncsa_research' src={NCSA_Poster}></img>
       </div>
     );
   }
