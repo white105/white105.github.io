@@ -39,7 +39,7 @@ body a:visited {
   text-align: center;
 }
 
-#siteEnterButton {
+#enterSiteButton {
   width: 10rem;
   height: 3rem;
   color: rgb(72.981, 109.9815, 177.99);
@@ -67,7 +67,7 @@ body a:visited {
 /*****HEADER Component*****/
 
 .headerDiv {
-  width: 50rem;
+  width: 100%;
   height: 8rem;
   margin: auto;
 }
