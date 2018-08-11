@@ -107,6 +107,39 @@ li:hover {
 
 /*****HEADER Component*****/
 
+/*****SITE Footer*****/
+
+.siteFooter {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;
+  color: black;
+  text-align: center;
+}
+
+.fontAwesomeIconDiv {
+  width: 20rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconLink {
+  font-size: 1.5rem;
+  width: 2rem;
+  height: 2rem;
+  background: rgb(72.981, 109.9815, 177.99);
+  border-radius: 1rem;
+}
+
+.fontAwesomeIcon {
+  color: white;
+}
+
+/*****SITE Footer*****/
+
 
 /*****RESUME Component*****/
 
