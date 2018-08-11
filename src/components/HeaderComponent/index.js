@@ -6,13 +6,13 @@ class HeaderComponent extends Component {
   render() {
     return (
       <div className='headerDiv'>
-        <h1><Link to='/' style={{'color' : 'black'}}>Nicholas White</Link></h1>
+        <h1><Link to='/' style={{'color' : 'black', 'textAlign' : 'center'}}>Nicholas White</Link></h1>
 
         <ul id='mainHeaderSubList'>
-          <li><Link to='/resume'>Resume</Link></li>
-          <li><Link to='/projects'>Projects</Link></li>
-          <li><Link to='/research'>Research</Link></li>
-          <li><Link to='/articles'>Articles</Link></li>
+          <li><Link to='/resume' className='headerTab'>Resume</Link></li>
+          <li><Link to='/projects' className='headerTab'>Projects</Link></li>
+          <li><Link to='/research' className='headerTab'>Research</Link></li>
+          <li><Link to='/articles' className='headerTab'>Articles</Link></li>
         </ul>
       </div>
     );
