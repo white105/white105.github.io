@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import NCSA_Poster from './NCSA_Poster.png';
 
 class Research extends Component {
 
   render() {
     return (
       <div>
-        <img id='ncsa_research' src={NCSA_Poster}></img>
+        <p>National Center for Supercomputing Applications Gravity Group - Modeling and Detection of Black Hole Collisions Using Blue Water Supercomputer</p>
       </div>
     );
   }

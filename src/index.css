@@ -1,13 +1,70 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 body a {
   text-decoration: none;
-  color: rgb(72.981, 109.9815, 177.99);;
 }
+
+body a:visited {
+  color: rgb(72.981, 109.9815, 177.99);
+}
+
+/*****App Component*****/
+
+#siteGreetingContainer {
+  background: white;
+  height: 200px;
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+
+#siteGreetingContainer .siteGreetingDiv {
+  background: rgb(72.981, 109.9815, 177.99);
+  color: white;
+  width: 80%;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+
+.siteGreetingDiv blockquote {
+  text-align: center;
+}
+
+#siteEnterButton {
+  width: 10rem;
+  height: 3rem;
+  color: rgb(72.981, 109.9815, 177.99);
+  background: white;
+  font-size: 1rem;
+  border-radius: 2.5rem;
+  margin: auto;
+  margin-top: 1rem;
+  outline: none;
+}
+
+#siteEnterButton:active {
+  background: rgb(72.981, 109.9815, 177.99);
+  color: white;
+  border: 1px solid white;
+}
+
+
+.text {
+  text-align: center;
+}
+
+/*****App Component*****/
+
+/*****HEADER Component*****/
 
 .headerDiv {
   width: 50rem;
@@ -41,9 +98,29 @@ li:hover {
   cursor: pointer;
 }
 
+#nickSitePic {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 2rem;
+}
 
-/**************************Header code above *************/
-/**************************Body code below*************/
+#resumeFrame {
+  width: 50rem;
+  height: 50rem;
+  border: 0;
+  overflow: hidden;
+}
+
+/*****HEADER Component*****/
+
+
+/*****RESUME Component*****/
+
+.myBio {
+  width: 30rem;
+  margin: auto;
+  margin-top: 3rem;
+}
 
 .bodyDiv {
   width: 50rem;
@@ -52,21 +129,35 @@ li:hover {
 }
 
 #resumeDiv {
-  width: 40rem;
+  width: 80%;
   height: 50rem;
   margin: auto;
+  border: 1px solid black;
 }
 
-#resume {
-  width: 100%;
-  height: 80%;
+.resumeSubSections {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
-
-#ncsa_research {
-  width: 70rem;
-  height: 50rem;
+.resumeSubSection {
+  border: 1px solid black;
 }
+
+/*****RESUME Component*****
+
+/*****PROJECTS Component*****/
+
+/*****PROJECTS Component*****/
+
+/*****RESEARCH Component*****/
+
+/*****RESEARCH Component*****/
+
+/*****ARTICLES Component*****/
+
+/*****ARTICLES Component*****/
 
 /**************************Footer code below *************/
 
