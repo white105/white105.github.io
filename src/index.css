@@ -98,16 +98,10 @@ li:hover {
   cursor: pointer;
 }
 
-#nickSitePic {
-  width: 15rem;
-  height: 15rem;
-  border-radius: 2rem;
-}
-
 #resumeFrame {
+  margin-top: 3rem;
   width: 50rem;
   height: 50rem;
-  border: 0;
   overflow: hidden;
 }
 
