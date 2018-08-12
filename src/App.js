@@ -34,7 +34,7 @@ class App extends Component {
 
 
         <Router>
-        <div className="App">
+        <div className='content'>
 
           <HeaderComponent></HeaderComponent>
 
