@@ -12,9 +12,6 @@ body a:visited {
 
 /*****App Component*****/
 
-.App {
-  margin-bottom: 4rem;
-}
 
 #siteGreetingContainer {
   background: white;
@@ -32,6 +29,8 @@ body a:visited {
   display : flex;
   flex-direction : column;
   justify-content: center;
+  width: 50rem;
+  margin: auto;
   margin-top : 5rem;
 }
 
@@ -39,6 +38,14 @@ body a:visited {
   text-align: center;
   width: 30rem;
   margin: auto;
+  text-decoration: underline;
+}
+
+.homePageParagraph {
+  width: 30rem;
+  margin: auto;
+  margin-top: 1rem;
+  font-size: 1.2rem;
 }
 
 #siteGreetingContainer .siteGreetingDiv {
@@ -102,7 +109,7 @@ body a:visited {
   bottom: 0;
   width: 100%;
   height: 3rem;
-  color: black;
+  background: rgb(73, 110, 178);
   text-align: center;
 }
 
@@ -114,11 +121,10 @@ body a:visited {
 }
 
 .iconLink {
-  font-size: 1.5rem;
-  width: 2rem;
-  height: 2rem;
+  font-size: 1.8rem;
+  width: 3rem;
+  height: 3rem;
   background: rgb(73, 110, 178);
-  border-radius: 1rem;
 }
 
 .fontAwesomeIcon {
@@ -152,6 +158,24 @@ body a:visited {
 /*****PROJECTS Component*****/
 
 /*****RESEARCH Component*****/
+
+.researchContainer {
+  width: 60rem;
+  margin: auto;
+}
+
+.researchParagraph {
+  font-size: 1.25rem;
+  width: 50rem;
+  margin: auto;
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+.carousel {
+  margin-top: 1.25rem;
+  height: 30rem;
+}
 
 .carouselImageDiv, .carouselImage {
   height: 100%;
@@ -260,8 +284,30 @@ body a:visited {
   #resumeDiv {
     height: 25rem;
   }
-  
+
+
   /*****Research Media queries****/
+
+  .researchContainer {
+    width: 100%;
+    margin: none;
+  }
+
+  .researchParagraph {
+    font-size: 0.9rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 2.5rem;
+    text-align: center;
+  }
+
+  .carousel {
+    height: 100%;
+  }
+
+  .carouselImageDiv, .carouselImage {
+    height: 100%;
+  }
 
   .carouselImageDiv, .carouselImage {
     height: 100%;
@@ -307,9 +353,7 @@ body a:visited {
   .fontAwesomeIcon {
     font-size: 1.5rem;
     margin-top: .25rem;
-    border: 1px solid white;
     padding: 5px;
-    border-radius: 1rem;
   }
 
   /*****Footer Media queries****/

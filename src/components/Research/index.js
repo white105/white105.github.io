@@ -9,7 +9,7 @@ class Research extends Component {
 
     return (
       <div className='researchContainer'>
-        <p>National Center for Supercomputing Applications Gravity Group - Modeling and Detection of Black Hole Collisions Using Blue Water Supercomputer</p>
+        <p className='researchParagraph'>National Center for Supercomputing Applications Gravity Group - Modeling and Detection of Black Hole Collisions Using Blue Water Supercomputer</p>
 
         <Carousel autoPlay={true} interval={3000} infiniteLoop={true} className='carousel'>
                 <div className='carouselImageDiv'>
