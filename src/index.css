@@ -28,6 +28,23 @@ body a:visited {
   overflow: auto;
 }
 
+.homePageContainer {
+  display : flex;
+  flex-direction : column;
+  justify-content: center;
+  margin-top : 5rem;
+}
+
+.homePageHeader {
+  text-align: center;
+}
+
+.homePageHeader {
+  text-align: center;
+  width: 30rem;
+  margin: auto;
+}
+
 
 #siteGreetingContainer .siteGreetingDiv {
   background: rgb(72.981, 109.9815, 177.99);
@@ -42,26 +59,6 @@ body a:visited {
 .siteGreetingDiv blockquote {
   text-align: center;
 }
-
-#enterSiteButton {
-  width: 10rem;
-  height: 3rem;
-  color: rgb(72.981, 109.9815, 177.99);
-  background: white;
-  font-size: 1rem;
-  border-radius: 2.5rem;
-  margin: auto;
-  margin-top: 1rem;
-  outline: none;
-}
-
-#siteEnterButton:active {
-  background: rgb(72.981, 109.9815, 177.99);
-  color: white;
-  border: 1px solid white;
-}
-
-
 .text {
   text-align: center;
 }
@@ -72,13 +69,10 @@ body a:visited {
 
 .headerDiv {
   width: 100%;
-  height: 8rem;
-  margin: auto;
 }
 
 .headerDiv h1 {
   font-family: 'Source Sans Pro', sans-serif;
-  text-align: center;
   font-weight: lighter;
   font-size: 2.5rem;
 }
@@ -86,27 +80,17 @@ body a:visited {
 #mainHeaderSubList {
   font-family: 'Source Sans Pro', sans-serif;
   text-transform: uppercase;
-  height: 2rem;
-  margin: auto;
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-li {
-  flex: 1;
+#mainHeaderSubList li {
   color: rgb(72.981, 109.9815, 177.99);
 }
 
-li:hover {
+#mainHeaderSubList li:hover {
   cursor: pointer;
-}
-
-#resumeFrame {
-  margin-top: 3rem;
-  width: 50rem;
-  height: 50rem;
-  overflow: hidden;
 }
 
 .headerTab {
@@ -188,19 +172,6 @@ li:hover {
 
 /*****RESEARCH Component*****/
 
-.researchContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 60rem;
-  height: 35rem;
-  margin: auto;
-}
-
-.carousel {
-  height: 30rem;
-}
-
 .carouselImageDiv {
   width: 100%;
   height: 100%;
@@ -226,4 +197,89 @@ li:hover {
   height:3rem;
   display: flex;
   justify-content: space-around;
+}
+
+
+
+/************MOBILE VERSION MEIDA QUERIES *****************/
+
+@media only screen and (max-width: 600px) {
+
+  /*****APP Media queries****/
+  .App {
+    margin-bottom: 1rem;
+  }
+
+  /*****APP Media queries****/
+  /*****Home Page Media queries****/
+
+  .homePageContainer {
+    height: 5rem;
+  }
+
+  .homePageHeader {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .homePageParagraph {
+    font-size: 0.7rem;
+    width: 15rem;
+    margin: auto;
+    text-align: center;
+  }
+
+  /*****Home Page Media queries****/
+  /*****Header Media queries****/
+
+  .headerDiv {
+    height: 3rem;
+    width: 100%;
+  }
+
+  .headerDiv h1 {
+    font-size: 1.5rem;
+  }
+
+  .mainHeaderSubListContainer {
+    width: 40rem;
+    margin: auto;
+    float: left;
+  }
+
+  #mainHeaderSubList {
+    height: 1.5rem;
+    width: 80%;
+    display: block;
+    float: left;
+  }
+
+  li {
+    display: inline-block;
+    width: 5rem;
+    float: left;
+  }
+
+  .headerTab {
+    font-size: 0.8rem;
+  }
+
+  /*****Header Media queries****/
+  /*****Footer Media queries****/
+
+  .fontAwesomeIconDiv {
+    width: 15rem;
+  }
+
+  .iconLink {
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .fontAwesomeIcon {
+    font-size: 1rem;
+  }
+
+  /*****Footer Media queries****/
 }
