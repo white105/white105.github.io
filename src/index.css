@@ -37,14 +37,9 @@ body a:visited {
 
 .homePageHeader {
   text-align: center;
-}
-
-.homePageHeader {
-  text-align: center;
   width: 30rem;
   margin: auto;
 }
-
 
 #siteGreetingContainer .siteGreetingDiv {
   background: rgb(72.981, 109.9815, 177.99);
@@ -135,17 +130,6 @@ body a:visited {
 
 /*****RESUME Component*****/
 
-.myBio {
-  width: 30rem;
-  margin: auto;
-  margin-top: 3rem;
-}
-
-.bodyDiv {
-  width: 50rem;
-  height: 50rem;
-  margin: auto;
-}
 
 #resumeDiv {
   width: 80%;
@@ -232,6 +216,10 @@ body a:visited {
   /*****Home Page Media queries****/
   /*****Header Media queries****/
 
+  .homePageHeader {
+    width: 100%;
+  }
+
   .headerDiv {
     height: 3rem;
     width: 100%;
@@ -268,17 +256,27 @@ body a:visited {
   /*****Footer Media queries****/
 
   .fontAwesomeIconDiv {
-    width: 15rem;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    background: rgb(72.981, 109.9815, 177.99);
   }
 
   .iconLink {
     width: 1.5rem;
     height: 1.5rem;
     font-size: 1rem;
+    background: rgb(72.981, 109.9815, 177.99);
+    border-radius: 1rem;
   }
 
   .fontAwesomeIcon {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    margin-top: .25rem;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 1rem;
   }
 
   /*****Footer Media queries****/
