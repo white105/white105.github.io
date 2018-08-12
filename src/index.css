@@ -7,7 +7,7 @@ body a {
 }
 
 body a:visited {
-  color: rgb(72.981, 109.9815, 177.99);
+  color: rgb(73, 110, 178);
 }
 
 /*****App Component*****/
@@ -42,7 +42,7 @@ body a:visited {
 }
 
 #siteGreetingContainer .siteGreetingDiv {
-  background: rgb(72.981, 109.9815, 177.99);
+  background: rgb(73, 110, 178);
   color: white;
   width: 80%;
   padding: 4rem;
@@ -81,7 +81,7 @@ body a:visited {
 }
 
 #mainHeaderSubList li {
-  color: rgb(72.981, 109.9815, 177.99);
+  color: rgb(73, 110, 178);
 }
 
 #mainHeaderSubList li:hover {
@@ -117,7 +117,7 @@ body a:visited {
   font-size: 1.5rem;
   width: 2rem;
   height: 2rem;
-  background: rgb(72.981, 109.9815, 177.99);
+  background: rgb(73, 110, 178);
   border-radius: 1rem;
 }
 
@@ -260,14 +260,14 @@ body a:visited {
     height: 3rem;
     display: flex;
     justify-content: space-around;
-    background: rgb(72.981, 109.9815, 177.99);
+    background: rgb(73, 110, 178);
   }
 
   .iconLink {
     width: 1.5rem;
     height: 1.5rem;
     font-size: 1rem;
-    background: rgb(72.981, 109.9815, 177.99);
+    background: rgb(73, 110, 178);
     border-radius: 1rem;
   }
 
