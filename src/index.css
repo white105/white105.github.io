@@ -170,14 +170,6 @@ body a:visited {
   margin: auto;
 }
 
-.researchParagraph {
-  font-size: 1.25rem;
-  width: 50rem;
-  margin: auto;
-  margin-top: 2.5rem;
-  text-align: center;
-}
-
 .carousel {
   margin-top: 1.25rem;
   height: 30rem;
@@ -187,8 +179,36 @@ body a:visited {
   height: 100%;
 }
 
+.researchParagraph {
+  font-size: 1.25rem;
+  width: 50rem;
+  margin: auto;
+  margin-top: 1.8rem;
+  text-align: center;
+}
 
+#enigmaLink {
+  color: black;
+}
 
+#enigmaLink:active {
+  color: black;
+}
+
+#researchLogoContainer {
+  width: 40rem;
+  height: 10rem;
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.researchLogo {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 1rem;
+}
 
 /*****RESEARCH Component*****/
 
@@ -340,6 +360,18 @@ body a:visited {
 
   .thumb {
     display: none;
+  }
+
+  #researchLogoContainer {
+    width: 20rem;
+    height: 5rem;
+    margin: auto;
+    margin-top: 2rem;
+  }
+
+  .researchLogo {
+    width: 5rem;
+    height: 5rem;
   }
 
 

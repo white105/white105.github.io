@@ -40,11 +40,21 @@ class Research extends Component {
         <hr></hr>
         <br></br>
 
-        <div className='researchExplanation'>
-          <h2 className='researchExplanationHeader'>ENIGMA</h2>
-          <p className='researchParagraph'>ENIGMA - Eccentric, nonspinning, inspiral, Gaussian-process merger
-            approximant for the detection and characterization of eccentric binary black hole mergers</p>
-        </div>
+        <h2 className='researchExplanationHeader'><a id='enigmaLink' href='https://arxiv.org/abs/1711.06276'>ENIGMA</a></h2>
+
+        <p className='researchParagraph'>Eccentric, nonspinning, inspiral, Gaussian-process merger
+          approximant for the detection and characterization of eccentric binary black hole mergers</p>
+
+          <div id='researchLogoContainer'>
+            <img src={require('../../research_logos/ncsa.png')} className='researchLogo'></img>
+            <img src={require('../../research_logos/ligo.jpg')} className='researchLogo'></img>
+          </div>
+
+          <p className='researchParagraph'>From May 2018 - July 2018 I worked as an active member and research fellow of both The
+            National Center for Supercomputing Applications and The Laser Interferometer Gravitational-Wave Observatory
+            implementing an eccentric waveform model in LALSuite (The LSC Algorithm Library Suite). Under the mentorship
+            of Roland Haas (Ph.D. Physics) and Eliu Huerta (Ph.D. Theoretical Astrophysics) I was able to improve my understanding
+            of advanced physics and astrophysics while simultaneously exercising my computational skillset as an engineer.</p>
 
       </div>
     );
