@@ -135,18 +135,15 @@ body a:visited {
   width: 80%;
   height: 50rem;
   margin: auto;
+  margin-top: 4rem;
   border: 1px solid black;
 }
 
-.resumeSubSections {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+.resume {
+  width: 100%;
+  height: 100%;
 }
 
-.resumeSubSection {
-  border: 1px solid black;
-}
 
 /*****RESUME Component*****
 
@@ -155,6 +152,10 @@ body a:visited {
 /*****PROJECTS Component*****/
 
 /*****RESEARCH Component*****/
+
+.carouselImageDiv, .carouselImage {
+  height: 100%;
+}
 
 
 /*****RESEARCH Component*****/
@@ -255,6 +256,36 @@ body a:visited {
   }
 
   /*****Header Media queries****/
+
+  #resumeDiv {
+    height: 25rem;
+  }
+  
+  /*****Research Media queries****/
+
+  .carouselImageDiv, .carouselImage {
+    height: 100%;
+  }
+
+  .control-dots {
+    display: none;
+  }
+
+  .dots {
+    display: none;
+  }
+
+  .thumbs-wrapper {
+    display: none;
+  }
+
+  .thumb {
+    display: none;
+  }
+
+
+
+  /*****Research Media queries****/
   /*****Footer Media queries****/
 
   .fontAwesomeIconDiv {
