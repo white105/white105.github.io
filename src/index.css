@@ -156,15 +156,6 @@ body a:visited {
 
 /*****RESEARCH Component*****/
 
-.carouselImageDiv {
-  width: 100%;
-  height: 100%;
-}
-
-.carouselImage {
-  width: 100%;
-  height: 100%;
-}
 
 /*****RESEARCH Component*****/
 
@@ -189,9 +180,19 @@ body a:visited {
 
 @media only screen and (max-width: 600px) {
 
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  #app {
+    width: 100%;
+  }
+
   /*****APP Media queries****/
   .App {
-    margin-bottom: 1rem;
+    width: 100%;
+    margin-bottom: 2rem;
   }
 
   /*****APP Media queries****/
@@ -203,12 +204,13 @@ body a:visited {
 
   .homePageHeader {
     font-size: 0.9rem;
+    width: 80%;
     text-align: center;
   }
 
   .homePageParagraph {
     font-size: 0.7rem;
-    width: 15rem;
+    width: 70%;
     margin: auto;
     text-align: center;
   }
