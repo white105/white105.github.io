@@ -313,20 +313,22 @@ body a:visited {
     justify-content: center;
     width: 20rem;
     margin: auto;
-    margin-top : 5rem;
+    margin-top : 2rem;
     min-height: 20rem;
+    height: 25rem;
   }
 
   .homePageHeader {
-    font-size: 0.9rem;
-    width: 80%;
+    font-size: 1.3rem;
+    width: 100%;
     text-align: center;
   }
 
   .homePageParagraph {
-    font-size: 0.7rem;
-    width: 70%;
+    font-size: 1.1rem;
+    width: 80%;
     margin: auto;
+    margin-top: 1rem;
     text-align: center;
   }
 
