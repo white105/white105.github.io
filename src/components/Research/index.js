@@ -36,9 +36,7 @@ class Research extends Component {
         </Carousel>
 
         <br></br>
-        <br></br>
         <hr></hr>
-        <br></br>
 
         <h2 className='researchExplanationHeader'><a id='enigmaLink' href='https://arxiv.org/abs/1711.06276'>ENIGMA</a></h2>
 
@@ -50,7 +48,7 @@ class Research extends Component {
             <img src={require('../../research_logos/ligo.jpg')} className='researchLogo'></img>
           </div>
 
-          <p className='researchParagraph'>From May 2018 - July 2018 I worked as an active member and research fellow of both The
+          <p className='researchParagraph' id='rp2'>From May 2018 - July 2018 I worked as an active member and research fellow of both The
             National Center for Supercomputing Applications and The Laser Interferometer Gravitational-Wave Observatory
             implementing an eccentric waveform model in LALSuite (The LSC Algorithm Library Suite). Under the mentorship
             of Roland Haas (Ph.D. Physics) and Eliu Huerta (Ph.D. Theoretical Astrophysics) I was able to improve my understanding

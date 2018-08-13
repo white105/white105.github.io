@@ -272,6 +272,7 @@ body a:visited {
   .headerDiv h1 {
     font-size: 2rem;
     color: white;
+    font-weight: bold;
   }
 
   #headerLink {
@@ -289,7 +290,7 @@ body a:visited {
     padding-left: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: auto;
     border-bottom: 1px solid rgb(73, 110, 178);
     background: white;
@@ -311,21 +312,21 @@ body a:visited {
   .homePageContainer {
     position: relative;
     justify-content: center;
-    width: 20rem;
+    width: 100%;
     margin: auto;
     margin-top : 2rem;
-    min-height: 20rem;
-    height: 25rem;
+    min-height: 60vh;
+    height: 60vh;
   }
 
   .homePageHeader {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     width: 100%;
     text-align: center;
   }
 
   .homePageParagraph {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     width: 80%;
     margin: auto;
     margin-top: 1rem;
@@ -355,8 +356,12 @@ body a:visited {
     font-size: 0.9rem;
     width: 80%;
     margin: auto;
-    margin-top: 2.5rem;
+    margin-top: 1rem;
     text-align: center;
+  }
+
+  #rp2 {
+    margin-top: 2rem;
   }
 
   .carousel {
@@ -397,6 +402,7 @@ body a:visited {
   .researchLogo {
     width: 5rem;
     height: 5rem;
+    margin-bottom: 2rem;
   }
 
 
