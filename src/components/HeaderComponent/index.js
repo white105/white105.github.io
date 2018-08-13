@@ -6,7 +6,7 @@ class HeaderComponent extends Component {
   render() {
     return (
       <div className='headerDiv'>
-        <h1><Link to='/' style={{'color' : 'black', 'textAlign' : 'center'}}>Nicholas White</Link></h1>
+        <h1><Link to='/' id='headerLink'>Nicholas White</Link></h1>
 
         <div className='mainHeaderSubListContainer'>
           <ul id='mainHeaderSubList'>
