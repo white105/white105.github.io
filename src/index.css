@@ -167,6 +167,21 @@ body a:visited {
 
 /*****PROJECTS Component*****/
 
+.projectsDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 20rem;
+  height: 35rem;
+  margin: auto;
+}
+
+.githubRepo {
+  width: 20rem;
+  margin: auto;
+}
+
+
 /*****PROJECTS Component*****/
 
 /*****RESEARCH Component*****/
@@ -344,7 +359,6 @@ body a:visited {
 
 
   /*****Resume Media queries****/
-
   /*****Research Media queries****/
 
   .researchContainer {
