@@ -304,19 +304,16 @@ body a:visited {
 
   .headerDiv {
     width: 100%;
-    background: rgb(73, 110, 178);
     height: 6.5rem;
-    color: white;
   }
 
   .headerDiv h1 {
     font-size: 2rem;
-    color: white;
+    color: black;
     padding-top: .5rem;
   }
 
   #headerLink {
-    color: white;
     padding:0;
     text-align: center;
   }
