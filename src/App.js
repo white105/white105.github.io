@@ -50,10 +50,17 @@ class App extends Component {
         </div>
       </Router>
 
+      <hr></hr>
+
       <div className='siteFooter'>
+
+        <div className='footerCopyright'>
+          <h3 className='copyrightHeader'>&copy; NICHOLAS WHITE 2018</h3>
+        </div>
+
         <div className='fontAwesomeIconDiv'>
 
-          <a className='iconLink' href='https://github.com/white105'>
+          <a className='iconLink' href='https://github.com/white105' id='githubIcon'>
             <FontAwesome
               className='fontAwesomeIcon'
               name='github'
@@ -61,7 +68,7 @@ class App extends Component {
             />
           </a>
 
-          <a className='iconLink' href='https://twitter.com/nick_w_white'>
+          <a className='iconLink' href='https://twitter.com/nick_w_white' id='twitterIcon'>
             <FontAwesome
               className='fontAwesomeIcon'
               name='twitter'
@@ -69,7 +76,7 @@ class App extends Component {
             />
           </a>
 
-          <a className='iconLink' href='https://www.linkedin.com/in/nicholas-w-white/'>
+          <a className='iconLink' href='https://www.linkedin.com/in/nicholas-w-white/' id='linkedinIcon'>
             <FontAwesome
               className='fontAwesomeIcon'
               name='linkedin'

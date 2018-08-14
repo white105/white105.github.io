@@ -123,28 +123,57 @@ body a:visited {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: rgb(73, 110, 178);
   text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 .fontAwesomeIconDiv {
-  width: 20rem;
-  margin: auto;
+  flex: 1;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  border-radius: .5rem;
+  background: white;
 }
 
 .iconLink {
   font-size: 1.8rem;
   width: 3rem;
   height: 3rem;
-  background: rgb(73, 110, 178);
   border: 1px solid white;
+  border-radius: 0.7rem;
 }
 
 .fontAwesomeIcon {
   color: white;
 }
+
+.footerCopyright {
+  flex: 3;
+  text-transform: capitalize;
+}
+
+.copyrightHeader {
+    text-align: center;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+.fa-twitter {
+  color: #00aced;
+}
+
+.fa-linkedin {
+  color: #007bb6;
+}
+
+.fa-github {
+  color: #333;
+}
+
+
 
 /*****SITE Footer*****/
 
@@ -248,19 +277,6 @@ body a:visited {
 }
 
 /*****ARTICLES Component*****/
-
-/**************************Footer code below *************/
-
-.footer {
-  position:absolute;
-  bottom:0;
-  width:100%;
-  height:3rem;
-  display: flex;
-  justify-content: space-around;
-}
-
-
 
 /************MOBILE VERSION MEIDA QUERIES *****************/
 
@@ -445,14 +461,12 @@ body a:visited {
     height: 3rem;
     display: flex;
     justify-content: space-around;
-    background: rgb(73, 110, 178);
   }
 
   .iconLink {
     width: 2.5rem;
     height: 2.5rem;
     font-size: 1rem;
-    background: rgb(73, 110, 178);
     border: 1px solid white;
   }
 
