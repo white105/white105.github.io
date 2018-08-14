@@ -38,6 +38,8 @@ class App extends Component {
 
           <HeaderComponent></HeaderComponent>
 
+          <hr></hr>
+
           <div>
             <Route exact path="/" component={Home} />
             <Route exact path="/resume" component={Resume} />
