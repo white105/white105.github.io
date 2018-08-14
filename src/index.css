@@ -36,8 +36,8 @@ body a:visited {
   width: 50rem;
   margin: auto;
   margin-top : 5rem;
-  min-height: 100vh;
-  height: 100vh;
+  min-height: 60vh;
+  height: 60vh;
 }
 
 .homePageHeader {
