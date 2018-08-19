@@ -44,7 +44,11 @@ body a:visited {
   text-align: center;
   width: 30rem;
   margin: auto;
-  text-decoration: underline;
+}
+
+.headerUnderline {
+  width: 30rem;
+  margin: auto;
 }
 
 .homePageParagraph {
@@ -199,7 +203,7 @@ body a:visited {
 
 /*****PROJECTS Component*****/
 
-.projectsDiv {
+.githubProjectsDiv {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -277,6 +281,93 @@ body a:visited {
 }
 
 /*****ARTICLES Component*****/
+
+/*****GPA Calculator Component*****/
+
+#appTitle {
+  font-weight: 200;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50rem;
+  margin: auto;
+}
+
+.column {
+  background: #2B9EB3;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;;
+  width: 30%;
+  justify-content: space-between;
+  border-radius: .7rem;
+}
+
+.columnTitle {
+  font-family: sans-serif;
+  font-weight: 200;
+  text-transform: capitalize;
+}
+
+.courseInput, .gpaInput, .creditsInput {
+  width: 10rem;
+  height: 2rem;
+  outline: none;
+  margin: auto;
+  margin-bottom: 2rem;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.buttonsDiv {
+  width: 50rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.calculatorButton {
+  width: 15rem;
+  height: 2rem;
+  outline: none;
+  border-radius: .5rem;
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
+#addClassButton {
+  background: #44AF69;
+  color: white;
+}
+
+#calculateButton {
+  background: #fcab10;
+  color: white;
+}
+
+#resetButton {
+  background: #F8333C;
+  color: white;
+}
+
+
+.gpaHeader {
+  margin-top: 3rem;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+
+
+/*****GPA Calculator Component*****/
+
 
 /************MOBILE VERSION MEIDA QUERIES *****************/
 
@@ -361,9 +452,11 @@ body a:visited {
     text-align: center;
   }
 
+
   .homePageParagraph {
     font-size: 0.9rem;
     width: 80%;
+    background-image: url('pattern2.jpg');
     margin: auto;
     margin-top: 1rem;
     text-align: center;
