@@ -448,6 +448,77 @@ body a:visited {
 
   /*****Articles Media queries****/
 
+  /*****GPA Calculator Component Media Queries*****/
+
+  #appTitle {
+    font-weight: 200;
+  }
+
+  .calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+  }
+
+  .column {
+    background: #2B9EB3;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    width: 60%;
+    margin: auto;
+    margin-top: 1rem;
+    justify-content: space-between;
+    border-radius: .7rem;
+  }
+
+  .buttonsDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+  }
+
+  .calculatorButton {
+    width: 15rem;
+    height: 2rem;
+    margin: auto;
+    outline: none;
+    border-radius: .5rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+
+  #addClassButton {
+    background: #44AF69;
+    color: white;
+  }
+
+  #calculateButton {
+    background: #fcab10;
+    color: white;
+  }
+
+  #resetButton {
+    background: #F8333C;
+    color: white;
+  }
+
+
+  .gpaHeader {
+    margin-top: 3rem;
+    font-family: sans-serif;
+    font-weight: 200;
+  }
+
+
+  /*****GPA Calculator Component Media Queries*****/
+
+
 
   /*****Home Page Media queries****/
 
