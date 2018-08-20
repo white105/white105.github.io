@@ -45,7 +45,9 @@ class GPACalculator extends Component {
       }
     }
 
-    this.setState({ total_gpa : parseFloat(total_points / total_credits) })
+    let total_gpa = parseFloat(total_points / total_credits)
+
+    this.setState({ total_gpa : total_gpa.toFixed(3) })
 
 
     /*
