@@ -9,8 +9,14 @@ class Projects extends Component {
     return (
       <div>
         <div className='githubProjectsDiv'>
-          <RepoCard username="white105" repo="csc-395" className='githubRepo' />
-          <RepoCard username="white105" repo="Rubric-Calculator" className='githubRepo' />
+          <div className='projectsColumn'>
+            <RepoCard username="white105" repo="csc-395" className='githubRepo' />
+            <RepoCard username="white105" repo="Rubric-Calculator" className='githubRepo' />
+          </div>
+          <div className='projectsColumn'>
+            <RepoCard username="white105" repo="react-gpa" className='githubRepo' />
+            <RepoCard username="white105" repo="react-gpa" className='githubRepo' />
+          </div>
         </div>
         <hr></hr>
 

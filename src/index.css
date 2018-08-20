@@ -205,11 +205,18 @@ body a:visited {
 
 .githubProjectsDiv {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 20rem;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 55rem;
   height: 35rem;
   margin: auto;
+}
+
+.projectsColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 30rem;
 }
 
 .githubRepo {
@@ -456,7 +463,6 @@ body a:visited {
   .homePageParagraph {
     font-size: 0.9rem;
     width: 80%;
-    background-image: url('pattern2.jpg');
     margin: auto;
     margin-top: 1rem;
     text-align: center;
