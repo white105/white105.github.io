@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import GPACalculator from '../GPACalculator/index.js';
+import RubricCalculator from '../RubricCalculator/index.js';
 import { UserCard, RepoCard } from 'react-github-cards';
 import 'react-github-cards/dist/default.css';
 
