@@ -234,19 +234,41 @@ body a:visited {
   margin: auto;
 }
 
+.whipLogo {
+  margin: 2.5rem;
+}
+
+.projectsParagraph {
+  font-size: 1.25rem;
+  width: 60rem;
+  margin: auto;
+  margin-top: 1.8rem;
+  text-align: center;
+}
+
+.hackathonTitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.whipTitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin-top: 2.5rem;
+}
 
 /*****PROJECTS Component*****/
 
 /*****RESEARCH Component*****/
 
-.researchContainer {
+.researchContainer, .projectsContainer {
   width: 60rem;
   margin: auto;
 }
 
 .carousel {
   margin-top: 1.25rem;
-  height: 30rem;
+  height: 35rem;
 }
 
 .carouselImageDiv, .carouselImage {
@@ -729,6 +751,10 @@ body a:visited {
   /*****Projects Component Media queries****/
 
 
+ .projectsContainer {
+    width: 100%;
+    margin: none;
+  }
   .githubProjectsDiv {
     width: 100%;
     height: 30rem;
@@ -751,6 +777,14 @@ body a:visited {
 
   #projectsColumn1 {
     flex: 1;
+  }
+
+  .projectsParagraph {
+    font-size: 0.9rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+    text-align: center;
   }
     /*****Projects Component Media queries****/
 
