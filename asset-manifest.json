@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.c7a6447f.css",
-  "main.css.map": "static/css/main.c7a6447f.css.map",
-  "main.js": "static/js/main.6efddff9.js",
-  "main.js.map": "static/js/main.6efddff9.js.map",
+  "main.css": "static/css/main.ae0c0e16.css",
+  "main.css.map": "static/css/main.ae0c0e16.css.map",
+  "main.js": "static/js/main.129db281.js",
+  "main.js.map": "static/js/main.129db281.js.map",
   "static/media/dandyhacksgroup.jpg": "static/media/dandyhacksgroup.b562f540.jpg",
   "static/media/group_pic.jpg": "static/media/group_pic.8681b7e1.jpg",
   "static/media/photo1.jpg": "static/media/photo1.39c75725.jpg",
@@ -13,5 +13,6 @@
   "static/media/photo6.jpg": "static/media/photo6.491c8afd.jpg",
   "static/media/photo7.jpg": "static/media/photo7.7300694f.jpg",
   "static/media/presentation.jpg": "static/media/presentation.bcd7205c.jpg",
+  "static/media/turtlebot.mp4": "static/media/turtlebot.5788b6e0.mp4",
   "static/media/wip_logo.png": "static/media/wip_logo.7fcb048d.png"
 }
