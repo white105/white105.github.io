@@ -58,7 +58,20 @@ class Projects extends Component {
         <br></br>
         <hr></hr>
 
-        <GPACalculator></GPACalculator>
+        <h2 className='hackathonTitle'>Turtlebot Robotics 2018</h2>
+
+        <video width = "500" height = "300" controls preload='preload' autoPlay className='turtlebotVideo'>
+         <source src = {require('../../turtlebot.mp4')} type = "video/mp4"></source>
+         This browser doesn't support video tag.
+         </video>
+
+         <p className='projectsParagraph'>During the Fall semester of 2017 I worked as a student researcher implementing turtlebot autonomy with ROS and Linux</p>
+
+         <p className='projectsParagraph'><u>Contributions</u></p>
+         <p className='projectsParagraph'>I helped assemble the original hardware and software including the asus camera, raspberry pi, and installation of Linux.
+         I then worked through ROS tutorials and implemented mapping and navigation. Our research team consisted of four people and including myself, my classmate,
+         and two professors.</p>
+
 
       </div>
     );
