@@ -264,19 +264,120 @@ body a:visited {
 
 /*****PROJECTS Component*****/
 
+/*****HACKATHON Component*****/
+
+.hackathonContainer {
+  width: 80%;
+  margin: auto;
+}
+
+.hackathonCarousel {
+  margin-top: 1.25rem;
+}
+
+.hackathonCarouselImageDiv, .hackathonCarouselImage {
+  height: 100%;
+}
+
+.photoText {
+  padding: 1rem;
+}
+
+.img__description {
+  position: absolute;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity 2s, visibility 2s;
+}
+
+.imageDirections {
+  font-size: 1.2rem;
+  color: rgba(29, 106, 154, 0.72);
+}
+
+#img_bottom_description {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#img_top_description {
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#img_left_description {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#img_right_description {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hackathonCarouselImageDiv:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.logoAbsoluteContainer {
+  position: relative;
+  width: 40rem;
+  height: 15rem;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.whipLogoHover {
+  width: 40% !important;
+  height: 100%;
+}
+
+.demoLink {
+  color: yellow;
+  background: yellow;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+/*****HACKATHON Component*****/
+
 /*****RESEARCH Component*****/
 
-.researchContainer, .projectsContainer {
+.researchContainer, .projectsContainer, .hackathonContainer {
   width: 60rem;
   margin: auto;
 }
 
-.carousel {
+.researchCarousel {
   margin-top: 1.25rem;
-  height: 35rem;
 }
 
-.carouselImageDiv, .carouselImage {
+.researchCarouselImageDiv, .researchCarouselImage {
   height: 100%;
 }
 
@@ -792,6 +893,11 @@ body a:visited {
     text-align: center;
   }
     /*****Projects Component Media queries****/
+
+    .hackathonContainer {
+      width: 100%;
+      margin: none;
+    }
 
   /*****Research Media queries****/
 
