@@ -12,6 +12,7 @@ class HeaderComponent extends Component {
           <li><Link to='/resume' className='headerTab'>Resume</Link></li>
           <li><Link to='/projects' className='headerTab'>Projects</Link></li>
           <li><Link to='/research' className='headerTab'>Research</Link></li>
+          <li><Link to='/hackathons' className='headerTab'>Hackathons</Link></li>
           <li><Link to='/articles' className='headerTab'>Articles</Link></li>
         </ul>
       </div>

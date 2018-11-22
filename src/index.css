@@ -177,6 +177,10 @@ body a:visited {
   color: #333;
 }
 
+.fa-twitch {
+  color: #6441a5;
+}
+
 
 
 /*****SITE Footer*****/
@@ -296,7 +300,8 @@ body a:visited {
 
 .imageDirections {
   font-size: 1.2rem;
-  color: rgba(29, 106, 154, 0.72);
+  font-family: 'Montserrat', sans-serif;
+  color: #007bb6;
 }
 
 #img_bottom_description {
@@ -824,6 +829,10 @@ body a:visited {
   /*****GPA Calculator Component Media Queries*****/
 
 
+.photoText {
+  padding: .25rem;
+  font-size: .48rem;
+}
 
   /*****Home Page Media queries****/
 
@@ -960,6 +969,13 @@ body a:visited {
   }
 
 
+.logoAbsoluteContainer {
+  width: 12.5rem;
+  height: 5rem;
+  margin-top: .25rem;
+  margin-bottom: .25rem;
+}
+
 
   /*****Research Component Media queries****/
 
@@ -993,6 +1009,14 @@ body a:visited {
     font-size: 1.5rem;
     margin-top: .25rem;
     padding: 5px;
+  }
+
+  .hackathonTitle {
+    font-size: 1.5rem;
+  }
+
+  .researchExplanationHeader {
+    font-size: 1.5rem;
   }
 
   /*****Footer Media queries****/

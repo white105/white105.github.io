@@ -88,6 +88,14 @@ class App extends Component {
             />
           </a>
 
+          <a className='iconLink' href='https://www.twitch.tv/nickwhite1423' id='twitchIcon'>
+            <FontAwesome
+              className='fontAwesomeIcon'
+              name='twitch'
+              style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+            />
+          </a>
+
         </div>
       </div>
 
