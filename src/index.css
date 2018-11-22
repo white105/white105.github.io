@@ -77,6 +77,10 @@ body a:visited {
 
 /*****App Component*****/
 
+.turtlebotVideo {
+  width: 20rem;
+  margin: auto;
+}
 /*****HEADER Component*****/
 
 .headerDiv {
@@ -261,7 +265,11 @@ body a:visited {
   margin-top: 2.5rem;
 }
 
-.turtlebotVideo {
+.
+
+
+
+ {
   margin-top: 2.5rem;
   margin: auto;
 }
