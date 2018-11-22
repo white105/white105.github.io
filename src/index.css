@@ -1027,5 +1027,47 @@ body a:visited {
     font-size: 1.5rem;
   }
 
+  .headerDiv {
+    width: 100%;
+    background:rgb(73, 110, 178);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .headerDiv h1 {
+    flex: 1;
+    font-weight: lighter;
+    font-size: 1.25rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  #headerLink {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+
+  #mainHeaderSubList {
+    flex: 5;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #mainHeaderSubList li {
+    color: rgb(73, 110, 178);
+  }
+
+  #mainHeaderSubList li:hover {
+    cursor: pointer;
+  }
+
+  .headerTab {
+    font-size: .8rem;
+  }
   /*****Footer Media queries****/
 }
