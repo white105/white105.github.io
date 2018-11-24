@@ -1029,23 +1029,7 @@ body a:visited {
 
   .headerDiv {
     width: 100%;
-    background:rgb(73, 110, 178);
-    display: flex;
-    flex-direction: column;
-  }
-
-  .headerDiv h1 {
-    flex: 1;
-    font-weight: lighter;
-    font-size: 1.25rem;
-    font-family: 'Montserrat', sans-serif;
-  }
-
-  #headerLink {
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    text-align: center;
-    text-transform: uppercase;
+    height: 5rem;
   }
 
 
@@ -1055,7 +1039,11 @@ body a:visited {
     text-transform: uppercase;
     list-style-type: none;
     display: flex;
-    justify-content: space-around;
+    align-items:center;
+    flex-direction: column;
+    width: 2.5rem;
+    text-align: center;
+    height: 10rem;
   }
 
   #mainHeaderSubList li {
@@ -1067,7 +1055,54 @@ body a:visited {
   }
 
   .headerTab {
-    font-size: .8rem;
+    font-size: 1rem;
+    margin: auto;
+  }
+
+  /*
+
+  .dropdownHeaderButton {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border-radius: 50%;
+  }
+
+  */
+
+  .headerTopDiv {
+    width: 100%;
+    background:rgb(73, 110, 178);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 5rem;
+  }
+
+  .dropDownIcon {
+    flex: 1;
+    width: 4rem;
+    height: 3.7rem;
+    padding-top: .9rem;
+    font-size: 2.5rem;
+    background:rgb(73, 110, 178);
+    color: white;
+    margin-left: 2rem;
+    text-align: center;
+  }
+
+  .headerDiv h1 {
+    flex: 10;
+    font-weight: lighter;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  #headerLink {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-transform: uppercase;
   }
   /*****Footer Media queries****/
 }
