@@ -26,15 +26,19 @@ class HeaderComponent extends Component {
 
   updatePredicate() {
     this.setState({ isDesktop: window.innerWidth > 600 });
+    if (window.innerWidth > 600) {
+      let headerDiv = document.getElementById("headerDiv")
+      headerDiv.style.height = '6rem'
+    }
   }
 
   dropdownHeader() {
     let dropdown = this.state.dropdown
     let headerDiv = document.getElementById("headerDiv")
     if (dropdown) {
-      headerDiv.style.height = '5rem'
+      headerDiv.style.height = '6rem'
     } else {
-      headerDiv.style.height = '14rem'
+      headerDiv.style.height = '20rem'
     }
     this.setState({ dropdown : !dropdown })
   }
@@ -43,7 +47,7 @@ class HeaderComponent extends Component {
     const isDesktop = this.state.isDesktop;
     if (isDesktop) {
       return (
-        <div className='headerDiv'>
+        <div className='headerDiv' id='headerDiv'>
           <h1><Link to='/' id='headerLink'>Nicholas White</Link></h1>
 
           <ul id='mainHeaderSubList'>

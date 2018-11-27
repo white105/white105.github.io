@@ -1038,25 +1038,41 @@ body a:visited {
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
     list-style-type: none;
+    font-weight: lighter;
     display: flex;
     align-items:center;
+    justify-content: space-around;
     flex-direction: column;
-    width: 2.5rem;
+    padding: 1rem;
+    width: 75%;
+    margin: auto;
     text-align: center;
-    height: 10rem;
+    height: 15rem;
+    background: rgb(73, 110, 178);
+    border: 1px solid white;
+    color: white !important;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
   }
 
   #mainHeaderSubList li {
-    color: rgb(73, 110, 178);
+    color: white !important;
   }
 
   #mainHeaderSubList li:hover {
     cursor: pointer;
+    color: white !important;
   }
 
   .headerTab {
     font-size: 1rem;
-    margin: auto;
+    text-align: center;
+    color: white !important;
+    font-weight: lighter;
+  }
+
+  .headerTab:hover {
+    text-decoration: underline;
   }
 
   /*
@@ -1078,6 +1094,7 @@ body a:visited {
     align-items: center;
     flex-direction: row;
     height: 5rem;
+    color: white;
   }
 
   .dropDownIcon {
@@ -1096,6 +1113,7 @@ body a:visited {
     flex: 10;
     font-weight: lighter;
     font-size: 2rem;
+    color: white;
     font-family: 'Montserrat', sans-serif;
   }
 
