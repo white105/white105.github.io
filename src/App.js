@@ -88,7 +88,7 @@ class App extends Component {
             />
           </a>
 
-          <a className='iconLink' href='https://www.twitch.tv/nickwhite1423' id='twitchIcon'>
+          <a className='iconLink' href='https://www.twitch.tv/matrixman' id='twitchIcon'>
             <FontAwesome
               className='fontAwesomeIcon'
               name='twitch'
