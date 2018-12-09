@@ -13,8 +13,12 @@ body a {
   text-decoration: none;
 }
 
-body a:visited {
-  color: rgb(73, 110, 178);
+body a:hover {
+  cursor: pointer;
+}
+
+#content {
+  margin-top: 2.5rem;
 }
 
 /*****App Component*****/
@@ -77,20 +81,23 @@ body a:visited {
 
 /*****App Component*****/
 
-.turtlebotVideo {
-  width: 20rem;
-  margin: auto;
-}
 /*****HEADER Component*****/
 
 .headerDiv {
   width: 100%;
+  display: flex;
+  vertical-align: middle;
 }
 
 .headerDiv h1 {
+  flex: 2;
   font-weight: lighter;
   font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
+}
+
+#headerName {
+  margin: 4rem;
 }
 
 #headerLink {
@@ -102,23 +109,74 @@ body a:visited {
 
 
 #mainHeaderSubList {
+  flex: 4;
+  margin-right: 2.5rem;
+  margin-top: 4.35rem;
   font-family: 'Source Sans Pro', sans-serif;
   text-transform: uppercase;
   list-style-type: none;
   display: flex;
   justify-content: space-around;
+  color: white;
 }
 
 #mainHeaderSubList li {
+  position: relative;
+  width: 7.5rem;
+  height: 3rem;
+  border: 1px solid rgb(73, 110, 178);
+  border-radius: 2.5rem;
   color: rgb(73, 110, 178);
 }
 
-#mainHeaderSubList li:hover {
-  cursor: pointer;
+#mainHeaderSubList a {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-top: .7rem;
+  border-radius: 2.5rem;
 }
 
+#mainHeaderSubList li:hover {
+  background: rgb(73, 110, 178);
+  cursor: pointer;
+  color: white;
+}
+
+#mainHeaderSubList a:active {
+  height: 2.8rem;
+  padding-top: .6rem;
+}
+
+
 .headerTab {
-  font-size: 1.2rem;
+  font-size: 1rem;
+}
+
+#splitter {
+  display: block;
+  margin-top: 5rem;
+}
+
+#current_page_icon_top {
+  width: .7rem;
+  height: .7rem;
+  background: rgb(73, 110, 178);
+  position: absolute;
+  border-radius: 100%;
+  bottom: 3.525rem;
+  margin-left: 3.25rem;
+}
+
+#current_page_icon_bottom {
+  width: .7rem;
+  height: .7rem;
+  background: rgb(73, 110, 178);
+  position: absolute;
+  border-radius: 100%;
+  margin-top: .65rem;
+  margin-left: 3.26rem;
 }
 
 /*****HEADER Component*****/
@@ -207,13 +265,21 @@ body a:visited {
   justify-content: space-between;
 }
 
+.researchContainer {
+  background-image: none !important;
+  background: none;
+}
+
+
 .companyName {
   font-weight: bold;
 }
 
-.resume {
-  width: 100%;
-  height: 100%;
+#resume {
+  width: 50rem;
+  height: 70rem;
+  outline: none;
+  border: 0;
 }
 
 
@@ -221,25 +287,36 @@ body a:visited {
 
 /*****PROJECTS Component*****/
 
+
 .githubProjectsDiv {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 55rem;
-  height: 35rem;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  height: 40rem;
+  border-top: 2px solid rgb(73, 110, 178, 0.5);
+  border-bottom: 2px solid rgb(73, 110, 178, 0.5);
   margin: auto;
+  background: white;
 }
 
 .projectsColumn {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 30rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  border-radius: .5rem;
+  padding: 2rem;
+  background: rgb(73, 110, 178, 0.9);
 }
+
 
 .githubRepo {
   width: 20rem;
   margin: auto;
+  opacity: .5;
 }
 
 .whipLogo {
@@ -254,10 +331,6 @@ body a:visited {
   text-align: center;
 }
 
-.hackathonTitle {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-}
 
 .whipTitle {
   font-family: 'Montserrat', sans-serif;
@@ -265,30 +338,191 @@ body a:visited {
   margin-top: 2.5rem;
 }
 
-.
+.turtlebotHeader {
+  font-size: 1.75rem;
+  margin: 2.5rem;
+}
 
-
-
- {
-  margin-top: 2.5rem;
+.turtlebotVideo {
+  width: 35rem;
+  border: 1px solid #CCC;
+  border-radius: .5rem;
   margin: auto;
 }
 
 /*****PROJECTS Component*****/
 
+/*****Design Component*****/
+
+.designComponentHeader {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.designsContainer {
+  width: 60rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+}
+
+.designsRow {
+  width: 60rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+}
+
+.designContainer:hover .designDescriptionContainer {
+  -webkit-animation: slide 0.5s forwards;
+  animation: slide 0.5s forwards;
+}
+
+.designPhoto {
+  width: 20rem;
+  height: 20rem;
+  border-radius: .5rem;
+  border: 1px solid black;
+  margin: 0;
+}
+
+.designDescriptionContainer {
+  width: 20rem;
+  height: 12rem;
+  border-radius: .5rem;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+
+  position: relative;
+  opacity: 0;
+  top: -10rem;
+  margin: 0;
+}
+
+
+.designDescription {
+  padding-top: 2rem;
+}
+
+.designSubtext {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@-webkit-keyframes slide {
+    100% { top: -2rem; opacity: 1; }
+}
+
+@keyframes slide {
+    100% { top: -2rem; opacity: 1; }
+}
+
+
+.animatable {
+  background: inherit;
+  will-change: transform;
+  transition: transform 0.2s ease;
+}
+
+.animatable.prepare {
+  /* we do this so we can tell when the "preparing" was done
+     since there seems to be a browser bug where the preparation still takes
+     time, even with `transition: none;` */
+  transition-duration: 0.0000000000001s;
+  opacity: 0;
+}
+
+.animatable.prepare.from.left {
+  transform: translateX(-110%);
+}
+.animatable.prepare.from.right {
+  transform: translateX(110%);
+}
+.animatable.prepare.to.left {
+  transform: translateX(-1px);
+}
+.animatable.prepare.to.right {
+  transform: translateX(1px);
+}
+
+.animatable:not(.prepare).to {
+  pointer-events: none;
+}
+.animatable:not(.prepare).to.left {
+  transform: translateX(-110%);
+}
+.animatable:not(.prepare).to.right {
+  transform: translateX(110%);
+}
+.animatable:not(.prepare).from {
+  transform: translateX(0);
+}
+
+.animatable div {
+  height: 100px;
+}
+
+.animate-option {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.animate-option input {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+
+/*****Design Component*****/
+
 /*****HACKATHON Component*****/
+
+.hackathonComponent {
+  width: 100%;
+  height: 70rem;
+  margin: 0;
+  color: white;
+}
 
 .hackathonContainer {
   width: 80%;
+  height: 65rem;
+  border-radius: 1rem;
+  background: rgb(230, 39, 57, .9);
   margin: auto;
 }
 
+#awardsHeader {
+  margin-top: 2.5rem;
+}
+
+.hackathonTitle {
+  padding: 4.5rem;
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  margin: 0;
+  margin-left: .75rem;
+}
+
+
 .hackathonCarousel {
-  margin-top: 1.25rem;
+  width: 70%;
+  margin: auto;
+  border: 1px solid #CCC;
+  border-radius: .5rem;
 }
 
 .hackathonCarouselImageDiv, .hackathonCarouselImage {
   height: 100%;
+  border-radius: .5rem;
 }
 
 .photoText {
@@ -301,8 +535,6 @@ body a:visited {
   color: #fff;
   visibility: hidden;
   opacity: 0;
-
-  /* transition effect. not necessary */
   transition: opacity 2s, visibility 2s;
 }
 
@@ -354,7 +586,7 @@ body a:visited {
 
 .logoAbsoluteContainer {
   position: relative;
-  width: 40rem;
+  width: 35rem;
   height: 15rem;
   margin: auto;
   margin-top: 1rem;
@@ -365,8 +597,9 @@ body a:visited {
 }
 
 .whipLogoHover {
-  width: 40% !important;
-  height: 100%;
+  width: 35% !important;
+  height: 85%;
+  border-radius: .5rem;
 }
 
 .demoLink {
@@ -376,12 +609,27 @@ body a:visited {
   text-decoration: underline;
 }
 
+.mlhLogoContainer {
+  position: absolute;
+  z-index: 1;
+  width: 8rem;
+  height: 8rem;
+  top: 23rem;
+  left: 11.5rem;
+}
+
+.mlhlogo {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
 
 /*****HACKATHON Component*****/
 
 /*****RESEARCH Component*****/
 
-.researchContainer, .projectsContainer, .hackathonContainer {
+.researchContainer, .projectsContainer {
   width: 60rem;
   margin: auto;
 }
@@ -720,7 +968,7 @@ body a:visited {
 
   .headerDiv {
     width: 100%;
-    height: 6.5rem;
+    height: 6rem;
   }
 
   .headerDiv h1 {
@@ -742,7 +990,7 @@ body a:visited {
     background: white;
     padding-left: 0;
     text-align: center;
-    margin-top: 0;
+    margin-top: 1rem;
   }
 
   #mainHeaderSubList li {
@@ -989,9 +1237,9 @@ body a:visited {
 
   /*****Resume Media queries****/
 
-  #resumeDiv {
+  #reumeContainer {
     height: 30rem;
-    margin-top: 2rem;
+    margin:auto;
   }
 
 

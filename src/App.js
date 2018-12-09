@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import SwitchWithSlide from "./components/SwitchWithSlide";
 
 import Home from './components/Home/index.js'
 import HeaderComponent from './components/HeaderComponent/index.js'
@@ -10,6 +11,7 @@ import Projects from './components/Projects/index.js'
 import Hackathons from './components/Hackathons/index.js'
 import Research from './components/Research/index.js'
 import Resume from './components/Resume/index.js'
+import Design from './components/Design/index.js'
 
 import FontAwesome from 'react-fontawesome';
 
@@ -19,7 +21,7 @@ class App extends Component {
     super()
 
     this.state = {
-
+      current_page: 'home'
     }
 
     this.navigateSocial = this.navigateSocial.bind(this)
@@ -30,6 +32,8 @@ class App extends Component {
   }
 
   render() {
+    const SwitchComponent = this.state.animate ? SwitchWithSlide : Switch;
+
     return (
       <div id="app">
 
@@ -39,15 +43,16 @@ class App extends Component {
 
           <HeaderComponent></HeaderComponent>
 
-          <hr></hr>
+          <hr id='splitter'></hr>
 
-          <div>
+          <div id='content'>
             <Route exact path="/" component={Home} />
             <Route exact path="/resume" component={Resume} />
             <Route exact path="/projects" component={Projects} />
             <Route exact path='/hackathons' component={Hackathons} />
             <Route exact path="/research" component={Research} />
             <Route exact path="/articles" component={Articles} />
+            <Route exact path="/design" component={Design} />
           </div>
 
 

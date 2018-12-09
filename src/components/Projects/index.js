@@ -7,7 +7,7 @@ class Projects extends Component {
 
   render() {
     return (
-      <div>
+      <div className='projectsContainer'>
         <div className='githubProjectsDiv'>
           <div className='projectsColumn' id='projectsColumn1'>
             <RepoCard username="white105" repo="DandyHacks" className='githubRepo' />
@@ -21,7 +21,7 @@ class Projects extends Component {
 
         <hr></hr>
 
-        <h2 className='hackathonTitle'>Turtlebot Robotics 2018</h2>
+        <h2 className='turtlebotHeader'>Turtlebot Robotics 2018</h2>
 
         <video width = "500" height = "300" controls preload='preload' className='turtlebotVideo'>
          <source src = {require('../../turtlebot.mp4')} type = "video/mp4"></source>
