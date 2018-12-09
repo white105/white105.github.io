@@ -13,6 +13,8 @@ import Research from './components/Research/index.js'
 import Resume from './components/Resume/index.js'
 import Design from './components/Design/index.js'
 
+import { AnimatedSwitch } from 'react-router-transition';
+
 import FontAwesome from 'react-fontawesome';
 
 class App extends Component {
@@ -46,6 +48,12 @@ class App extends Component {
           <hr id='splitter'></hr>
 
           <div id='content'>
+            <AnimatedSwitch
+              atEnter={{ opacity: 0 }}
+              atLeave={{ opacity: 0 }}
+              atActive={{ opacity: 1 }}
+              className="switch-wrapper"
+            >
             <Route exact path="/" component={Home} />
             <Route exact path="/resume" component={Resume} />
             <Route exact path="/projects" component={Projects} />
@@ -53,6 +61,7 @@ class App extends Component {
             <Route exact path="/research" component={Research} />
             <Route exact path="/articles" component={Articles} />
             <Route exact path="/design" component={Design} />
+            </AnimatedSwitch>
           </div>
 
 

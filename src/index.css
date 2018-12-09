@@ -512,6 +512,9 @@ body a:hover {
   margin-left: .75rem;
 }
 
+.switch-wrapper {
+  position: relative;
+}
 
 .hackathonCarousel {
   width: 70%;
