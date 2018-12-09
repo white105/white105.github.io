@@ -24,30 +24,11 @@ body a:hover {
 /*****App Component*****/
 
 
-#siteGreetingContainer {
-  background: white;
-  height: 200px;
-  width: 60%;
-  margin: 0 auto;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: auto;
-}
-
-.homePageContainer {
-  width: 50rem;
-  margin: auto;
-  margin-top : 5rem;
-  min-height: 60vh;
-  height: 60vh;
-}
-
 .homePageHeader {
   text-align: center;
   width: 30rem;
   margin: auto;
+  font-size: 1.5rem;
 }
 
 .headerUnderline {
@@ -55,11 +36,64 @@ body a:hover {
   margin: auto;
 }
 
-.homePageParagraph {
-  width: 30rem;
+.homePageServices {
+  width: 80em;
+  height: 30rem;
   margin: auto;
-  margin-top: 1rem;
+  margin-top: 3.5rem;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+}
+
+.homePageService {
+  width: 20rem;
+  height: 25rem;
+  margin: auto;
+  margin-top: 2.5rem;
+  border: 1px solid #ccc;
+  border-radius: .5rem;
+  background: rgb(73, 110, 178);
+}
+
+.serviceImage {
+  margin-top: 1.5rem;
+}
+
+.homePageServiceDetails {
+  color: white;
   font-size: 1.2rem;
+  padding: 1rem;
+  padding-top: .5rem;
+  padding-bottom: 0rem;
+}
+
+
+.homePageServiceTitle {
+  color: white;
+}
+
+#servicesTitle {
+  margin-top: 3rem;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.servicePrice {
+  margin-top: 1rem;
+  color: white;
+}
+
+
+.homePageParagraph {
+  width: 50rem;
+  margin: auto;
+  margin-top: 2.5rem;
+  font-size: 1.2rem;
+}
+
+#homePageSep {
+  margin-top: 5rem;
 }
 
 #siteGreetingContainer .siteGreetingDiv {
@@ -307,9 +341,9 @@ body a:hover {
   justify-content: space-around;
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
-  border-radius: .5rem;
   padding: 2rem;
-  background: rgb(73, 110, 178, 0.9);
+  border-top: 2px solid rgb(73, 110, 178, 0.5);
+  border-bottom: 2px solid rgb(73, 110, 178, 0.5);
 }
 
 
@@ -638,7 +672,10 @@ body a:hover {
 }
 
 .researchCarousel {
-  margin-top: 1.25rem;
+  width: 80%;
+  margin: auto;
+  margin-top: 2.5rem;
+  border-radius: 1rem;
 }
 
 .researchCarouselImageDiv, .researchCarouselImage {
@@ -969,43 +1006,100 @@ body a:hover {
 
   /*****Header Media queries****/
 
-  .headerDiv {
+  /*
+
+  .dropdownHeaderButton {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border-radius: 50%;
+  }
+
+  */
+
+
+  .headerTopDiv {
     width: 100%;
-    height: 6rem;
+    background:rgb(73, 110, 178);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 10rem;
+    color: white;
+  }
+
+  .dropDownIcon {
+    flex: 1;
+    width: 4rem;
+    height: 3.7rem;
+    padding-top: .9rem;
+    font-size: 2.5rem;
+    background:rgb(73, 110, 178);
+    color: white;
+    margin-left: 2rem;
+    text-align: center;
   }
 
   .headerDiv h1 {
-    font-size: 2rem;
-    color: black;
-    padding-top: .5rem;
+    flex: 10;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
   }
 
   #headerLink {
-    padding:0;
-    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .headerDiv {
+    display: flex;
+    flex-direction: column;
   }
 
   #mainHeaderSubList {
-    width: 100%;
+    flex: 5;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    list-style-type: none;
+    font-weight: lighter;
     display: flex;
-    flex-direction: row;
+    align-items:center;
     justify-content: space-around;
-    background: white;
-    padding-left: 0;
+    flex-direction: column;
+    padding: 1rem;
+    width: 75%;
+    margin: auto;
     text-align: center;
-    margin-top: 1rem;
+    background: rgb(73, 110, 178);
+    border: 1px solid white;
+    color: white !important;
+    margin-top: 3.5rem;
   }
 
   #mainHeaderSubList li {
-    width: 25%;
-    text-align: center;
+    color: white !important;
+  }
+
+  #mainHeaderSubList li:hover {
+    cursor: pointer;
+    color: white !important;
   }
 
   .headerTab {
     font-size: 1rem;
-    vertical-align : middle;
     text-align: center;
+    color: white !important;
+    font-weight: lighter;
   }
+
+  .headerTab:hover {
+    text-decoration: underline;
+  }
+
 
   /*****Header Media queries****/
 
@@ -1278,100 +1372,5 @@ body a:hover {
     font-size: 1.5rem;
   }
 
-  .headerDiv {
-    width: 100%;
-    height: 5rem;
-  }
-
-
-  #mainHeaderSubList {
-    flex: 5;
-    font-family: 'Source Sans Pro', sans-serif;
-    text-transform: uppercase;
-    list-style-type: none;
-    font-weight: lighter;
-    display: flex;
-    align-items:center;
-    justify-content: space-around;
-    flex-direction: column;
-    padding: 1rem;
-    width: 75%;
-    margin: auto;
-    text-align: center;
-    height: 15rem;
-    background: rgb(73, 110, 178);
-    border: 1px solid white;
-    color: white !important;
-    border-bottom-left-radius: .5rem;
-    border-bottom-right-radius: .5rem;
-  }
-
-  #mainHeaderSubList li {
-    color: white !important;
-  }
-
-  #mainHeaderSubList li:hover {
-    cursor: pointer;
-    color: white !important;
-  }
-
-  .headerTab {
-    font-size: 1rem;
-    text-align: center;
-    color: white !important;
-    font-weight: lighter;
-  }
-
-  .headerTab:hover {
-    text-decoration: underline;
-  }
-
-  /*
-
-  .dropdownHeaderButton {
-    width: 2rem;
-    height: 2rem;
-    margin-left: 1rem;
-    margin-top: 1rem;
-    border-radius: 50%;
-  }
-
-  */
-
-  .headerTopDiv {
-    width: 100%;
-    background:rgb(73, 110, 178);
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    height: 5rem;
-    color: white;
-  }
-
-  .dropDownIcon {
-    flex: 1;
-    width: 4rem;
-    height: 3.7rem;
-    padding-top: .9rem;
-    font-size: 2.5rem;
-    background:rgb(73, 110, 178);
-    color: white;
-    margin-left: 2rem;
-    text-align: center;
-  }
-
-  .headerDiv h1 {
-    flex: 10;
-    font-weight: lighter;
-    font-size: 2rem;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-  }
-
-  #headerLink {
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    text-transform: uppercase;
-  }
   /*****Footer Media queries****/
 }
