@@ -30,17 +30,27 @@ class Home extends Component {
 
 
   activateContactForm() {
+    window.open('mailto:nw11@illinois.com');
     this.setState({ contactFormActive : true })
   }
 
 
   sendContactMessage() {
     if (this.senderName != '' && this.senderSubject != '' && this.senderMessage != '') {
-      //actually send message
+      var file = new File("./message.txt");
+      file.open("w")
+      var str = this.state.senderName + this.senderSubject + this.senderMessage
+      file.write(str);
+      file.close()
+
+
+      this.setState({senderName: '',
+      senderSubject: '',
+      senderMessage: ''})
     }
   }
 
-  
+
 
   render() {
 
