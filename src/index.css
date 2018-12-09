@@ -1079,6 +1079,11 @@ body a:hover {
 
   */
 
+  .headerDiv {
+    display: flex;
+    flex-direction: column;
+    height: 6rem;
+  }
 
   .headerTopDiv {
     width: 100%;
@@ -1086,7 +1091,7 @@ body a:hover {
     display: flex;
     align-items: center;
     flex-direction: row;
-    height: 10rem;
+    height: 6rem;
     color: white;
   }
 
@@ -1112,37 +1117,24 @@ body a:hover {
 
   #headerLink {
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    color: white !important;
     text-transform: uppercase;
-  }
-
-  .headerDiv {
-    display: flex;
-    flex-direction: column;
   }
 
   #mainHeaderSubList {
-    flex: 5;
-    font-family: 'Source Sans Pro', sans-serif;
-    text-transform: uppercase;
-    list-style-type: none;
-    font-weight: lighter;
     display: flex;
-    align-items:center;
-    justify-content: space-around;
     flex-direction: column;
-    padding: 1rem;
-    width: 75%;
+    justify-content: space-between;
     margin: auto;
-    text-align: center;
-    background: rgb(73, 110, 178);
-    border: 1px solid white;
-    color: white !important;
-    margin-top: 3.5rem;
+    margin-top: 1rem;
+    height: 40rem;
   }
 
   #mainHeaderSubList li {
-    color: white !important;
+    border: 1px solid rgb(73, 110, 178);
+    margin-top: 1rem;
+    background: white;
+    color: rgb(73, 110, 178) !important;
   }
 
   #mainHeaderSubList li:hover {
@@ -1153,12 +1145,13 @@ body a:hover {
   .headerTab {
     font-size: 1rem;
     text-align: center;
-    color: white !important;
+    color: rgb(73, 110, 178) !important;
     font-weight: lighter;
   }
 
   .headerTab:hover {
     text-decoration: underline;
+    color: white !important;
   }
 
 
@@ -1486,11 +1479,17 @@ body a:hover {
 
   /*****Resume Media queries****/
 
-  #reumeContainer {
-    height: 30rem;
+  #resumeContainer {
+    width: 25rem;
+    height: 40rem;
     margin:auto;
   }
 
+#resume {
+  width: 25rem;
+  height: 35rem;
+  margin:auto;
+}
 
   /*****Resume Media queries****/
 

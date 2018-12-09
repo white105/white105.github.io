@@ -38,7 +38,7 @@ class HeaderComponent extends Component {
     if (dropdown) {
       headerDiv.style.height = '6rem'
     } else {
-      headerDiv.style.height = '20rem'
+      headerDiv.style.height = '30rem'
     }
     this.setState({ dropdown : !dropdown })
   }
@@ -126,6 +126,7 @@ class HeaderComponent extends Component {
       if (this.state.dropdown) {
         return (
           <div className='headerDiv' id='headerDiv'>
+
             <div className='headerTopDiv'>
 
               <FontAwesome
@@ -145,6 +146,7 @@ class HeaderComponent extends Component {
               <li><Link to='/articles' className='headerTab'>Articles</Link></li>
               <li><Link to='/design' className='headerTab'>Design</Link></li>
             </ul>
+
           </div>
         );
       } else {
