@@ -42,6 +42,7 @@ body a:hover {
   margin: auto;
   margin-top: 3.5rem;
   border: 1px solid #ccc;
+  border-radius: 1rem;
   display: flex;
   justify-content: space-between;
 }
@@ -56,6 +57,43 @@ body a:hover {
   background: rgb(73, 110, 178);
 }
 
+#contactButton {
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: .5rem;
+  margin-top: 2.5rem;
+  outline: none;
+}
+
+#contactButton:active {
+  background: rgb(73, 110, 178);
+  color: white;
+}
+
+.contactFormContainer {
+  width: 30rem;
+  height: 35rem;
+  border: 1px solid #ccc;
+  margin: auto;
+  margin-top: 5rem;
+  border-radius: 1rem;
+}
+
+.contactInput {
+  width: 25rem;
+  height: 2.5rem;
+  border-radius: .5rem;
+  box-shadow: none;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+.contactInputTitle {
+  font-size: 1rem;
+  margin-top: 2rem;
+  text-align: none;
+}
+
 .serviceImage {
   margin-top: 1.5rem;
 }
@@ -66,6 +104,29 @@ body a:hover {
   padding: 1rem;
   padding-top: .5rem;
   padding-bottom: 0rem;
+}
+
+
+#sendContactMessage {
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: .5rem;
+  margin-top: 1rem;
+  outline: none;
+}
+
+#sendContactMessage:active {
+  background: rgb(73, 110, 178);
+  color: white;
+}
+
+#contactTextArea {
+  width: 25rem;
+  height: 12rem;
+  border-radius: .5rem;
+  border: 1px solid #ccc;
+  outline: none;
+  resize: none;
 }
 
 
@@ -1195,24 +1256,98 @@ body a:hover {
     width: 100%;
     margin: auto;
     margin-top : 2rem;
-    min-height: 60vh;
-    height: 60vh;
   }
 
-  .homePageHeader {
-    font-size: 1.1rem;
-    width: 100%;
-    text-align: center;
+
+  .homePageServices {
+    width: 25rem;
+    height: 70rem;
+    border-radius: 1rem;
+    margin: auto;
+    margin-top: 2.5rem;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
   }
 
+  .homePageService {
+    width: 20rem;
+    height: 20rem;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: .5rem;
+    background: rgb(73, 110, 178);
+  }
+
+  .serviceImage {
+    margin-top: 1.5rem;
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .homePageServiceDetails {
+    color: white;
+    font-size: 1.2rem;
+    padding: 1rem;
+    padding-top: .5rem;
+    padding-bottom: 0rem;
+  }
+
+
+  .homePageServiceTitle {
+    color: white;
+    font-size: 1.4rem;
+  }
+
+  #servicesTitle {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .servicePrice {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    color: white;
+  }
+
+  .homePageServiceDetails {
+    width: 15rem;
+    margin: auto;
+    font-size: .8rem;
+  }
 
   .homePageParagraph {
-    font-size: 0.9rem;
-    width: 80%;
+    width: 50rem;
     margin: auto;
-    margin-top: 1rem;
-    text-align: center;
+    margin-top: 2.5rem;
+    font-size: .8rem;
   }
+
+  .contactFormContainer {
+    width: 25rem;
+    height: 37rem;
+  }
+
+  .contactInput {
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: .5rem;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid #ccc;
+  }
+
+  .contactInputTitle {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    text-align: none;
+  }
+
+  #contactTextArea {
+    width: 20rem;
+  }
+
 
   /*****Home Page Media queries****/
 
@@ -1222,21 +1357,30 @@ body a:hover {
  .projectsContainer {
     width: 100%;
     margin: none;
+    margin: auto;
   }
   .githubProjectsDiv {
-    width: 100%;
-    height: 30rem;
+    width: 20rem;
+    height: 40rem;
     display: block;
-    margin: 0;
+    margin: auto;
   }
 
   .projectsColumn {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 20rem;
-    margin: auto;
     height: 30rem;
+    padding: 0;
+    margin: 0;
+    border: none;
+    margin: auto;
+    margin-top: 5rem;
+  }
+
+  .githubRepo {
+    margin:auto;
   }
 
   #projectsColumn2 {
@@ -1254,6 +1398,14 @@ body a:hover {
     margin-top: 1rem;
     text-align: center;
   }
+
+  .turtlebotVideo {
+    width: 25rem;
+    border: 1px solid #CCC;
+    border-radius: .5rem;
+    margin: auto;
+  }
+
     /*****Projects Component Media queries****/
 
     .hackathonContainer {
@@ -1371,6 +1523,238 @@ body a:hover {
   .researchExplanationHeader {
     font-size: 1.5rem;
   }
+
+
+  .designsContainer {
+    display: block;
+    width: 25rem;
+    margin: auto;
+  }
+
+  .designsRow {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    margin: auto;
+  }
+
+  .designContainer:hover .designDescriptionContainer {
+    -webkit-animation: 0;
+    animation: 0;
+  }
+
+  .designPhoto {
+    width: 20rem;
+    height: 20rem;
+    border-radius: .5rem;
+    border: 1px solid black;
+    margin-top: 2.5rem;
+  }
+
+  .designDescriptionContainer {
+    width: 20rem;
+    height: 12rem;
+    border-radius: .5rem;
+    margin: auto;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+    position: relative;
+    opacity: 1;
+    top: -2rem;
+  }
+
+
+  .designDescription {
+    padding-top: 1.5rem;
+    font-weight: bold;
+
+  }
+
+  .designSubtext {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  @-webkit-keyframes slide {
+      100% { top: -2rem; opacity: 1; }
+  }
+
+  @keyframes slide {
+      100% { top: -2rem; opacity: 1; }
+  }
+
+  /********Hackathon media queries*/
+
+
+  .hackathonComponent {
+    width: 100%;
+    height: 30rem;
+    margin: 0;
+    color: white;
+  }
+
+  .hackathonContainer {
+    width: 80%;
+    height: 35rem;
+    border-radius: 1rem;
+    background: rgb(230, 39, 57, .9);
+    margin: auto;
+  }
+
+  #awardsHeader {
+    margin-top: 2.5rem;
+  }
+
+  .hackathonTitle {
+    padding: 1.5rem;
+    font-size: 1rem;
+    color: white;
+    margin: 0;
+    margin-left: .75rem;
+  }
+
+  .mobileHackathonDetails {
+    border: 1px solid white;
+    border-radius: .5rem;
+    width: 80%;
+    margin: auto;
+    height: 12rem;
+    margin-top: 1rem;
+    overflow: hidden;
+  }
+
+  #mobileAwardsHeader {
+    color: white;
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+
+  .mobileAward {
+    color: white;
+    margin-top: 1rem;
+    font-size: .8rem;
+  }
+
+  .switch-wrapper {
+    position: relative;
+  }
+
+  .hackathonCarousel {
+    width: 80%;
+    height: 15rem;
+    margin: auto;
+    border: 1px solid #CCC;
+    border-radius: .5rem;
+  }
+
+  .hackathonCarouselImageDiv, .hackathonCarouselImage {
+    height: 15rem;
+    border-radius: .5rem;
+  }
+
+  .photoText {
+    padding: 1rem;
+  }
+
+  .img__description {
+    position: absolute;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 2s, visibility 2s;
+  }
+
+  .imageDirections {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #007bb6;
+  }
+
+  #img_bottom_description {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  #img_top_description {
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  #img_left_description {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  #img_right_description {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hackathonCarouselImageDiv:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+  }
+
+  .logoAbsoluteContainer {
+    position: relative;
+    width: 35rem;
+    height: 15rem;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .whipLogoHover {
+    width: 35% !important;
+    height: 85%;
+    border-radius: .5rem;
+  }
+
+  .demoLink {
+    color: yellow;
+    background: yellow;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .mlhLogoContainer {
+    position: absolute;
+    z-index: 1;
+    width: 8rem;
+    height: 8rem;
+    top: 23rem;
+    left: 11.5rem;
+  }
+
+  .mlhlogo {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+
 
   /*****Footer Media queries****/
 }

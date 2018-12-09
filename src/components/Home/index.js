@@ -14,7 +14,50 @@ using the tabs above. For more information you can contact me through the social
 
 class Home extends Component {
 
+  constructor() {
+    super()
+    this.state = {
+      contactFormActive : false,
+      senderName: '',
+      senderSubject: '',
+      senderMessage: ''
+    }
+
+
+    this.activateContactForm = this.activateContactForm.bind(this)
+
+  }
+
+
+  activateContactForm() {
+    this.setState({ contactFormActive : true })
+  }
+
+
+  sendContactMessage() {
+    if (this.senderName != '' && this.senderSubject != '' && this.senderMessage != '') {
+      //actually send message
+    }
+  }
+
+  
+
   render() {
+
+    var contactForm = undefined
+
+    if (this.state.contactFormActive) {
+      contactForm = <div className='contactFormContainer'>
+        <h3 className='contactInputTitle'>Name</h3>
+        <input className='contactInput' placeHolder="Enter your name"></input>
+        <h3 className='contactInputTitle'>Subject</h3>
+        <input className='contactInput' placeHolder="Subject"></input>
+        <h3 className='contactInputTitle'>Message</h3>
+        <textarea id='contactTextArea' placeHolder="Message"></textarea>
+
+        <button id='sendContactMessage'>Send Message</button>
+      </div>
+    }
     return (
       <div className='homePageContainer'>
 
@@ -40,7 +83,12 @@ class Home extends Component {
 I can design your website and/or app and make it into a brand.</p>
             <h4 className='servicePrice'>$25/Hour</h4>
           </div>
+
         </div>
+
+        <button onClick={this.activateContactForm} id='contactButton'>Contact Me!</button>
+
+        {contactForm}
 
       </div>
     )
