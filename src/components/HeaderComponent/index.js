@@ -27,6 +27,7 @@ class HeaderComponent extends Component {
   updatePredicate() {
     this.setState({ isDesktop: window.innerWidth > 600 });
     if (window.innerWidth > 600) {
+      this.setState({ dropdown : false });
       let headerDiv = document.getElementById("headerDiv")
       headerDiv.style.height = '6rem'
     }

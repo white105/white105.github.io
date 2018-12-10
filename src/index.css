@@ -503,6 +503,7 @@ body a:hover {
 
 .designDescription {
   padding-top: 2rem;
+  font-weight: bold;
 }
 
 .designSubtext {
@@ -1150,7 +1151,6 @@ body a:hover {
   }
 
   .headerTab:hover {
-    text-decoration: underline;
     color: white !important;
   }
 

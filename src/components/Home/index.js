@@ -30,7 +30,7 @@ class Home extends Component {
 
 
   activateContactForm() {
-    window.open('mailto:nw11@illinois.com');
+    window.open('mailto:nickwhite1423@gmail.com');
     this.setState({ contactFormActive : true })
   }
 
@@ -56,6 +56,7 @@ class Home extends Component {
 
     var contactForm = undefined
 
+/*
     if (this.state.contactFormActive) {
       contactForm = <div className='contactFormContainer'>
         <h3 className='contactInputTitle'>Name</h3>
@@ -68,6 +69,8 @@ class Home extends Component {
         <button id='sendContactMessage'>Send Message</button>
       </div>
     }
+
+    */
     return (
       <div className='homePageContainer'>
 
