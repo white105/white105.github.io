@@ -12,6 +12,8 @@ import Hackathons from './components/Hackathons/index.js'
 import Research from './components/Research/index.js'
 import Resume from './components/Resume/index.js'
 import Design from './components/Design/index.js'
+import Services from './components/Services/index.js'
+import Contact from './components/Contact/index.js'
 
 import { AnimatedSwitch } from 'react-router-transition';
 
@@ -49,12 +51,14 @@ class App extends Component {
 
           <div id='content'>
             <AnimatedSwitch
-              atEnter={{ opacity: 0 }}
-              atLeave={{ opacity: 0 }}
-              atActive={{ opacity: 1 }}
+              atEnter={{ left: 0 }}
+              atLeave={{ left: -100 }}
+              atActive={{ left: -50 }}
               className="switch-wrapper"
             >
-            <Route exact path="/" component={Home} />
+            <Route exact path="/" component={Resume} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/services" component={Services} />
             <Route exact path="/resume" component={Resume} />
             <Route exact path="/projects" component={Projects} />
             <Route exact path='/hackathons' component={Hackathons} />
@@ -86,7 +90,7 @@ class App extends Component {
             />
           </a>
 
-          <a className='iconLink' href='https://twitter.com/nick_w_white' id='twitterIcon'>
+          <a className='iconLink' href='https://twitter.com/nickdoubleyouu' id='twitterIcon'>
             <FontAwesome
               className='fontAwesomeIcon'
               name='twitter'
@@ -106,6 +110,14 @@ class App extends Component {
             <FontAwesome
               className='fontAwesomeIcon'
               name='twitch'
+              style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+            />
+          </a>
+
+          <a className='iconLink' href='https://www.youtube.com/channel/UC1fLEeYICmo3O9cUsqIi7HA?view_as=subscriber' id='youtubeIcon'>
+            <FontAwesome
+              className='fontAwesomeIcon'
+              name='youtube'
               style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
             />
           </a>

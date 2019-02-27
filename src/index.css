@@ -48,13 +48,13 @@ body a:hover {
 }
 
 .homePageService {
+  display: block;
   width: 20rem;
   height: 25rem;
   margin: auto;
   margin-top: 2.5rem;
   border: 1px solid #ccc;
   border-radius: .5rem;
-  background: rgb(73, 110, 178);
 }
 
 #contactButton {
@@ -71,8 +71,8 @@ body a:hover {
 }
 
 .contactFormContainer {
-  width: 30rem;
-  height: 35rem;
+  width: 35rem;
+  height: 42.5rem;
   border: 1px solid #ccc;
   margin: auto;
   margin-top: 5rem;
@@ -95,11 +95,16 @@ body a:hover {
 }
 
 .serviceImage {
-  margin-top: 1.5rem;
+  display: block;
+  position: relative;
+  width: 6rem;
+  height: 6rem;
+  margin: auto;
+  margin-top: 1rem;
 }
 
 .homePageServiceDetails {
-  color: white;
+  color: rgb(73, 110, 178);;
   font-size: 1.2rem;
   padding: 1rem;
   padding-top: .5rem;
@@ -131,7 +136,8 @@ body a:hover {
 
 
 .homePageServiceTitle {
-  color: white;
+  color: rgb(73, 110, 178);
+  margin-top: 1.5rem;
 }
 
 #servicesTitle {
@@ -142,7 +148,7 @@ body a:hover {
 
 .servicePrice {
   margin-top: 1rem;
-  color: white;
+  color: rgb(73, 110, 178);
 }
 
 
@@ -338,6 +344,10 @@ body a:hover {
   color: #6441a5;
 }
 
+.fa-youtube {
+  color: #c4302b;
+}
+
 
 
 /*****SITE Footer*****/
@@ -390,8 +400,7 @@ body a:hover {
   width: 100%;
   height: 100%;
   height: 40rem;
-  border-top: 2px solid rgb(73, 110, 178, 0.5);
-  border-bottom: 2px solid rgb(73, 110, 178, 0.5);
+
   margin: auto;
   background: white;
 }
@@ -403,8 +412,6 @@ body a:hover {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
   padding: 2rem;
-  border-top: 2px solid rgb(73, 110, 178, 0.5);
-  border-bottom: 2px solid rgb(73, 110, 178, 0.5);
 }
 
 
@@ -583,22 +590,18 @@ body a:hover {
 
 .hackathonComponent {
   width: 100%;
-  height: 70rem;
+  height: 40rem;
   margin: 0;
   color: white;
 }
 
 .hackathonContainer {
   width: 80%;
-  height: 65rem;
+  height: 35rem;
   border-radius: 1rem;
-  background: rgb(230, 39, 57, .9);
   margin: auto;
 }
 
-#awardsHeader {
-  margin-top: 2.5rem;
-}
 
 .hackathonTitle {
   padding: 4.5rem;
@@ -1253,7 +1256,7 @@ body a:hover {
 
 
   .homePageServices {
-    width: 25rem;
+    width: 45rem;
     height: 70rem;
     border-radius: 1rem;
     margin: auto;
@@ -1273,9 +1276,8 @@ body a:hover {
   }
 
   .serviceImage {
+    background: black;
     margin-top: 1.5rem;
-    width: 5rem;
-    height: 5rem;
   }
 
   .homePageServiceDetails {
@@ -1591,25 +1593,20 @@ body a:hover {
 
   .hackathonComponent {
     width: 100%;
-    height: 30rem;
+    height: 35rem;
     margin: 0;
     color: white;
   }
 
   .hackathonContainer {
     width: 80%;
-    height: 35rem;
+    height: 30rem;
     border-radius: 1rem;
-    background: rgb(230, 39, 57, .9);
     margin: auto;
   }
 
-  #awardsHeader {
-    margin-top: 2.5rem;
-  }
 
   .hackathonTitle {
-    padding: 1.5rem;
     font-size: 1rem;
     color: white;
     margin: 0;
@@ -1624,16 +1621,15 @@ body a:hover {
     height: 12rem;
     margin-top: 1rem;
     overflow: hidden;
+    color: black;
   }
 
   #mobileAwardsHeader {
-    color: white;
     margin-top: 1rem;
     font-size: 1rem;
   }
 
   .mobileAward {
-    color: white;
     margin-top: 1rem;
     font-size: .8rem;
   }
@@ -1655,14 +1651,9 @@ body a:hover {
     border-radius: .5rem;
   }
 
-  .photoText {
-    padding: 1rem;
-  }
-
   .img__description {
     position: absolute;
     background: rgba(29, 106, 154, 0.72);
-    color: #fff;
     visibility: hidden;
     opacity: 0;
     transition: opacity 2s, visibility 2s;

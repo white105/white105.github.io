@@ -14,7 +14,7 @@ class Design extends Component {
           <div className='designsRow'>
 
             <div className='designContainer'>
-              <img className='designPhoto' src={require('../../design_folder/bar-tabs.png')}></img>
+              <img className='designPhoto' src={require('../../assets/design_folder/bar-tabs.png')}></img>
               <div className='designDescriptionContainer'>
               <p className='designDescription'>BarTab IOS logo</p>
               <p className='designSubtext'>This logo was developed for the IOS application BarTabs. BarTabs is an application that informs
@@ -23,7 +23,7 @@ class Design extends Component {
             </div>
 
             <div className='designContainer'>
-              <img className='designPhoto' src={require('../../design_folder/brain-juice-logo.png')}></img>
+              <img className='designPhoto' src={require('../../assets/design_folder/bar-tabs.png')}></img>
               <div className='designDescriptionContainer'>
                 <p className='designDescription'>Brain Juice Company Logo</p>
                 <p className='designSubtext'>This logo was developed for the merchandise company Brain Juice.

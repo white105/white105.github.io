@@ -8,6 +8,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.1.0-11",
     "@fortawesome/react-fontawesome": "0.1.0-11",
     "animated": "^0.2.2",
+    "emailjs-com": "^2.3.2",
     "gh-pages": "^1.2.0",
     "i": "^0.3.6",
     "react": "^16.4.1",

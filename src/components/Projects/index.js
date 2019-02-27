@@ -24,7 +24,7 @@ class Projects extends Component {
         <h2 className='turtlebotHeader'>Turtlebot Robotics 2018</h2>
 
         <video width = "500" height = "300" controls preload='preload' className='turtlebotVideo'>
-         <source src = {require('../../turtlebot.mp4')} type = "video/mp4"></source>
+         <source src = {require('../../assets/videos/turtlebot.mp4')} type = "video/mp4"></source>
          This browser doesn't support video tag.
          </video>
 
