@@ -2,22 +2,13 @@ import React, { Component } from 'react';
 import './App.css';
 import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import SwitchWithSlide from "./components/SwitchWithSlide";
+import { TransitionGroup, CSSTransition } from "react-transition-group";
+import styled from "styled-components";
 
-import Home from './components/Home/index.js'
 import HeaderComponent from './components/HeaderComponent/index.js'
-import Articles from './components/Articles/index.js'
-import Projects from './components/Projects/index.js'
-import Hackathons from './components/Hackathons/index.js'
-import Research from './components/Research/index.js'
-import Resume from './components/Resume/index.js'
-import Design from './components/Design/index.js'
-import Services from './components/Services/index.js'
-import Contact from './components/Contact/index.js'
+import Container from './components/Container/index.js'
 
-import { AnimatedSwitch } from 'react-router-transition';
 
-import FontAwesome from 'react-fontawesome';
 
 class App extends Component {
 
@@ -36,7 +27,6 @@ class App extends Component {
   }
 
   render() {
-    const SwitchComponent = this.state.animate ? SwitchWithSlide : Switch;
 
     return (
       <div id="app">
@@ -49,85 +39,16 @@ class App extends Component {
 
           <hr id='splitter'></hr>
 
-          <div id='content'>
-            <AnimatedSwitch
-              atEnter={{ left: 0 }}
-              atLeave={{ left: -100 }}
-              atActive={{ left: -50 }}
-              className="switch-wrapper"
-            >
-            <Route exact path="/" component={Resume} />
-            <Route exact path="/contact" component={Contact} />
-            <Route exact path="/services" component={Services} />
-            <Route exact path="/resume" component={Resume} />
-            <Route exact path="/projects" component={Projects} />
-            <Route exact path='/hackathons' component={Hackathons} />
-            <Route exact path="/research" component={Research} />
-            <Route exact path="/articles" component={Articles} />
-            <Route exact path="/design" component={Design} />
-            </AnimatedSwitch>
-          </div>
-
+          <Container></Container>
 
         </div>
       </Router>
-
-      <hr></hr>
-
-      <div className='siteFooter'>
-
-        <div className='footerCopyright'>
-          <h3 className='copyrightHeader'>&copy; NICHOLAS WHITE 2018</h3>
-        </div>
-
-        <div className='fontAwesomeIconDiv'>
-
-          <a className='iconLink' href='https://github.com/white105' id='githubIcon'>
-            <FontAwesome
-              className='fontAwesomeIcon'
-              name='github'
-              style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
-            />
-          </a>
-
-          <a className='iconLink' href='https://twitter.com/nickdoubleyouu' id='twitterIcon'>
-            <FontAwesome
-              className='fontAwesomeIcon'
-              name='twitter'
-              style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
-            />
-          </a>
-
-          <a className='iconLink' href='https://www.linkedin.com/in/nicholas-w-white/' id='linkedinIcon'>
-            <FontAwesome
-              className='fontAwesomeIcon'
-              name='linkedin'
-              style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
-            />
-          </a>
-
-          <a className='iconLink' href='https://www.twitch.tv/matrixman' id='twitchIcon'>
-            <FontAwesome
-              className='fontAwesomeIcon'
-              name='twitch'
-              style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
-            />
-          </a>
-
-          <a className='iconLink' href='https://www.youtube.com/channel/UC1fLEeYICmo3O9cUsqIi7HA?view_as=subscriber' id='youtubeIcon'>
-            <FontAwesome
-              className='fontAwesomeIcon'
-              name='youtube'
-              style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
-            />
-          </a>
-
-        </div>
-      </div>
 
       </div>
     )
   }
 }
+
+
 
 export default App;

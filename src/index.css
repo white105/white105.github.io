@@ -1043,6 +1043,32 @@ body a:hover {
   cursor: pointer;
 }
 
+/******CSS Transitions ****/
+
+.move-enter {
+    opacity: 0.01;
+    transform: translate(-40px, 0)
+}
+
+.move-enter-active {
+    opacity: 1;
+    transform: translate(0, 0);
+    transition: all 500ms ease-in;
+}
+
+.move-exit {
+    opacity: 1;
+    transform: translate(0, 0)
+}
+
+.move-exit-active {
+    opacity: 0.01;
+    transform: translate(40px, 0);
+    transition: all 500ms ease-in;
+}
+
+/******CSS Transitions ****/
+
 /* Rubric Section Component Styles */
 
 
