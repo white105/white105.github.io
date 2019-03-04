@@ -7,6 +7,7 @@ import styled from "styled-components";
 
 import HeaderComponent from './components/HeaderComponent/index.js'
 import Container from './components/Container/index.js'
+import FontAwesome from 'react-fontawesome';
 
 
 
@@ -43,6 +44,60 @@ class App extends Component {
 
         </div>
       </Router>
+
+      <hr></hr>
+
+      <div className='siteFooter'>
+
+        <div className='footerCopyright'>
+          <h3 className='copyrightHeader'>&copy; NICHOLAS WHITE 2018</h3>
+        </div>
+
+        <div className='fontAwesomeIconDiv'>
+
+          <a className='iconLink' href='https://github.com/white105' id='githubIcon'>
+            <FontAwesome
+              className='fontAwesomeIcon'
+              name='github'
+              style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+            />
+          </a>
+
+          <a className='iconLink' href='https://twitter.com/nickdoubleyouu' id='twitterIcon'>
+            <FontAwesome
+              className='fontAwesomeIcon'
+              name='twitter'
+              style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+            />
+          </a>
+
+          <a className='iconLink' href='https://www.linkedin.com/in/nicholas-w-white/' id='linkedinIcon'>
+            <FontAwesome
+              className='fontAwesomeIcon'
+              name='linkedin'
+              style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+            />
+          </a>
+
+          <a className='iconLink' href='https://www.twitch.tv/matrixman' id='twitchIcon'>
+            <FontAwesome
+              className='fontAwesomeIcon'
+              name='twitch'
+              style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+            />
+          </a>
+
+          <a className='iconLink' href='https://www.youtube.com/channel/UC1fLEeYICmo3O9cUsqIi7HA?view_as=subscriber' id='youtubeIcon'>
+            <FontAwesome
+              className='fontAwesomeIcon'
+              name='youtube'
+              style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+            />
+          </a>
+
+        </div>
+      </div>
+
 
       </div>
     )

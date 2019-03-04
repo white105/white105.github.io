@@ -597,7 +597,7 @@ body a:hover {
 
 .hackathonContainer {
   width: 80%;
-  height: 35rem;
+  height: 40rem;
   border-radius: 1rem;
   margin: auto;
 }
@@ -616,14 +616,16 @@ body a:hover {
 }
 
 .hackathonCarousel {
-  width: 70%;
+  width: 80%;
   margin: auto;
+  height: 40rem;
   border: 1px solid #CCC;
   border-radius: .5rem;
 }
 
 .hackathonCarouselImageDiv, .hackathonCarouselImage {
   height: 100%;
+  height: 40rem;
   border-radius: .5rem;
 }
 
@@ -1065,6 +1067,66 @@ body a:hover {
     opacity: 0.01;
     transform: translate(40px, 0);
     transition: all 500ms ease-in;
+}
+
+/*********Expirience Page********/
+
+.expirienceContainer {
+  width: 60rem;
+  height: 150rem;
+  margin: auto;
+}
+
+.employmentContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.employmentRow {
+  height: 11rem;
+  flex: 1;
+  height: 5rem;
+  /*background: #5EA1FF;*/
+  border-bottom: 3px solid rgb(73, 110, 178, .9);
+  border-right: 3px solid rgb(73, 110, 178, .9);
+  border-left: 3px solid rgb(73, 110, 178, .9);
+  color: black;
+  padding: 1rem;
+}
+
+#top-employment-row {
+  border-top: 3px solid rgb(73, 110, 178, .9);
+}
+
+.employmentDetails {
+  position: relative;
+  width: 80%;
+  margin: auto;
+}
+
+.employment-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+}
+
+
+.employment-logo {
+  width: 5rem;
+  height: 5rem;
+  border: 1px solid #333;
+  border-radius: .5rem;
+    flex: 1;
+}
+
+.employment-details {
+  flex: 3;
+  font-size: 1.2rem;
 }
 
 /******CSS Transitions ****/
@@ -1770,6 +1832,76 @@ body a:hover {
     height: 100%;
     border-radius: 50%;
   }
+
+  /*******Expirience Media Queries*****/
+
+
+  .expirienceContainer {
+    width: 20rem;
+    height: 150rem;
+    margin: auto;
+  }
+
+  .employmentContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .employmentRow {
+    height: 11rem;
+    flex: 1;
+    height: 5rem;
+    /*background: #5EA1FF;*/
+    border-bottom: 2px solid rgb(73, 110, 178, .9);
+    border-right: 2px solid rgb(73, 110, 178, .9);
+    border-left: 2px solid rgb(73, 110, 178, .9);
+    color: black;
+    padding: .5rem;
+  }
+
+  #top-employment-row {
+    border-top: 2px solid rgb(73, 110, 178, .9);
+  }
+
+  .employmentDetails {
+    position: relative;
+    width: 80%;
+    margin: auto;
+  }
+
+  .jobTitle {
+    font-size: 1rem;
+  }
+
+  .employerCompany {
+    font-size: 1.2rem;
+  }
+
+  .employment-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+
+  .employment-logo {
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 1px solid #333;
+    border-radius: .5rem;
+      flex: 1;
+  }
+
+  .employment-details {
+    flex: 3;
+    font-size: .7rem;
+  }
+  /******Expirience Media Queries****/
 
 
   /*****Footer Media queries****/
