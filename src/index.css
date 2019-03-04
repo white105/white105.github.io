@@ -1090,17 +1090,25 @@ body a:hover {
   height: 11rem;
   flex: 1;
   height: 5rem;
-  /*background: #5EA1FF;*/
-  border-bottom: 3px solid rgb(73, 110, 178, .9);
-  border-right: 3px solid rgb(73, 110, 178, .9);
-  border-left: 3px solid rgb(73, 110, 178, .9);
-  color: black;
+  background: #F5F5F5;
+  border-bottom: 3px solid rgb(73, 110, 178);
+  border-right: 3px solid rgb(73, 110, 178);
+  border-left: 3px solid rgb(73, 110, 178);
   padding: 1rem;
 }
 
 #top-employment-row {
-  border-top: 3px solid rgb(73, 110, 178, .9);
+  border-top: 3px solid rgb(73, 110, 178);
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
 }
+
+#bottom-employment-row {
+  border-bottom: 3px solid rgb(73, 110, 178);
+  border-bottom-left-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+}
+
 
 .employmentDetails {
   position: relative;
@@ -1115,19 +1123,60 @@ body a:hover {
   text-align: left;
 }
 
+.job-info {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 6rem;
+}
+
+
+
+.sub-job-info {
+  flex: 2;
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.jobTitle {
+  flex: 1;
+  font-size: 1.1rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+.jobLocation {
+  flex: 1;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.employer-logo-container {
+  margin-top: .3rem;
+  width: 5rem;
+  height: 5rem;
+  flex: 1;
+}
 
 .employment-logo {
   width: 5rem;
   height: 5rem;
   border: 1px solid #333;
   border-radius: .5rem;
-    flex: 1;
+  float: right;
+  margin-right: 2.5rem;
 }
 
 .employment-details {
-  flex: 3;
   font-size: 1.2rem;
 }
+
+
+
 
 /******CSS Transitions ****/
 
@@ -1855,7 +1904,7 @@ body a:hover {
     height: 11rem;
     flex: 1;
     height: 5rem;
-    /*background: #5EA1FF;*/
+    /*background: #C8C8C8;*/
     border-bottom: 2px solid rgb(73, 110, 178, .9);
     border-right: 2px solid rgb(73, 110, 178, .9);
     border-left: 2px solid rgb(73, 110, 178, .9);
