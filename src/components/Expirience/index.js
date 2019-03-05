@@ -19,7 +19,7 @@ class Expirience extends Component {
               </div>
               <div className='sub-job-info'>
               <h4 className='jobTitle'>Software Engineering Intern - Full Stack</h4>
-              <h4 className='jobLocation'>Amherst, New York</h4>
+              <h4 className='jobLocation'>Amherst, New York &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mar 2018 - Aug 2018</h4>
 
               </div>
 
@@ -44,7 +44,7 @@ class Expirience extends Component {
               </div>
               <div className='sub-job-info'>
                 <h4 className='jobTitle'>Research Fellow - Gravity Group</h4>
-                <h4 className='jobLocation'>Urbana-Champaign, Illinois</h4>
+                <h4 className='jobLocation'>Urbana-Champaign, Illinois &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; May 2018 - July 2018</h4>
               </div>
 
             </div>
@@ -68,7 +68,7 @@ class Expirience extends Component {
           </div>
           <div className='sub-job-info'>
           <h4 className='jobTitle'>Software Engineering Intern - Full Stack</h4>
-          <h4 className='jobLocation'>New York, New York</h4>
+          <h4 className='jobLocation'>New York, New York &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; May 2017 - Aug 2017</h4>
           </div>
 
           </div>
@@ -90,7 +90,7 @@ class Expirience extends Component {
           </div>
           <div className='sub-job-info'>
           <h4 className='jobTitle'>Computer Science Tutor and Teaching Assistant</h4>
-          <h4 className='jobLocation'>Buffalo, New York</h4>
+          <h4 className='jobLocation'>Buffalo, New York &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jan 2017 - May 2018</h4>
           </div>
           </div>
           <div className='employmentDetails'>
@@ -110,7 +110,7 @@ class Expirience extends Component {
           </div>
             <div className='sub-job-info'>
               <h4 className='jobTitle'>Student Researcher - Turtlebot Robotics</h4>
-              <h4 className='jobLocation'>Buffalo, New York</h4>
+              <h4 className='jobLocation'>Buffalo, New York  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sep 2017 - Dec 2017</h4>
             </div>
 
           </div>

@@ -50,7 +50,7 @@ class App extends Component {
       <div className='siteFooter'>
 
         <div className='footerCopyright'>
-          <h3 className='copyrightHeader'>&copy; NICHOLAS WHITE 2018</h3>
+          <h3 className='copyrightHeader'>&copy; NICHOLAS WHITE 2019</h3>
         </div>
 
         <div className='fontAwesomeIconDiv'>
