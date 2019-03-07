@@ -50,7 +50,7 @@ class HeaderComponent extends Component {
     var current_page = current_page_list[current_page_list.length-1]
 
     var mainHeaderList = <ul id='mainHeaderSubList'>
-    <li><Link to='/expirience' className='headerTab'>Expirience</Link></li>
+    <li><Link to='/expirience' className='headerTab'>Experience</Link></li>
     <li><Link to='/projects' className='headerTab'>projects</Link></li>
     <li><Link to='/research' className='headerTab'>Research</Link></li>
     <li><Link to='/hackathons' className='headerTab'>Hackathons</Link></li>
@@ -59,7 +59,7 @@ class HeaderComponent extends Component {
 
     if (current_page == "expirience") {
       mainHeaderList = <ul id='mainHeaderSubList'>
-      <li><div id='current_page_icon_top'></div><Link to='/expirience' className='headerTab'>Expirience</Link><div id='current_page_icon_bottom'></div></li>
+      <li><div id='current_page_icon_top'></div><Link to='/expirience' className='headerTab'>Experience</Link><div id='current_page_icon_bottom'></div></li>
         <li><Link to='/projects' className='headerTab'>projects</Link></li>
         <li><Link to='/research' className='headerTab'>Research</Link></li>
         <li><Link to='/hackathons' className='headerTab'>Hackathons</Link></li>
@@ -67,7 +67,7 @@ class HeaderComponent extends Component {
       </ul>
     } else if (current_page == "projects") {
       mainHeaderList = <ul id='mainHeaderSubList'>
-      <li><Link to='/expirience' className='headerTab'>Expirience</Link></li>
+      <li><Link to='/expirience' className='headerTab'>Experience</Link></li>
         <li><div id='current_page_icon_top'></div><Link to='/projects' className='headerTab'>projects</Link><div id='current_page_icon_bottom'></div></li>
         <li><Link to='/research' className='headerTab'>Research</Link></li>
         <li><Link to='/hackathons' className='headerTab'>Hackathons</Link></li>
@@ -75,7 +75,7 @@ class HeaderComponent extends Component {
       </ul>
     } else if (current_page == "research") {
       mainHeaderList = <ul id='mainHeaderSubList'>
-      <li><Link to='/expirience' className='headerTab'>Expirience</Link></li>
+      <li><Link to='/expirience' className='headerTab'>Experience</Link></li>
         <li><Link to='/projects' className='headerTab'>projects</Link></li>
         <li><div id='current_page_icon_top'></div><Link to='/research' className='headerTab'>Research</Link><div id='current_page_icon_bottom'></div></li>
         <li><Link to='/hackathons' className='headerTab'>Hackathons</Link></li>
@@ -83,7 +83,7 @@ class HeaderComponent extends Component {
       </ul>
     } else if (current_page == "hackathons") {
       mainHeaderList = <ul id='mainHeaderSubList'>
-        <li><Link to='/expirience' className='headerTab'>Expirience</Link></li>
+        <li><Link to='/expirience' className='headerTab'>Experience</Link></li>
           <li><Link to='/projects' className='headerTab'>projects</Link></li>
           <li><Link to='/research' className='headerTab'>Research</Link></li>
           <li><div id='current_page_icon_top'></div><Link to='/hackathons' className='headerTab'>Hackathons</Link><div id='current_page_icon_bottom'></div></li>
@@ -91,7 +91,7 @@ class HeaderComponent extends Component {
       </ul>
     } else if (current_page == "articles") {
       mainHeaderList = <ul id='mainHeaderSubList'>
-        <li><Link to='/expirience' className='headerTab'>Expirience</Link></li>
+        <li><Link to='/expirience' className='headerTab'>Experience</Link></li>
           <li><Link to='/projects' className='headerTab'>projects</Link></li>
           <li><Link to='/research' className='headerTab'>Research</Link></li>
           <li><Link to='/hackathons' className='headerTab'>Hackathons</Link></li>
@@ -150,7 +150,7 @@ class HeaderComponent extends Component {
             </div>
 
             <ul id='mainHeaderSubList'>
-            <li><Link to='/expirience' className='headerTab'>Expirience</Link></li>
+            <li><Link to='/expirience' className='headerTab'>Experience</Link></li>
               <li><Link to='/projects' className='headerTab'>projects</Link></li>
               <li><Link to='/research' className='headerTab'>Research</Link></li>
               <li><Link to='/hackathons' className='headerTab'>Hackathons</Link></li>
