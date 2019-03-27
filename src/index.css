@@ -1,3 +1,5 @@
+@import './styles/noogle.scss';
+
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
@@ -15,6 +17,15 @@ body a {
 
 body a:hover {
   cursor: pointer;
+}
+
+
+#Sketchit, #MeemzIO {
+  width: 40rem;
+  height: 26rem;
+  box-shadow: 4px 6px;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
 }
 
 #content {
@@ -498,8 +509,6 @@ body a:hover {
   border-bottom: 1px solid black;
   border-right: 1px solid black;
   border-left: 1px solid black;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
 
   position: relative;
   opacity: 0;
@@ -1073,7 +1082,7 @@ body a:hover {
 
 .expirienceContainer {
   width: 60rem;
-  height: 150rem;
+  height: 220rem;
   margin: auto;
 }
 
@@ -1083,34 +1092,56 @@ body a:hover {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .employmentRow {
-  height: 11rem;
   flex: 1;
   height: 5rem;
-  background: #F5F5F5;
-  border-bottom: 3px solid rgb(73, 110, 178);
-  border-right: 3px solid rgb(73, 110, 178);
-  border-left: 3px solid rgb(73, 110, 178);
+  width: 80%;
+  border: 3px solid rgb(73, 110, 178);
+  margin: 5rem;
   padding: 1rem;
+  overflow: scroll;
 }
 
-#top-employment-row {
+.employmentRow:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+  cursor: pointer;
+}
+
+#horizn-consulting {
+  background: #E3BA2F;
+  color: white;
   border-top: 3px solid rgb(73, 110, 178);
-  border-top-left-radius: .5rem;
-  border-top-right-radius: .5rem;
 }
 
-#bottom-employment-row {
-  border-bottom: 3px solid rgb(73, 110, 178);
-  border-bottom-left-radius: .5rem;
-  border-bottom-right-radius: .5rem;
+#ncsa-row {
+  background: #11294B;
+  color: white;
+}
+
+#barstool-sports-row {
+  background:rgb(13,26,47);
+  color: white;
+}
+
+#canisius-row {
+  background: #002144;
+  color: white;
+}
+
+#ub-row {
+  background: #005ABC;
+  color: white;
 }
 
 
 .employmentDetails {
+  margin-top: 2rem;
   position: relative;
   width: 80%;
   margin: auto;
@@ -1135,7 +1166,7 @@ body a:hover {
 
 
 .sub-job-info {
-  flex: 2;
+  flex: 7;
   height: 6rem;
   display: flex;
   flex-direction: column;
@@ -1156,19 +1187,20 @@ body a:hover {
 }
 
 .employer-logo-container {
-  margin-top: .3rem;
+  margin-top: 5rem;
+  margin-top: .5rem;
   width: 5rem;
   height: 5rem;
-  flex: 1;
+  flex: 3;
 }
 
 .employment-logo {
   width: 5rem;
   height: 5rem;
-  border: 1px solid #333;
+  border: 1px solid white;
   border-radius: .5rem;
   float: right;
-  margin-right: 2.5rem;
+  margin-right: 2.7rem;
 }
 
 .employment-details {

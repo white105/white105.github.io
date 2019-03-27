@@ -9,7 +9,7 @@ class Expirience extends Component {
 
         <div className='employmentContainer'>
 
-          <div className='employmentRow' id='top-employment-row'>
+          <div className='employmentRow' id='horizn-consulting'>
 
             <h3 className='employerCompany'>Horizns Consulting</h3>
 
@@ -34,7 +34,7 @@ class Expirience extends Component {
           </div>
 
 
-          <div className='employmentRow'>
+          <div className='employmentRow' id='ncsa-row'>
 
           <h3 className='employerCompany'>National Center for Supercomputing Applications</h3>
 
@@ -57,7 +57,7 @@ class Expirience extends Component {
             </div>
           </div>
 
-          <div className='employmentRow'>
+          <div className='employmentRow' id='barstool-sports-row'>
           <h3 className='employerCompany'>Barstool Sports</h3>
 
 
@@ -81,7 +81,7 @@ class Expirience extends Component {
 
           </div>
 
-          <div className='employmentRow'>
+          <div className='employmentRow' id='canisius-row'>
           <h3 className='employerCompany'>Canisius College</h3>
 
           <div className='job-info'>
@@ -102,7 +102,7 @@ class Expirience extends Component {
 
           </div>
 
-          <div className='employmentRow' id='bottom-employment-row'>
+          <div className='employmentRow' id='ub-row'>
           <h3 className='employerCompany'>University at Buffalo</h3>
           <div className='job-info'>
           <div className='employer-logo-container'>

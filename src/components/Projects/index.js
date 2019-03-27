@@ -1,13 +1,23 @@
 import React, { Component } from 'react';
 import { UserCard, RepoCard } from 'react-github-cards';
 import { Carousel } from 'react-responsive-carousel';
+import NoogleLogo from '../../assets/media/newGoogle.png'
+import MeemzIO from '../../assets/hackathon-pics/MeemzIO.png'
+import SketchItLogo from '../../assets/hackathon-pics/sketchit.png'
+import { Link } from 'react-router-dom';
 import 'react-github-cards/dist/default.css';
+
+import Chess from '../Chess/index.js'
+import Noogle from '../Noogle/index.js'
+
 
 class Projects extends Component {
 
   render() {
     return (
       <div className='projectsContainer'>
+
+
         <div className='githubProjectsDiv'>
           <div className='projectsColumn' id='projectsColumn1'>
             <RepoCard username="white105" repo="DandyHacks" className='githubRepo' />
@@ -21,7 +31,22 @@ class Projects extends Component {
 
         <hr></hr>
 
-        <h2 className='turtlebotHeader'>Turtlebot Robotics 2018</h2>
+        <div className='projectDiv'>
+          <h2 className='turtlebotHeader'>Meemz.io</h2>
+         <a href='https://meemz-io.herokuapp.com/'><img src={MeemzIO} id="MeemzIO"></img></a>
+        </div>
+
+        <hr></hr>
+
+        <div className='projectDiv'>
+          <h2 className='turtlebotHeader'>UB Hacking 2018</h2>
+         <a href='https://ubhacking2018.herokuapp.com'><img src={SketchItLogo} id="Sketchit"></img></a>
+        </div>
+
+        <hr></hr>
+
+
+        <h2 className='turtlebotHeader'>Turtlebot Robotics 2017</h2>
 
         <video width = "500" height = "300" controls preload='preload' className='turtlebotVideo'>
          <source src = {require('../../assets/videos/turtlebot.mp4')} type = "video/mp4"></source>
@@ -35,6 +60,11 @@ class Projects extends Component {
          I then worked through ROS tutorials and implemented mapping and navigation. Our research team consisted of four people and including myself, my classmate,
          and two professors.</p>
 
+         <hr></hr>
+
+         <div className='projectDiv'>
+          <Link to='/projects/noogle'><img src={NoogleLogo} id="Noogle"></img></Link>
+         </div>
 
 
       </div>

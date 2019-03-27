@@ -13,6 +13,7 @@ import Design from '../../components/Design/index.js';
 import Services from '../../components/Services/index.js';
 import Contact from '../../components/Contact/index.js';
 import Expirience from '../../components/Expirience/index.js';
+import Noogle from '../../components/Noogle/index.js';
 
 import FontAwesome from 'react-fontawesome';
 
@@ -34,6 +35,7 @@ function Container({ location }) {
           <Route exact path="/research" component={Research} />
           <Route exact path="/articles" component={Articles} />
           <Route exact path="/design" component={Design} />
+          <Route exact path="/projects/noogle" component={Noogle} />
         </div>
 
         </CSSTransition>
