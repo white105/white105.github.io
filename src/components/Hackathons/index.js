@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import { Carousel } from 'react-responsive-carousel';
+import SketchItLogo from '../../assets/hackathon-pics/sketchit.png'
+import WhipLogo from '../../assets/hackathon-pics/whipLogo.png'
+import { Link } from 'react-router-dom';
 
 class Hackathons extends Component {
 
@@ -37,7 +40,11 @@ class Hackathons extends Component {
       return (
         <div className='hackathonComponent'>
 
+        <p className='hackathonParagraph'>Hackathon Pictures and Projects from 2018</p>
+
           <div className='hackathonContainer'>
+
+
 
           <Carousel autoPlay={true} interval={3000} infiniteLoop={true} showThumbs={false} className='hackathonCarousel'>
                   <div className='hackathonCarouselImageDiv'>
@@ -112,6 +119,27 @@ class Hackathons extends Component {
 
 
           </div>
+
+          <hr></hr>
+
+          <div className='projectDiv'>
+            <h2 className='sketchItHeader'>UB Hacking 2018</h2>
+            <a href='https://ubhacking2018.herokuapp.com'><img src={SketchItLogo} id="Sketchit"></img></a>
+          </div>
+
+          <p className='hackathonParagraph'>Awarded third place prize out of over 50+ projects</p>
+
+          <hr></hr>
+
+          <div className='projectDiv'>
+            <h2 className='sketchItHeader'>Dandy Hacks 2018</h2>
+            <a href='https://dandy-hacks.herokuapp.com/'><img src={WhipLogo} id="Whip"></img></a>
+          </div>
+
+          <p className='hackathonParagraph'>Awarded best use of multiple APIs</p>
+          <p className='hackathonParagraph'>Awarded best use of Google Cloud Platform</p>
+
+
         </div>
       );
     } else {

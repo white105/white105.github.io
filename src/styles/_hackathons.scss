@@ -1,0 +1,159 @@
+
+.hackathonComponent {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  color: white;
+}
+
+.hackathonContainer {
+  width: 80%;
+  height: 40rem;
+  margin: auto;
+}
+
+.sketchItHeader {
+  color: black;
+}
+
+
+.hackathonTitle {
+  padding: 4.5rem;
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  margin: 0;
+  margin-left: .75rem;
+}
+
+.switch-wrapper {
+  position: relative;
+}
+
+.hackathonCarousel {
+  width: 80%;
+  margin: auto;
+  height: 40rem;
+}
+
+.hackathonCarouselImageDiv, .hackathonCarouselImage {
+  height: 100%;
+  height: 40rem;
+}
+
+.photoText {
+  padding: 1rem;
+}
+
+.img__description {
+  position: absolute;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 2s, visibility 2s;
+}
+
+.imageDirections {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #007bb6;
+}
+
+#img_bottom_description {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#img_top_description {
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#img_left_description {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#img_right_description {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hackathonCarouselImageDiv:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.logoAbsoluteContainer {
+  position: relative;
+  width: 35rem;
+  height: 15rem;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.whipLogoHover {
+  width: 35% !important;
+  height: 85%;
+  border-radius: .5rem;
+}
+
+.demoLink {
+  color: yellow;
+  background: yellow;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.mlhLogoContainer {
+  position: absolute;
+  z-index: 1;
+  width: 8rem;
+  height: 8rem;
+  top: 23rem;
+  left: 11.5rem;
+}
+
+.mlhlogo {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+#Sketchit, #MeemzIO, #Whip {
+  width: 40rem;
+  height: 26rem;
+  box-shadow: 4px 6px;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  border: 1px solid #ccc;
+}
+
+.hackathonParagraph {
+  color: black;
+  font-size: 1.25rem;
+  width: 50rem;
+  margin: auto;
+  margin-top: 1.8rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}

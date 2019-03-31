@@ -1,0 +1,125 @@
+
+.designComponentHeader {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.designsContainer {
+  width: 60rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+}
+
+.designsRow {
+  width: 60rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+}
+
+.designContainer:hover .designDescriptionContainer {
+  -webkit-animation: slide 0.5s forwards;
+  animation: slide 0.5s forwards;
+}
+
+.designPhoto {
+  width: 20rem;
+  height: 20rem;
+  border-radius: .5rem;
+  border: 1px solid black;
+  margin: 0;
+}
+
+.designDescriptionContainer {
+  width: 20rem;
+  height: 12rem;
+  border-radius: .5rem;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+
+  position: relative;
+  opacity: 0;
+  top: -10rem;
+  margin: 0;
+}
+
+
+.designDescription {
+  padding-top: 2rem;
+  font-weight: bold;
+}
+
+.designSubtext {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@-webkit-keyframes slide {
+    100% { top: -2rem; opacity: 1; }
+}
+
+@keyframes slide {
+    100% { top: -2rem; opacity: 1; }
+}
+
+
+.animatable {
+  background: inherit;
+  will-change: transform;
+  transition: transform 0.2s ease;
+}
+
+.animatable.prepare {
+  /* we do this so we can tell when the "preparing" was done
+     since there seems to be a browser bug where the preparation still takes
+     time, even with `transition: none;` */
+  transition-duration: 0.0000000000001s;
+  opacity: 0;
+}
+
+.animatable.prepare.from.left {
+  transform: translateX(-110%);
+}
+.animatable.prepare.from.right {
+  transform: translateX(110%);
+}
+.animatable.prepare.to.left {
+  transform: translateX(-1px);
+}
+.animatable.prepare.to.right {
+  transform: translateX(1px);
+}
+
+.animatable:not(.prepare).to {
+  pointer-events: none;
+}
+.animatable:not(.prepare).to.left {
+  transform: translateX(-110%);
+}
+.animatable:not(.prepare).to.right {
+  transform: translateX(110%);
+}
+.animatable:not(.prepare).from {
+  transform: translateX(0);
+}
+
+.animatable div {
+  height: 100px;
+}
+
+.animate-option {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.animate-option input {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}

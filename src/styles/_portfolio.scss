@@ -1,0 +1,58 @@
+.githubProjectsDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  height: 40rem;
+
+  margin: auto;
+  background: white;
+}
+
+.projectsColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  padding: 2rem;
+}
+
+
+.githubRepo {
+  width: 20rem;
+  margin: auto;
+  opacity: .5;
+}
+
+.whipLogo {
+  margin: 2.5rem;
+}
+
+.projectsParagraph {
+  font-size: 1.25rem;
+  width: 60rem;
+  margin: auto;
+  margin-top: 1.8rem;
+  text-align: center;
+}
+
+
+.whipTitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin-top: 2.5rem;
+}
+
+.turtlebotHeader {
+  font-size: 1.75rem;
+  margin: 2.5rem;
+}
+
+.turtlebotVideo {
+  width: 35rem;
+  border: 1px solid #CCC;
+  border-radius: .5rem;
+  margin: auto;
+}

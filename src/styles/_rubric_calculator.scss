@@ -1,0 +1,163 @@
+/* Rubric Calculator Component Styles */
+
+.rubricCalculatorDiv {
+  display: block;
+  margin: auto;
+  width: 61rem;
+  border: 1px solid black;
+}
+
+.rubric {
+  width: 60rem;
+  margin: auto;
+}
+
+.rubricHeader {
+  width: 60rem;
+  height: 5rem;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.rubricHeaderSection {
+  display: inline-block;
+  width: 15rem;
+  height: 5rem;
+  border-left: 1px solid black;
+}
+
+.rubricHeaderSectionText {
+  text-align: center;
+  width: 10rem;
+  margin: auto;
+  font-family: "Lato", sans-serif;
+}
+
+.rubricHeaderSectionText:hover {
+  cursor: pointer;
+}
+
+#rubricHeaderLastColumn {
+  border-right: 1px solid black;
+}
+
+.rubricRow {
+  width: 60rem;
+  height: 10rem;
+  border-bottom: 1px solid black;
+}
+
+.footerButtons {
+  width: 22rem;
+  height: 20rem;
+  margin: auto;
+}
+
+.submitGrade {
+  width: 10rem;
+  height: 4rem;
+  display: inline-block;
+  margin-right: 1rem;
+  font-family: "Lato", sans-serif;
+  border: 1px solid black;
+  margin-top: 1rem;
+}
+
+.resetRubric {
+  width: 10rem;
+  height: 4rem;
+  margin-left: 1rem;
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  border: 1px solid black;
+  margin-top: 1rem;
+}
+
+#studentScores {
+  margin: auto;
+  width: 60rem;
+  border: 1px solid black;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+
+.studentScore {
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  margin-left: 1rem;
+}
+
+/* Rubric Calculator Component Styles */
+
+/* Rubric Section Component Styles */
+
+.rubricObjectives {
+  display: inline-block;
+  width: 15rem;
+  height: 10rem;
+  border-left: 1px solid black;
+}
+
+.rubricObjectivesText {
+  width: 14.9rem;
+  height: 9.9rem;
+  margin: auto;
+  font-size: 1rem;
+  overflow: scroll;
+  font-family: "Lato", sans-serif;
+}
+
+.rubricObjectivesText:hover {
+  cursor: pointer;
+}
+
+.rubricSection {
+  display: inline-block;
+  width: 15rem;
+  height: 10rem;
+  border-left: 1px solid black;
+}
+
+
+.rubricSection:active {
+  transform: translateY(4px);
+}
+
+
+.rubricSectionText {
+  width: 14.9rem;
+  height: 9.9rem;
+  margin: auto;
+  font-size: 1rem;
+  overflow: scroll;
+  font-family: "Lato", sans-serif;
+}
+
+.rubricSectionText:hover {
+  cursor: pointer;
+}
+
+.rubricSectionFinalColumn {
+  display: inline-block;
+  width: 15rem;
+  height: 10rem;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.rubricSectionFinalColumn:active {
+  transform: translateY(4px);
+}
+
+.rubricSectionFinalColumnText {
+  width: 14.9rem;
+  height: 9.9rem;
+  margin: auto;
+  font-size: 1rem;
+  overflow: scroll;
+  font-family: "Lato", sans-serif;
+}
+
+.rubricSectionFinalColumnText:hover {
+  cursor: pointer;
+}

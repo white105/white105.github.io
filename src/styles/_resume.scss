@@ -1,0 +1,31 @@
+
+#resumeDiv {
+  width: 80%;
+  height: 50rem;
+  margin: auto;
+  margin-top: 4rem;
+  border: 1px solid black;
+}
+
+.jobDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.researchContainer {
+  background-image: none !important;
+  background: none;
+}
+
+
+.companyName {
+  font-weight: bold;
+}
+
+#resume {
+  width: 50rem;
+  height: 70rem;
+  outline: none;
+  border: 0;
+}

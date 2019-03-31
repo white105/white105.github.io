@@ -1,0 +1,95 @@
+.headerDiv {
+  width: 100%;
+  display: flex;
+  vertical-align: middle;
+}
+
+.headerDiv h1 {
+  flex: 2;
+  font-weight: lighter;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#headerName {
+  margin: 4rem;
+}
+
+#headerLink {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+#mainHeaderSubList {
+  flex: 4;
+  margin-right: 2.5rem;
+  margin-top: 4.35rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+#mainHeaderSubList li {
+  position: relative;
+  width: 7.5rem;
+  height: 3rem;
+  border: 1px solid rgb(73, 110, 178);
+  border-radius: 2.5rem;
+  color: rgb(73, 110, 178);
+}
+
+#mainHeaderSubList a {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-top: .7rem;
+  border-radius: 2.5rem;
+}
+
+#mainHeaderSubList li:hover {
+  background: rgb(73, 110, 178);
+  cursor: pointer;
+  color: white;
+}
+
+#mainHeaderSubList a:active {
+  height: 2.8rem;
+  padding-top: .6rem;
+}
+
+
+.headerTab {
+  font-size: 1rem;
+}
+
+#splitter {
+  display: block;
+  margin-top: 5rem;
+}
+
+#current_page_icon_top {
+  width: .7rem;
+  height: .7rem;
+  background: rgb(73, 110, 178);
+  position: absolute;
+  border-radius: 100%;
+  bottom: 3.525rem;
+  margin-left: 3.25rem;
+}
+
+#current_page_icon_bottom {
+  width: .7rem;
+  height: .7rem;
+  background: rgb(73, 110, 178);
+  position: absolute;
+  border-radius: 100%;
+  margin-top: .65rem;
+  margin-left: 3.26rem;
+}

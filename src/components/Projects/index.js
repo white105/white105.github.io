@@ -3,10 +3,9 @@ import { UserCard, RepoCard } from 'react-github-cards';
 import { Carousel } from 'react-responsive-carousel';
 import NoogleLogo from '../../assets/media/newGoogle.png'
 import MeemzIO from '../../assets/hackathon-pics/MeemzIO.png'
-import SketchItLogo from '../../assets/hackathon-pics/sketchit.png'
 import { Link } from 'react-router-dom';
 import 'react-github-cards/dist/default.css';
-
+import GPACalculator from '../GPACalculator/index.js'
 import Chess from '../Chess/index.js'
 import Noogle from '../Noogle/index.js'
 
@@ -38,10 +37,7 @@ class Projects extends Component {
 
         <hr></hr>
 
-        <div className='projectDiv'>
-          <h2 className='turtlebotHeader'>UB Hacking 2018</h2>
-         <a href='https://ubhacking2018.herokuapp.com'><img src={SketchItLogo} id="Sketchit"></img></a>
-        </div>
+        <GPACalculator></GPACalculator>
 
         <hr></hr>
 

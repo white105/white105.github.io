@@ -1,0 +1,51 @@
+.researchContainer, .projectsContainer {
+  width: 60rem;
+  margin: auto;
+}
+
+.researchCarousel {
+  width: 80%;
+  margin: auto;
+  margin-top: 2.5rem;
+  border-radius: 1rem;
+}
+
+.researchCarouselImageDiv, .researchCarouselImage {
+  height: 100%;
+}
+
+.researchExplanationHeader {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.researchParagraph {
+  font-size: 1.25rem;
+  width: 50rem;
+  margin: auto;
+  margin-top: 1.8rem;
+  text-align: center;
+}
+
+#enigmaLink {
+  color: black;
+}
+
+#enigmaLink:active {
+  color: black;
+}
+
+#researchLogoContainer {
+  width: 40rem;
+  height: 10rem;
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.researchLogo {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 1rem;
+}

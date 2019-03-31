@@ -1,0 +1,131 @@
+.expirienceContainer {
+  width: 60rem;
+  height: 220rem;
+  margin: auto;
+}
+
+.employmentContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.employerCompany {
+  font-family: 'Raleway', sans-serif;
+}
+
+.employmentRow {
+  flex: 1;
+  height: 5rem;
+  width: 80%;
+  border: 3px solid rgb(73, 110, 178);
+  margin: 5rem;
+  padding: 1rem;
+  overflow: scroll;
+}
+
+.employmentRow:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+  cursor: pointer;
+}
+
+#horizn-consulting {
+  background: #E1B93F;
+  color: white;
+  border-top: 3px solid rgb(73, 110, 178);
+}
+
+#ncsa-row {
+  background: #15294A;
+  color: white;
+}
+
+#barstool-sports-row {
+  background: #0F1C30;
+  color: white;
+}
+
+#canisius-row {
+  background: #002144;
+  color: white;
+}
+
+#ub-row {
+  background: #005ABC;
+  color: white;
+}
+
+
+.employmentDetails {
+  margin-top: 2rem;
+  position: relative;
+  width: 80%;
+  margin: auto;
+}
+
+.employment-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.job-info {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 6rem;
+}
+
+
+
+.sub-job-info {
+  flex: 7;
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.jobTitle {
+  flex: 1;
+  font-size: 1.1rem;
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+}
+
+.jobLocation {
+  flex: 1;
+  font-size: 1rem;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+}
+
+.employer-logo-container {
+  margin-top: 5rem;
+  margin-top: .5rem;
+  width: 5rem;
+  height: 5rem;
+  flex: 3;
+}
+
+.employment-logo {
+  width: 5rem;
+  height: 5rem;
+  border: 1px solid white;
+  border-radius: .5rem;
+  float: right;
+  margin-right: 2.7rem;
+}
+
+.employment-details {
+  font-size: 1.2rem;
+}

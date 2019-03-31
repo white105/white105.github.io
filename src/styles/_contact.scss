@@ -1,0 +1,21 @@
+#sendContactMessage {
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: .5rem;
+  margin-top: 1rem;
+  outline: none;
+}
+
+#sendContactMessage:active {
+  background: rgb(73, 110, 178);
+  color: white;
+}
+
+#contactTextArea {
+  width: 25rem;
+  height: 12rem;
+  border-radius: .5rem;
+  border: 1px solid #ccc;
+  outline: none;
+  resize: none;
+}
