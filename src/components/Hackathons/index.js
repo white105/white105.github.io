@@ -40,7 +40,10 @@ class Hackathons extends Component {
       return (
         <div className='hackathonComponent'>
 
-        <p className='hackathonParagraph'>Hackathon Pictures and Projects from 2018</p>
+        <h2 className='sketchItHeader'>Hackathon Pictures and Projects from 2018</h2>
+
+        <p className='hackathonParagraph'>Hover over the photos for a background and description of the event.
+        Click on the project pictures below and you will be redirected to a usable version.</p>
 
           <div className='hackathonContainer'>
 
@@ -84,7 +87,7 @@ class Hackathons extends Component {
                       <p className='photoText'>Whip is a utility application that utlizes several data sources and APIs to inform Uber/Lyft drivers about the best times and locations to work. Whip does this by utilizing data from various sources.
                       We implemented the Lyft API to get nearby drivers locations in real time for users to know where competition currently lies. We implemented Eventful's API to get nearby events and sorted them by popularity, allowing users to know exactly where large groups of people might need rides. We also built a web scraper in python to
                       scrape flight data, allowing users to know when large groups of people might be getting off a flight and might need a ride back home. We then implemented Google Maps API in our project to plot this data using custom symbols to give the users a coherent visual representation of all of this data.</p>
-                      <p className='photoText'>Check out a video demo of our project <a className='demoLink' href='https://www.youtube.com/watch?v=G0WvooZfPRE'>here!</a></p>
+                      <p className='photoText'>Check out a usable demo of our project <a className='demoLink' href='https://dandy-hacks.herokuapp.com/'>here!</a></p>
                       </div>
                   </div>
 

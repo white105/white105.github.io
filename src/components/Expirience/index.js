@@ -19,7 +19,7 @@ class Expirience extends Component {
               </div>
               <div className='sub-job-info'>
               <h4 className='jobTitle'>Software Engineering Intern - Full Stack</h4>
-              <h4 className='jobLocation'>Amherst, New York &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mar 2018 - Aug 2018</h4>
+              <h4 className='jobLocation'>Amherst, New York &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mar 2018 - Aug 2018</h4>
 
               </div>
 
@@ -44,7 +44,7 @@ class Expirience extends Component {
               </div>
               <div className='sub-job-info'>
                 <h4 className='jobTitle'>Research Fellow - Gravity Group</h4>
-                <h4 className='jobLocation'>Urbana-Champaign, Illinois &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; May 2018 - July 2018</h4>
+                <h4 className='jobLocation'>Urbana-Champaign, Illinois &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; May 2018 - July 2018</h4>
               </div>
 
             </div>
@@ -53,7 +53,7 @@ class Expirience extends Component {
 
               <p className='employment-details' >- Worked as a member of The Laser Interferometer Gravitational Wave Observatory implementing a new gravitational waveform model in the LSC Algorithm Library Suite - code base written in C</p>
               <p className='employment-details'>- Analyzed gravitational wave signals using python libraries, LIGO open source data, and elementary digital signal processing techniques</p>
-              <p className='employment-details' >- Modeling and Detection of Black Hole Collisions with the Blue WatersSupercomputer</p>
+              <p className='employment-details' >- Modeling and Detection of Black Hole Collisions with the Blue Waters Supercomputer</p>
             </div>
           </div>
 
@@ -68,14 +68,14 @@ class Expirience extends Component {
           </div>
           <div className='sub-job-info'>
           <h4 className='jobTitle'>Software Engineering Intern - Full Stack</h4>
-          <h4 className='jobLocation'>New York, New York &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; May 2017 - Aug 2017</h4>
+          <h4 className='jobLocation'>New York, New York &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; May 2017 - Aug 2017</h4>
           </div>
 
           </div>
             <div className='employmentDetails'>
               <p className='employment-details'>- Helped transition the company site from PHP and WordPress to a single page React application through the design and implementation of full pages and major component features on the front end of the company site</p>
               <p className='employment-details'>- Wrote software tests using Nightwatch, Selenium, and Jest and fixed many bugs/issues</p>
-              <p className='employment-details'>- Used python to analyze company data and developed a web application that scored company bloggers based on likes and views See less</p>
+              <p className='employment-details'>- Used python to analyze company data and developed a web application that scored company bloggers based on likes and views</p>
 
             </div>
 
@@ -90,13 +90,14 @@ class Expirience extends Component {
           </div>
           <div className='sub-job-info'>
           <h4 className='jobTitle'>Computer Science Tutor and Teaching Assistant</h4>
-          <h4 className='jobLocation'>Buffalo, New York &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jan 2017 - May 2018</h4>
+          <h4 className='jobLocation'>Buffalo, New York &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jan 2017 - May 2018</h4>
           </div>
           </div>
           <div className='employmentDetails'>
           <p className='employment-details'>- Taught students fundamental concepts of computer science and assisted in debugging/problem solving</p>
-<p className='employment-details'>- Developed grading software for the Core Curriculum Committee capable of producing dynamic, interactive rubrics. The software also stored user, class and professor data and provided statistical feedback
-</p>
+          <p className='employment-details'>- Developed grading software for the Core Curriculum Committee capable of producing dynamic, interactive rubrics. The software also stored user, class and professor data and provided statistical feedback</p>
+          <p className='employment-details'>- Assisted as a teaching assistant in several courses including Intro to Programming, Data Structures, as well as Web Development</p>
+
 
           </div>
 
@@ -110,7 +111,7 @@ class Expirience extends Component {
           </div>
             <div className='sub-job-info'>
               <h4 className='jobTitle'>Student Researcher - Turtlebot Robotics</h4>
-              <h4 className='jobLocation'>Buffalo, New York  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sep 2017 - Dec 2017</h4>
+              <h4 className='jobLocation'>Buffalo, New York  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sep 2017 - Dec 2017</h4>
             </div>
 
           </div>

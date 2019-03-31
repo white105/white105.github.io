@@ -37,10 +37,6 @@ class Projects extends Component {
 
         <hr></hr>
 
-        <GPACalculator></GPACalculator>
-
-        <hr></hr>
-
 
         <h2 className='turtlebotHeader'>Turtlebot Robotics 2017</h2>
 
@@ -58,8 +54,12 @@ class Projects extends Component {
 
          <hr></hr>
 
-         <div className='projectDiv'>
-          <Link to='/projects/noogle'><img src={NoogleLogo} id="Noogle"></img></Link>
+         <GPACalculator></GPACalculator>
+
+         <hr></hr>
+
+         <div className='noogleContainer'>
+          <Link to='/projects/noogle'><img src={NoogleLogo} id="projectNoogle"></img></Link>
          </div>
 
 
