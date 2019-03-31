@@ -3,6 +3,7 @@ import { Carousel } from 'react-responsive-carousel';
 import SketchItLogo from '../../assets/hackathon-pics/sketchit.png'
 import WhipLogo from '../../assets/hackathon-pics/whipLogo.png'
 import { Link } from 'react-router-dom';
+import FontAwesome from 'react-fontawesome';
 
 class Hackathons extends Component {
 
@@ -126,21 +127,34 @@ class Hackathons extends Component {
           <hr></hr>
 
           <div className='projectDiv'>
-            <h2 className='sketchItHeader'>UB Hacking 2018</h2>
+            <h3 className='hackathonProjectTitle'>UB Hacking 2018</h3>
             <a href='https://ubhacking2018.herokuapp.com'><img src={SketchItLogo} id="Sketchit"></img></a>
           </div>
 
-          <p className='hackathonParagraph'>Awarded third place prize out of over 50+ projects</p>
+          <div className='awardsDiv' id='ubAward'>
+            <FontAwesome className='hackathonAwardIcon' name='trophy'/>
+            <p className='awardParagraph'>Awarded third place prize out of over 50+ projects</p>
+          </div>
 
           <hr></hr>
 
           <div className='projectDiv'>
-            <h2 className='sketchItHeader'>Dandy Hacks 2018</h2>
+            <h3 className='hackathonProjectTitle'>Dandy Hacks 2018</h3>
             <a href='https://dandy-hacks.herokuapp.com/'><img src={WhipLogo} id="Whip"></img></a>
           </div>
 
-          <p className='hackathonParagraph'>Awarded best use of multiple APIs</p>
-          <p className='hackathonParagraph'>Awarded best use of Google Cloud Platform</p>
+          <div className='awardsDiv'>
+            <FontAwesome className='hackathonAwardIcon' name='trophy'/>
+            <p className='awardParagraph'>Awarded best use of multiple APIs</p>
+          </div>
+
+          <div className='awardsDiv'>
+            <FontAwesome className='hackathonAwardIcon' name='trophy'/>
+            <p className='awardParagraph'>Awarded best use of Google Cloud Platform</p>
+          </div>
+
+
+
 
 
         </div>
