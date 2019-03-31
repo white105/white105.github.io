@@ -54,6 +54,13 @@ class Research extends Component {
             of Roland Haas (Ph.D. Physics) and Eliu Huerta (Ph.D. Theoretical Astrophysics) I was able to improve my understanding
             of advanced physics and astrophysics while simultaneously exercising my computational skillset as an engineer.</p>
 
+
+        <div className='youtubeVideos'>
+          <iframe className='youtubeIframe' width="560" height="315" src="https://www.youtube.com/embed/P__KP0TG3U0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p className='researchParagraph'>I plan to continue my research during my free time while streaming on twitch / youtube. I realized from this summer that
+          I hadn't even scratched the surface of general relativity and digital signal processing and I'm interested in learning more about both topics.</p>
+        </div>
+
       </div>
     );
   }
