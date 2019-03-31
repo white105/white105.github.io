@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.1f90588e.css",
-  "main.css.map": "static/css/main.1f90588e.css.map",
-  "main.js": "static/js/main.e0b55499.js",
-  "main.js.map": "static/js/main.e0b55499.js.map",
+  "main.css": "static/css/main.234a5b52.css",
+  "main.css.map": "static/css/main.234a5b52.css.map",
+  "main.js": "static/js/main.b52ba021.js",
+  "main.js.map": "static/js/main.b52ba021.js.map",
   "static/media/MeemzIO.png": "static/media/MeemzIO.3b2509b4.png",
   "static/media/bar-tabs.png": "static/media/bar-tabs.ceadc86d.png",
   "static/media/barstoolsports-logo.png": "static/media/barstoolsports-logo.81ae53e2.png",
@@ -24,5 +24,6 @@
   "static/media/turtlebot.mp4": "static/media/turtlebot.5788b6e0.mp4",
   "static/media/ubhacking1.jpg": "static/media/ubhacking1.1679e584.jpg",
   "static/media/ubhacking2.jpg": "static/media/ubhacking2.fa6fe8fe.jpg",
+  "static/media/whipLogo.png": "static/media/whipLogo.a3219ae9.png",
   "static/media/wip_logo.png": "static/media/wip_logo.7fcb048d.png"
 }
