@@ -8,6 +8,7 @@ import 'react-github-cards/dist/default.css';
 import GPACalculator from '../GPACalculator/index.js'
 import Chess from '../Chess/index.js'
 import Noogle from '../Noogle/index.js'
+import BlockChain from '../../assets/hackathon-pics/blockchainub.png'
 
 
 class Projects extends Component {
@@ -33,6 +34,13 @@ class Projects extends Component {
         <div className='projectDiv'>
           <h2 className='turtlebotHeader'>Meemz.io</h2>
          <a href='https://meemz-io.herokuapp.com/'><img src={MeemzIO} id="MeemzIO"></img></a>
+        </div>
+
+        <hr></hr>
+
+        <div className='projectDiv'>
+          <h2 className='turtlebotHeader'>UB Blockchain Buildathon Website</h2>
+         <a href='https://www.hackbuf.com/'><img src={BlockChain} id="MeemzIO"></img></a>
         </div>
 
         <hr></hr>
