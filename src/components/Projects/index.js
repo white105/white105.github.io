@@ -2,14 +2,16 @@ import React, { Component } from 'react';
 import { UserCard, RepoCard } from 'react-github-cards';
 import { Carousel } from 'react-responsive-carousel';
 import NoogleLogo from '../../assets/media/newGoogle.png'
-import MeemzIO from '../../assets/hackathon-pics/MeemzIO.png'
+import MeemzIO from '../../assets/projects-assets/MeemzIO.png'
 import { Link } from 'react-router-dom';
 import 'react-github-cards/dist/default.css';
-import GPACalculator from '../GPACalculator/index.js'
+import GPACalculator from '../../assets/projects-assets/rubric-calculator.png'
 import Chess from '../Chess/index.js'
-import Noogle from '../Noogle/index.js'
-import BlockChain from '../../assets/hackathon-pics/blockchainub.png'
-
+import Noogle from '../../assets/projects-assets/noogle.png'
+import BlockChain from '../../assets/projects-assets/blockchainub.png'
+import BlockChainCrypto from '../../assets/projects-assets/backyard-crypto.png'
+import SketchItLogo from '../../assets/hackathon-pics/sketchit.png'
+import WhipLogo from '../../assets/hackathon-pics/whipLogo.png'
 
 class Projects extends Component {
 
@@ -31,16 +33,41 @@ class Projects extends Component {
 
         <hr></hr>
 
-        <div className='projectDiv'>
-          <h2 className='turtlebotHeader'>Meemz.io</h2>
-         <a href='https://meemz-io.herokuapp.com/'><img src={MeemzIO} id="MeemzIO"></img></a>
+        <h2>Software Projects 2019</h2>
+
+        <div className='projectRow'>
+          <div className='projectDiv'>
+            <h2 className='turtlebotHeader'>Backyard Crypto - Freelance</h2>
+            <a href='https://meemz-io.herokuapp.com/'><img src={BlockChainCrypto} id="MeemzIO"></img></a>
+          </div>
         </div>
 
         <hr></hr>
 
-        <div className='projectDiv'>
-          <h2 className='turtlebotHeader'>UB Blockchain Buildathon Website</h2>
-         <a href='https://www.hackbuf.com/'><img src={BlockChain} id="MeemzIO"></img></a>
+        <h2>Software Projects 2018</h2>
+
+        <div className='projectRow'>
+          <div className='projectDiv'>
+            <h2 className='turtlebotHeader'>Meemz.io</h2>
+           <a href='https://meemz-io.herokuapp.com/'><img src={MeemzIO} id="MeemzIO"></img></a>
+          </div>
+
+          <div className='projectDiv'>
+            <h2 className='turtlebotHeader'>UB Blockchain Buildathon Website</h2>
+           <a href='https://www.hackbuf.com/'><img src={BlockChain} id="MeemzIO"></img></a>
+          </div>
+        </div>
+
+        <div className='projectRow'>
+          <div className='projectDiv'>
+            <h3 className='hackathonProjectTitle'>UB Hacking 2018</h3>
+            <a href='https://ubhacking2018.herokuapp.com'><img src={SketchItLogo} id="Sketchit"></img></a>
+          </div>
+
+          <div className='projectDiv'>
+            <h3 className='hackathonProjectTitle'>Dandy Hacks 2018</h3>
+            <a href='https://dandy-hacks.herokuapp.com/'><img src={WhipLogo} id="Whip"></img></a>
+          </div>
         </div>
 
         <hr></hr>
@@ -62,14 +89,19 @@ class Projects extends Component {
 
          <hr></hr>
 
-         <GPACalculator></GPACalculator>
+         <h2>Software Projects 2017</h2>
 
-         <hr></hr>
+         <div className='projectRow'>
+           <div className='projectDiv'>
+             <h2 className='turtlebotHeader'>Noogle</h2>
+             <a href='https://www.hackbuf.com/'><img src={Noogle} id="MeemzIO"></img></a>
+           </div>
 
-         <div className='noogleContainer'>
-          <Link to='/projects/noogle'><img src={NoogleLogo} id="projectNoogle"></img></Link>
+           <div className='projectDiv'>
+            <h2 className='turtlebotHeader'>GPA Calculator</h2>
+            <Link to='/projects/gpa-calculator'><img src={GPACalculator} id="MeemzIO"></img></Link>
+           </div>
          </div>
-
 
       </div>
     );

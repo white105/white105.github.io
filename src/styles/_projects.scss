@@ -51,6 +51,19 @@
    margin: auto;
  }
 */
+
+.projectsContainer {
+  position: relative;
+  width: 100%;
+}
+
+.projectRow {
+  width: 90%;
+  display: flex;
+  justify-content:space-between;
+  margin: auto;
+}
+
 .noogleContainer {
   width: 40rem;
   height: 20rem;
@@ -63,3 +76,7 @@
   width: 400px;
   height: 250px;
 }
+
+ .githubProjectsDiv {
+   width: 60rem;
+ }

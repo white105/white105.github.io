@@ -14,6 +14,7 @@ import Services from '../../components/Services/index.js';
 import Contact from '../../components/Contact/index.js';
 import Expirience from '../../components/Expirience/index.js';
 import Noogle from '../../components/Noogle/index.js';
+import GPACalculator from '../../components/GPACalculator/index.js';
 
 import FontAwesome from 'react-fontawesome';
 
@@ -36,6 +37,7 @@ function Container({ location }) {
           <Route exact path="/articles" component={Articles} />
           <Route exact path="/design" component={Design} />
           <Route exact path="/projects/noogle" component={Noogle} />
+          <Route exact path="/projects/gpa-calculator" component={GPACalculator} />
         </div>
 
         </CSSTransition>

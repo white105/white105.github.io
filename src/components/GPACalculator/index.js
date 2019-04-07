@@ -7,7 +7,7 @@ class GPACalculator extends Component {
 
     this.state = {
       total_gpa : 0,
-      num_rows: 1
+      num_rows: 5
     }
 
     this.addClass = this.addClass.bind(this)
