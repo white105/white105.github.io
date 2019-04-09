@@ -38,7 +38,12 @@ class Projects extends Component {
         <div className='projectRow'>
           <div className='projectDiv'>
             <h2 className='turtlebotHeader'>Backyard Crypto - Freelance</h2>
-            <a href='https://meemz-io.herokuapp.com/'><img src={BlockChainCrypto} id="MeemzIO"></img></a>
+            <a href='https://backyardcrypto.com/'><img src={BlockChainCrypto} id="MeemzIO"></img></a>
+          </div>
+
+          <div className='projectDiv'>
+            <h2 className='turtlebotHeader'>Meemz.io</h2>
+           <a href='https://meemz-io.herokuapp.com/'><img src={MeemzIO} id="MeemzIO"></img></a>
           </div>
         </div>
 
@@ -46,18 +51,11 @@ class Projects extends Component {
 
         <h2>Software Projects 2018</h2>
 
-        <div className='projectRow'>
-          <div className='projectDiv'>
-            <h2 className='turtlebotHeader'>Meemz.io</h2>
-           <a href='https://meemz-io.herokuapp.com/'><img src={MeemzIO} id="MeemzIO"></img></a>
-          </div>
-
-          <div className='projectDiv'>
-            <h2 className='turtlebotHeader'>UB Blockchain Buildathon Website</h2>
-           <a href='https://www.hackbuf.com/'><img src={BlockChain} id="MeemzIO"></img></a>
-          </div>
+        <div className='projectDiv'>
+          <h2 className='turtlebotHeader'>UB Blockchain Buildathon Website</h2>
+         <a href='https://www.hackbuf.com/'><img src={BlockChain} id="MeemzIO"></img></a>
         </div>
-
+        
         <div className='projectRow'>
           <div className='projectDiv'>
             <h3 className='hackathonProjectTitle'>UB Hacking 2018</h3>
