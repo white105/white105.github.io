@@ -55,7 +55,7 @@ class Projects extends Component {
           <h2 className='turtlebotHeader'>UB Blockchain Buildathon Website</h2>
          <a href='https://www.hackbuf.com/'><img src={BlockChain} id="MeemzIO"></img></a>
         </div>
-        
+
         <div className='projectRow'>
           <div className='projectDiv'>
             <h3 className='hackathonProjectTitle'>UB Hacking 2018</h3>
@@ -92,7 +92,7 @@ class Projects extends Component {
          <div className='projectRow'>
            <div className='projectDiv'>
              <h2 className='turtlebotHeader'>Noogle</h2>
-             <a href='https://www.hackbuf.com/'><img src={Noogle} id="MeemzIO"></img></a>
+             <a href='https://noogle-app.herokuapp.com/'><img src={Noogle} id="MeemzIO"></img></a>
            </div>
 
            <div className='projectDiv'>
