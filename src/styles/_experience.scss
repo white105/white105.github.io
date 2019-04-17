@@ -1,6 +1,6 @@
 .expirienceContainer {
   width: 60rem;
-  height: 220rem;
+  height: 275rem;
   margin: auto;
 }
 
@@ -33,6 +33,11 @@
   transform: scale(1.2);
   transition: 1s ease;
   cursor: pointer;
+}
+
+#backyard-crypto {
+  background: #2988FA;
+  color: white;
 }
 
 #horizn-consulting {

@@ -9,6 +9,30 @@ class Expirience extends Component {
 
         <div className='employmentContainer'>
 
+          <div className='employmentRow' id='backyard-crypto'>
+
+            <h3 className='employerCompany'>Backyard Crypto</h3>
+
+            <div className='job-info'>
+              <div className='employer-logo-container'>
+                <img className='employment-logo' src={require('../../assets/employment-logos/backyard-logo.png')}></img>
+              </div>
+              <div className='sub-job-info'>
+              <h4 className='jobTitle'>Freelance Software Developer</h4>
+              <h4 className='jobLocation'>Buffalo, New York &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; April 2019 - Present</h4>
+
+              </div>
+
+            </div>
+
+            <div className='employmentDetails'>
+              <p className='employment-details'>-Helping re-architect entire code base from the ground up using Ruby on Rails and React</p>
+              <p className='employment-details'>-Working with deployment to Amazon Web Services</p>
+              <p className='employment-details'>-Containerizing applications with Docker to ensure a consistent development environment with fellow team members</p>
+            </div>
+
+          </div>
+
           <div className='employmentRow' id='horizn-consulting'>
 
             <h3 className='employerCompany'>Horizns Consulting</h3>

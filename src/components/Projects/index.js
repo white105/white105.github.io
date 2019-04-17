@@ -12,6 +12,7 @@ import BlockChain from '../../assets/projects-assets/blockchainub.png'
 import BlockChainCrypto from '../../assets/projects-assets/backyard-crypto.png'
 import SketchItLogo from '../../assets/hackathon-pics/sketchit.png'
 import WhipLogo from '../../assets/hackathon-pics/whipLogo.png'
+import CodeComp from '../../assets/projects-assets/codecomp.png'
 
 class Projects extends Component {
 
@@ -34,6 +35,11 @@ class Projects extends Component {
         <hr></hr>
 
         <h2>Software Projects 2019</h2>
+
+        <div className='projectDiv'>
+          <h2 className='turtlebotHeader'>codecomp</h2>
+          <a href='https://backyardcrypto.com/'><img src={CodeComp} id="MeemzIO"></img></a>
+        </div>
 
         <div className='projectRow'>
           <div className='projectDiv'>
