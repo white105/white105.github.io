@@ -1004,15 +1004,16 @@ body a:hover {
   }
 
   .employmentRow {
-    height: 11rem;
+    margin: auto;
     flex: 1;
-    height: 5rem;
+    margin-top: 5rem;
     /*background: #C8C8C8;*/
     border-bottom: 2px solid rgb(73, 110, 178, .9);
     border-right: 2px solid rgb(73, 110, 178, .9);
     border-left: 2px solid rgb(73, 110, 178, .9);
     color: black;
     padding: .5rem;
+    overflow: hidden;
   }
 
   #top-employment-row {
@@ -1026,7 +1027,7 @@ body a:hover {
   }
 
   .jobTitle {
-    font-size: 1rem;
+    font-size: .8rem;
   }
 
   .employerCompany {
@@ -1040,18 +1041,48 @@ body a:hover {
     text-align: left;
   }
 
+  .job-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+  }
+
+  .employer-logo-container {
+    margin: auto;
+    margin-top: 1rem;
+  }
+
 
   .employment-logo {
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 5rem;
+    height: 5rem;
+    margin: auto;
     border: 1px solid #333;
     border-radius: .5rem;
-      flex: 1;
   }
+
 
   .employment-details {
     flex: 3;
     font-size: .7rem;
+  }
+
+  .employmentDetails {
+    display: none;
+  }
+
+  .sub-job-info {
+    flex: 1;
+  }
+
+  .jobTitle {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .jobLocation {
+    text-align: center;
   }
   /******Expirience Media Queries****/
 

@@ -14,13 +14,14 @@ class Expirience extends Component {
             <h3 className='employerCompany'>Backyard Crypto</h3>
 
             <div className='job-info'>
+
               <div className='employer-logo-container'>
                 <img className='employment-logo' src={require('../../assets/employment-logos/backyard-logo.png')}></img>
               </div>
-              <div className='sub-job-info'>
-              <h4 className='jobTitle'>Freelance Software Developer</h4>
-              <h4 className='jobLocation'>Buffalo, New York &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; April 2019 - Present</h4>
 
+              <div className='sub-job-info'>
+                <h4 className='jobTitle'>Freelance Software Developer</h4>
+                <h4 className='jobLocation'>Buffalo, New York &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; April 2019 - Present</h4>
               </div>
 
             </div>
