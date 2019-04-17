@@ -13,6 +13,8 @@ import BlockChainCrypto from '../../assets/projects-assets/backyard-crypto.png'
 import SketchItLogo from '../../assets/hackathon-pics/sketchit.png'
 import WhipLogo from '../../assets/hackathon-pics/whipLogo.png'
 import CodeComp from '../../assets/projects-assets/codecomp.png'
+import OneDentalMatch from '../../assets/projects-assets/odm.png'
+import BarTabs from '../../assets/projects-assets/bar-tabs.png'
 
 class Projects extends Component {
 
@@ -57,10 +59,35 @@ class Projects extends Component {
 
         <h2>Software Projects 2018</h2>
 
-        <div className='projectDiv'>
-          <h2 className='turtlebotHeader'>UB Blockchain Buildathon Website</h2>
-         <a href='https://www.hackbuf.com/'><img src={BlockChain} id="MeemzIO"></img></a>
+
+
+        <div className='mobileProjectRow'>
+          <div className='projectDiv'>
+            <h2 className='turtlebotHeader'>One Dental Match</h2>
+            <img src={OneDentalMatch} id="OneDentalMatch"></img>
+          </div>
+
+          <div className='projectDiv'>
+            <h2 className='turtlebotHeader'>Bar Tabs</h2>
+            <img src={BarTabs} id="OneDentalMatch"></img>
+          </div>
+
         </div>
+
+        <div className='projectRow'>
+          <div className='projectDiv'>
+            <h2 className='turtlebotHeader'>UB Blockchain Buildathon Website</h2>
+           <a href='https://www.hackbuf.com/'><img src={BlockChain} id="MeemzIO"></img></a>
+          </div>
+
+          <div className='projectDiv'>
+            <h2 className='turtlebotHeader'>UB Blockchain Buildathon Website</h2>
+           <a href='https://www.hackbuf.com/'><img src={BlockChain} id="MeemzIO"></img></a>
+          </div>
+        </div>
+
+
+
 
         <div className='projectRow'>
           <div className='projectDiv'>

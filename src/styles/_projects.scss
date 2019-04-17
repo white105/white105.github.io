@@ -62,6 +62,15 @@
   display: flex;
   justify-content:space-between;
   margin: auto;
+  margin-top: 2rem;
+}
+
+.mobileProjectRow {
+  width: 50%;
+  display: flex;
+  justify-content:space-between;
+  margin: auto;
+  margin-top: 2rem;
 }
 
 .noogleContainer {
@@ -80,3 +89,9 @@
  .githubProjectsDiv {
    width: 60rem;
  }
+
+#OneDentalMatch {
+  width: 20rem;
+  height: 32rem;
+  border: 1px solid #ccc;
+}
