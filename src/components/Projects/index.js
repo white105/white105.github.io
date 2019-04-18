@@ -33,11 +33,16 @@ class Projects extends Component {
           </div>
           <div className='projectsColumn' id='projectsColumn2'>
             <RepoCard username="white105" repo="white105.github.io" className='githubRepo' />
-            <RepoCard username="white105" repo="react-gpa" className='githubRepo' />
+            <RepoCard username="white105" repo="stanford-algorithms" className='githubRepo' />
+          </div>
+          <div className='projectsColumn' id='projectsColumn2'>
+            <RepoCard username="white105" repo="csc-395" className='githubRepo' />
+            <RepoCard username="white105" repo="meemz-io" className='githubRepo' />
           </div>
         </div>
 
-        <div id="projectsBackground">
+        <hr></hr>
+
         <div className='projectRow'>
           <div className='projectDiv'>
             <h2 className='turtlebotHeader'>codecomp</h2>
@@ -112,9 +117,7 @@ class Projects extends Component {
            </div>
          </div>
 
-
-        </div>
-
+         <hr></hr>
 
 
 
