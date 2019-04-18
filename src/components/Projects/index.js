@@ -5,7 +5,8 @@ import NoogleLogo from '../../assets/media/newGoogle.png'
 import MeemzIO from '../../assets/projects-assets/MeemzIO.png'
 import { Link } from 'react-router-dom';
 import 'react-github-cards/dist/default.css';
-import GPACalculator from '../../assets/projects-assets/rubric-calculator.png'
+import GPACalculator from '../../assets/projects-assets/gpa-calculator.png'
+import RubricCalculator from '../../assets/projects-assets/Rubric-Calculator.png'
 import Chess from '../Chess/index.js'
 import Noogle from '../../assets/projects-assets/noogle.png'
 import BlockChain from '../../assets/projects-assets/blockchainub.png'
@@ -40,7 +41,7 @@ class Projects extends Component {
 
         <div className='projectDiv'>
           <h2 className='turtlebotHeader'>codecomp</h2>
-          <a href='https://backyardcrypto.com/'><img src={CodeComp} id="MeemzIO"></img></a>
+          <a href=''><img src={CodeComp} id="MeemzIO"></img></a>
         </div>
 
         <div className='projectRow'>
@@ -81,8 +82,8 @@ class Projects extends Component {
           </div>
 
           <div className='projectDiv'>
-            <h2 className='turtlebotHeader'>UB Blockchain Buildathon Website</h2>
-           <a href='https://www.hackbuf.com/'><img src={BlockChain} id="MeemzIO"></img></a>
+            <h2 className='turtlebotHeader'>Canisius College Grading Software</h2>
+           <a href='https://rubric-calculator.herokuapp.com/'><img src={RubricCalculator} id="MeemzIO"></img></a>
           </div>
         </div>
 
