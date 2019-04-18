@@ -37,11 +37,28 @@ class Projects extends Component {
 
         <hr></hr>
 
-        <h2>Software Projects 2019</h2>
 
-        <div className='projectDiv'>
-          <h2 className='turtlebotHeader'>codecomp</h2>
-          <a href=''><img src={CodeComp} id="MeemzIO"></img></a>
+
+        <div className='projectRow'>
+          <div className='projectDiv'>
+            <h2 className='turtlebotHeader'>codecomp</h2>
+            <a href=''><img src={CodeComp} id="MeemzIO"></img></a>
+          </div>
+
+          <div className='mobileProjectRow'>
+            <div className='mobileProjectDiv'>
+              <h2 className='turtlebotHeader'>One Dental Match</h2>
+              <img src={OneDentalMatch} id="OneDentalMatch"></img>
+            </div>
+
+            <div className='mobileProjectDiv'>
+              <h2 className='turtlebotHeader'>Bar Tabs</h2>
+              <img src={BarTabs} id="OneDentalMatch"></img>
+            </div>
+
+          </div>
+
+          
         </div>
 
         <div className='projectRow'>
@@ -54,25 +71,6 @@ class Projects extends Component {
             <h2 className='turtlebotHeader'>Meemz.io</h2>
            <a href='https://meemz-io.herokuapp.com/'><img src={MeemzIO} id="MeemzIO"></img></a>
           </div>
-        </div>
-
-        <hr></hr>
-
-        <h2>Software Projects 2018</h2>
-
-
-
-        <div className='mobileProjectRow'>
-          <div className='projectDiv'>
-            <h2 className='turtlebotHeader'>One Dental Match</h2>
-            <img src={OneDentalMatch} id="OneDentalMatch"></img>
-          </div>
-
-          <div className='projectDiv'>
-            <h2 className='turtlebotHeader'>Bar Tabs</h2>
-            <img src={BarTabs} id="OneDentalMatch"></img>
-          </div>
-
         </div>
 
         <div className='projectRow'>
@@ -102,6 +100,22 @@ class Projects extends Component {
           </div>
         </div>
 
+
+         <div className='projectRow'>
+           <div className='projectDiv'>
+             <h2 className='turtlebotHeader'>Noogle</h2>
+             <a href='https://noogle-app.herokuapp.com/'><img src={Noogle} id="MeemzIO"></img></a>
+           </div>
+
+           <div className='projectDiv'>
+            <h2 className='turtlebotHeader'>GPA Calculator</h2>
+            <Link to='/projects/gpa-calculator'><img src={GPACalculator} id="MeemzIO"></img></Link>
+           </div>
+         </div>
+
+
+
+
         <hr></hr>
 
 
@@ -119,21 +133,6 @@ class Projects extends Component {
          I then worked through ROS tutorials and implemented mapping and navigation. Our research team consisted of four people and including myself, my classmate,
          and two professors.</p>
 
-         <hr></hr>
-
-         <h2>Software Projects 2017</h2>
-
-         <div className='projectRow'>
-           <div className='projectDiv'>
-             <h2 className='turtlebotHeader'>Noogle</h2>
-             <a href='https://noogle-app.herokuapp.com/'><img src={Noogle} id="MeemzIO"></img></a>
-           </div>
-
-           <div className='projectDiv'>
-            <h2 className='turtlebotHeader'>GPA Calculator</h2>
-            <Link to='/projects/gpa-calculator'><img src={GPACalculator} id="MeemzIO"></img></Link>
-           </div>
-         </div>
 
       </div>
     );

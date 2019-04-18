@@ -66,11 +66,15 @@
 }
 
 .mobileProjectRow {
-  width: 50%;
   display: flex;
   justify-content:space-between;
   margin: auto;
-  margin-top: 2rem;
+
+  .mobileProjectDiv {
+    width: 10rem;
+    height: 10rem;
+    background: red;
+  }
 }
 
 .noogleContainer {
@@ -91,7 +95,7 @@
  }
 
 #OneDentalMatch {
-  width: 20rem;
-  height: 32rem;
+  width: 16rem;
+  height: 27.5rem;
   border: 1px solid #ccc;
 }
