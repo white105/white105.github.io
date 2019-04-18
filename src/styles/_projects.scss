@@ -67,13 +67,16 @@
 
 .mobileProjectRow {
   display: flex;
-  justify-content:space-between;
+  justify-content:space-around;
+  flex: 1;
   margin: auto;
+  margin-left: 10rem;
 
   .mobileProjectDiv {
     width: 10rem;
     height: 10rem;
     background: red;
+    flex: 1;
   }
 }
 
@@ -95,7 +98,14 @@
  }
 
 #OneDentalMatch {
-  width: 16rem;
-  height: 27.5rem;
-  border: 1px solid #ccc;
+  width: 13rem;
+  height: 22rem;
+  border: 3px solid white;
+  border: 3px solid #ccc;
+}
+
+#projectsBackground {
+  background: rgb(73, 110, 178);
+  color: white;
+  padding: 1rem;
 }

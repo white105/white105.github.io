@@ -16,6 +16,8 @@ import WhipLogo from '../../assets/hackathon-pics/whipLogo.png'
 import CodeComp from '../../assets/projects-assets/codecomp.png'
 import OneDentalMatch from '../../assets/projects-assets/odm.png'
 import BarTabs from '../../assets/projects-assets/bar-tabs.png'
+import MeemzIOGame from '../../assets/projects-assets/meemz-io-game.png'
+import SketchItGame from '../../assets/projects-assets/sketch-it-game.png'
 
 class Projects extends Component {
 
@@ -35,10 +37,7 @@ class Projects extends Component {
           </div>
         </div>
 
-        <hr></hr>
-
-
-
+        <div id="projectsBackground">
         <div className='projectRow'>
           <div className='projectDiv'>
             <h2 className='turtlebotHeader'>codecomp</h2>
@@ -58,7 +57,7 @@ class Projects extends Component {
 
           </div>
 
-          
+
         </div>
 
         <div className='projectRow'>
@@ -69,7 +68,7 @@ class Projects extends Component {
 
           <div className='projectDiv'>
             <h2 className='turtlebotHeader'>Meemz.io</h2>
-           <a href='https://meemz-io.herokuapp.com/'><img src={MeemzIO} id="MeemzIO"></img></a>
+           <a href='https://meemz-io.herokuapp.com/'><img src={MeemzIOGame} id="MeemzIO"></img></a>
           </div>
         </div>
 
@@ -90,12 +89,12 @@ class Projects extends Component {
 
         <div className='projectRow'>
           <div className='projectDiv'>
-            <h3 className='hackathonProjectTitle'>UB Hacking 2018</h3>
-            <a href='https://ubhacking2018.herokuapp.com'><img src={SketchItLogo} id="Sketchit"></img></a>
+            <h3 className='turtlebotHeader'>UB Hacking 2018</h3>
+            <a href='https://ubhacking2018.herokuapp.com'><img src={SketchItGame} id="Sketchit"></img></a>
           </div>
 
           <div className='projectDiv'>
-            <h3 className='hackathonProjectTitle'>Dandy Hacks 2018</h3>
+            <h3 className='turtlebotHeader'>Dandy Hacks 2018</h3>
             <a href='https://dandy-hacks.herokuapp.com/'><img src={WhipLogo} id="Whip"></img></a>
           </div>
         </div>
@@ -114,9 +113,9 @@ class Projects extends Component {
          </div>
 
 
+        </div>
 
 
-        <hr></hr>
 
 
         <h2 className='turtlebotHeader'>Turtlebot Robotics 2017</h2>
