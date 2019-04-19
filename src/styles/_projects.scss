@@ -54,6 +54,9 @@
 
 .projectsContainer {
   position: relative;
+  width: 80%;
+  height: 100%;
+  margin: auto;
   width: 100%;
 }
 
@@ -63,6 +66,80 @@
   justify-content:space-between;
   margin: auto;
   margin-top: 2rem;
+}
+
+.project {
+  width: 40rem;
+  height: 30rem;
+  background: #F1F3F2;
+}
+
+.projectImage {
+  height: 30rem;
+  width: 40rem;
+  background: #F1F3F2;
+}
+
+.mobileProject {
+  height: 30rem;
+  width: 40rem;
+  background: white;
+  background: #F1F3F2;
+}
+
+.mobileProjectImage {
+  height: 25rem;
+  width: 12rem;
+  margin: auto;
+  margin-top: 2.5rem;
+}
+
+.project_img__description {
+  position: absolute;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 2s, visibility 2s;
+}
+
+.imageDirections {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #007bb6;
+}
+
+#project_img_bottom_description {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#project_img_top_description {
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#project_img_left_description {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#project_img_right_description {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .mobileProjectRow {
@@ -110,4 +187,11 @@
   background: #282c34;
   color: white;
   padding: 1rem;
+}
+
+.projectsDiv:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
 }

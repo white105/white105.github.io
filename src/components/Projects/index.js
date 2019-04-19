@@ -18,6 +18,33 @@ import OneDentalMatch from '../../assets/projects-assets/odm.png'
 import BarTabs from '../../assets/projects-assets/bar-tabs.png'
 import MeemzIOGame from '../../assets/projects-assets/meemz-io-game.png'
 import SketchItGame from '../../assets/projects-assets/sketch-it-game.png'
+import BackyardCryptoProjectImage from '../../assets/projects-assets/backyard-project-image.png'
+import UBProjectImage from '../../assets/projects-assets/ub-project-image.png'
+import CanisiusProjectImage from '../../assets/projects-assets/canisius-project-image.png'
+import BarTabsProjectImage from '../../assets/projects-assets/bar-tabs-project-image.png'
+import ODMMobileProjectImage from '../../assets/projects-assets/odm-mobile-project-image.png'
+import ODMWebProjectImage from '../../assets/projects-assets/odm-web-project-image.png'
+import BarstoolProjectImage from '../../assets/projects-assets/barstool-project-image.png'
+
+/*
+
+<div className='githubProjectsDiv'>
+  <div className='projectsColumn' id='projectsColumn1'>
+    <RepoCard username="white105" repo="DandyHacks" className='githubRepo' />
+    <RepoCard username="white105" repo="Rubric-Calculator" className='githubRepo' />
+  </div>
+  <div className='projectsColumn' id='projectsColumn2'>
+    <RepoCard username="white105" repo="white105.github.io" className='githubRepo' />
+    <RepoCard username="white105" repo="stanford-algorithms" className='githubRepo' />
+  </div>
+  <div className='projectsColumn' id='projectsColumn2'>
+    <RepoCard username="white105" repo="csc-395" className='githubRepo' />
+    <RepoCard username="white105" repo="meemz-io" className='githubRepo' />
+  </div>
+</div>
+
+        <hr></hr>
+*/
 
 class Projects extends Component {
 
@@ -25,97 +52,49 @@ class Projects extends Component {
     return (
       <div className='projectsContainer'>
 
-
-        <div className='githubProjectsDiv'>
-          <div className='projectsColumn' id='projectsColumn1'>
-            <RepoCard username="white105" repo="DandyHacks" className='githubRepo' />
-            <RepoCard username="white105" repo="Rubric-Calculator" className='githubRepo' />
-          </div>
-          <div className='projectsColumn' id='projectsColumn2'>
-            <RepoCard username="white105" repo="white105.github.io" className='githubRepo' />
-            <RepoCard username="white105" repo="stanford-algorithms" className='githubRepo' />
-          </div>
-          <div className='projectsColumn' id='projectsColumn2'>
-            <RepoCard username="white105" repo="csc-395" className='githubRepo' />
-            <RepoCard username="white105" repo="meemz-io" className='githubRepo' />
-          </div>
-        </div>
-
-        <hr></hr>
-
         <div className='projectRow'>
-          <div className='projectDiv'>
-            <h2 className='turtlebotHeader'>codecomp</h2>
-            <a href=''><img src={CodeComp} id="MeemzIO"></img></a>
-          </div>
+          <div className='project'>
+            <a href='https://backyardcrypto.com/'><img className='projectImage' src={BackyardCryptoProjectImage}></img></a>
 
-          <div className='mobileProjectRow'>
-            <div className='mobileProjectDiv'>
-              <h2 className='turtlebotHeader'>One Dental Match</h2>
-              <img src={OneDentalMatch} id="OneDentalMatch"></img>
-            </div>
-
-            <div className='mobileProjectDiv'>
-              <h2 className='turtlebotHeader'>Bar Tabs</h2>
-              <img src={BarTabs} id="OneDentalMatch"></img>
+            <div className="project_img__description" id='img_bottom_description'>
+              <p className='photoText'>This is a group photo of my teamates Michael Henry, Daniel Kiselev, and I during the second half of Dandy Hacks. Unfortunately our other team member Yipeng Zhang wasn't around for the picture, but he is certainly included in our presentational picture on the next slide.</p>
+              <p className='photoText'>Michael Henry and Daniel Kiselev are both seniors at the University of Rochester graduating in May of 2019 with Bachelors degrees in Computer Science. Yipeng Zhang is currently a sophomore at the University of Rochester expected to graduate with a degree in both Mathematics and Computer Science in 2021.</p>
+              <p className='photoText'>When I planned to come to Dandy Hacks, I came with the intention of winning an award after my first hackathon resulted in a loss the prior week. When I arrived I asked many teams if I could join, but there wasn't really a good fit for me anywhere. After talking to about twenty different teams I found Mike and Dan.
+              They said they were interested in trying to win an award and they already had the cool idea for our project. To make things easier on our team we decided to look for one more member. Yipeng was the first person I talked to and while he didn't have any prior javascript experience, he definitely seemed like a smart kid.</p>
+              <p className='photoText'>I never expected our team to do as well as we did. We all got along great and it was the most fun I've had at a hackathon so far. It was the perfect balance of work and fun which is exactly what a hackathon is supposed to be.</p>
+              <p className='photoText'>The next slide shows a picture of us giving a demo of our project "Whip" at the end of Dandy Hacks. It will also provide a description of the project as well as a link to the demo.</p>
             </div>
 
           </div>
 
+          <div className='project'>
+           <a href='https://rubric-calculator.herokuapp.com/'><img className='projectImage' src={ODMMobileProjectImage}></img></a>
+          </div>
+
 
         </div>
 
         <div className='projectRow'>
-          <div className='projectDiv'>
-            <h2 className='turtlebotHeader'>Backyard Crypto - Freelance</h2>
-            <a href='https://backyardcrypto.com/'><img src={BlockChainCrypto} id="MeemzIO"></img></a>
+          <div className='mobileProject'>
+           <a href='https://www.hackbuf.com/'><img className='mobileProjectImage' src={BarTabsProjectImage}></img></a>
           </div>
 
-          <div className='projectDiv'>
-            <h2 className='turtlebotHeader'>Meemz.io</h2>
-           <a href='https://meemz-io.herokuapp.com/'><img src={MeemzIOGame} id="MeemzIO"></img></a>
+          <div className='project'>
+           <a href='https://rubric-calculator.herokuapp.com/'><img className='projectImage' src={UBProjectImage}></img></a>
           </div>
         </div>
 
         <div className='projectRow'>
-          <div className='projectDiv'>
-            <h2 className='turtlebotHeader'>UB Blockchain Buildathon Website</h2>
-           <a href='https://www.hackbuf.com/'><img src={BlockChain} id="MeemzIO"></img></a>
+          <div className='project'>
+            <a href='https://rubric-calculator.herokuapp.com/'><img className='projectImage' src={ODMWebProjectImage}></img></a>
           </div>
 
-          <div className='projectDiv'>
-            <h2 className='turtlebotHeader'>Canisius College Grading Software</h2>
-           <a href='https://rubric-calculator.herokuapp.com/'><img src={RubricCalculator} id="MeemzIO"></img></a>
+          <div className='project'>
+           <a href='https://rubric-calculator.herokuapp.com/'><img className='projectImage' src={BarstoolProjectImage}></img></a>
           </div>
         </div>
 
 
-
-
-        <div className='projectRow'>
-          <div className='projectDiv'>
-            <h3 className='turtlebotHeader'>UB Hacking 2018</h3>
-            <a href='https://ubhacking2018.herokuapp.com'><img src={SketchItGame} id="Sketchit"></img></a>
-          </div>
-
-          <div className='projectDiv'>
-            <h3 className='turtlebotHeader'>Dandy Hacks 2018</h3>
-            <a href='https://dandy-hacks.herokuapp.com/'><img src={WhipLogo} id="Whip"></img></a>
-          </div>
-        </div>
-
-
-         <div className='projectRow'>
-           <div className='projectDiv'>
-             <h2 className='turtlebotHeader'>Noogle</h2>
-             <a href='https://noogle-app.herokuapp.com/'><img src={Noogle} id="MeemzIO"></img></a>
-           </div>
-
-           <div className='projectDiv'>
-            <h2 className='turtlebotHeader'>GPA Calculator</h2>
-            <Link to='/projects/gpa-calculator'><img src={GPACalculator} id="MeemzIO"></img></Link>
-           </div>
-         </div>
 
          <hr></hr>
 
