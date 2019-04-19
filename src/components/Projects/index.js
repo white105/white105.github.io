@@ -52,6 +52,11 @@ class Projects extends Component {
     return (
       <div className='projectsContainer'>
 
+        <div id="projectsTitleContainer">
+          <h3 id="portfolioTitle">Portfolio</h3>
+          <h2 id="projectsTitle">Nicholas White Software Projects</h2>
+        </div>
+
         <div className='projectRow'>
           <div className='project'>
             <a href='https://backyardcrypto.com/'><img className='projectImage' src={BackyardCryptoProjectImage}></img></a>
@@ -94,25 +99,6 @@ class Projects extends Component {
           </div>
         </div>
 
-
-
-         <hr></hr>
-
-
-
-        <h2 className='turtlebotHeader'>Turtlebot Robotics 2017</h2>
-
-        <video width = "500" height = "300" controls preload='preload' className='turtlebotVideo'>
-         <source src = {require('../../assets/videos/turtlebot.mp4')} type = "video/mp4"></source>
-         This browser doesn't support video tag.
-         </video>
-
-         <p className="projectsParagraph">During the Fall semester of 2017 I worked as a student researcher implementing turtlebot autonomy with ROS and Linux</p>
-
-         <p className='projectsParagraph'><u>Contributions</u></p>
-         <p className='projectsParagraph'>I helped assemble the original hardware and software including the asus camera, raspberry pi, and installation of Linux.
-         I then worked through ROS tutorials and implemented mapping and navigation. Our research team consisted of four people and including myself, my classmate,
-         and two professors.</p>
 
 
       </div>

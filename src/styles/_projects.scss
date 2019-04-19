@@ -54,10 +54,11 @@
 
 .projectsContainer {
   position: relative;
-  width: 80%;
+  width: 100%;
   height: 100%;
   margin: auto;
-  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .projectRow {
@@ -194,4 +195,37 @@
   opacity: 1;
   width: 100%;
   height: 100%;
+}
+
+#projectsTitleContainer {
+  width: 30rem;
+  height: 10rem;
+  margin: auto;
+}
+
+#portfolioTitle {
+  margin: 0;
+  text-align: none;
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+  color: #999999;
+  font-weight: 500;
+  letter-spacing: 5px;
+  margin-bottom: 15px;
+  display: block;
+  font-size: 1rem;
+}
+
+
+#projectsTitle {
+  margin: 0;
+  text-align: none;
+
+  font-size: 1.2rem;
+  margin-bottom: 4em;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 1.8;
+  font-family: "Quicksand", sans-serif;
 }

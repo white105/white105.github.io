@@ -639,8 +639,8 @@ body a:hover {
   .turtlebotVideo {
     width: 25rem;
     border: 1px solid #CCC;
-    border-radius: .5rem;
     margin: auto;
+    border-radius: none;
   }
 
     /*****Projects Component Media queries****/
