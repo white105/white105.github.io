@@ -25,6 +25,8 @@ import BarTabsProjectImage from '../../assets/projects-assets/bar-tabs-project-i
 import ODMMobileProjectImage from '../../assets/projects-assets/odm-mobile-project-image.png'
 import ODMWebProjectImage from '../../assets/projects-assets/odm-web-project-image.png'
 import BarstoolProjectImage from '../../assets/projects-assets/barstool-project-image.png'
+import CanisiusCollegeGradingImage from '../../assets/projects-assets/canisius-college-grading-image.png'
+import BNMCProjectImage from '../../assets/projects-assets/bnmc-project-image.png'
 
 /*
 
@@ -44,6 +46,9 @@ import BarstoolProjectImage from '../../assets/projects-assets/barstool-project-
 </div>
 
         <hr></hr>
+
+        <h3 id="portfolioTitle">Portfolio</h3>
+        <h2 id="projectsTitle">Nicholas White Software Projects</h2>
 */
 
 class Projects extends Component {
@@ -51,9 +56,6 @@ class Projects extends Component {
   render() {
     return (
       <div className='projectsContainer'>
-
-      <h3 id="portfolioTitle">Portfolio</h3>
-      <h2 id="projectsTitle">Nicholas White Software Projects</h2>
 
         <div className='projectRow'>
           <div className='project'>
@@ -71,6 +73,21 @@ class Projects extends Component {
           </div>
 
           <div className='project'>
+            <a href='https://rubric-calculator.herokuapp.com/'><img className='projectImage' src={BNMCProjectImage}></img></a>
+          </div>
+
+
+
+        </div>
+
+        <div className='projectRow'>
+
+
+          <div className='project'>
+            <a href='https://rubric-calculator.herokuapp.com/'><img className='projectImage' src={ODMWebProjectImage}></img></a>
+          </div>
+
+          <div className='project'>
            <a href='https://rubric-calculator.herokuapp.com/'><img className='projectImage' src={ODMMobileProjectImage}></img></a>
           </div>
 
@@ -78,18 +95,19 @@ class Projects extends Component {
         </div>
 
         <div className='projectRow'>
-          <div className='mobileProject'>
-           <a href='https://www.hackbuf.com/'><img className='mobileProjectImage' src={BarTabsProjectImage}></img></a>
+          <div className='project'>
+           <a href='https://rubric-calculator.herokuapp.com/'><img className='projectImage' src={UBProjectImage}></img></a>
           </div>
 
           <div className='project'>
-           <a href='https://rubric-calculator.herokuapp.com/'><img className='projectImage' src={UBProjectImage}></img></a>
+            <a href='https://rubric-calculator.herokuapp.com/'><img className='projectImage' src={CanisiusCollegeGradingImage}></img></a>
           </div>
         </div>
 
         <div className='projectRow'>
-          <div className='project'>
-            <a href='https://rubric-calculator.herokuapp.com/'><img className='projectImage' src={ODMWebProjectImage}></img></a>
+
+          <div className='mobileProject'>
+           <a href='https://www.hackbuf.com/'><img className='mobileProjectImage' src={BarTabsProjectImage}></img></a>
           </div>
 
           <div className='project'>
