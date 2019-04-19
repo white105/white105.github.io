@@ -39,8 +39,8 @@
   position: relative;
   width: 7.5rem;
   height: 3rem;
-  border: 1px solid rgb(73, 110, 178);
-  border-radius: 2.5rem;
+  //border: 1px solid rgb(73, 110, 178);
+  //border-radius: 2.5rem;
   color: rgb(73, 110, 178);
 }
 
@@ -51,12 +51,14 @@
   height: 100%;
   padding-top: .7rem;
   border-radius: 2.5rem;
+  font-size: 1.2rem;
 }
 
 #mainHeaderSubList li:hover {
-  background: rgb(73, 110, 178);
+//background: rgb(73, 110, 178);
   cursor: pointer;
-  color: white;
+  color: black;
+  -webkit-transform: scale(1.2);
 }
 
 #mainHeaderSubList a:active {
@@ -75,21 +77,36 @@
 }
 
 #current_page_icon_top {
-  width: .7rem;
-  height: .7rem;
+  width: .5rem;
+  height: .5rem;
   background: rgb(73, 110, 178);
   position: absolute;
   border-radius: 100%;
-  bottom: 3.525rem;
+  margin-bottom: 3.525rem;
   margin-left: 3.25rem;
 }
 
 #current_page_icon_bottom {
-  width: .7rem;
-  height: .7rem;
+  /*
+  width: .5rem;
+  height: .5rem;
   background: rgb(73, 110, 178);
   position: absolute;
   border-radius: 100%;
   margin-top: .65rem;
   margin-left: 3.26rem;
+  */
+}
+
+#current_page_icon_top  {
+  display: none;
+}
+
+#current_page_icon_bottom {
+  display: inline-block;
+  width: 5rem;
+  margin-bottom: 2rem;
+  border-top: 1px solid rgb(73, 110, 178);
+  //border-color: rgb(73, 110, 178);
+  //display: none;
 }

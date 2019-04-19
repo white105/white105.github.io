@@ -52,10 +52,8 @@ class Projects extends Component {
     return (
       <div className='projectsContainer'>
 
-        <div id="projectsTitleContainer">
-          <h3 id="portfolioTitle">Portfolio</h3>
-          <h2 id="projectsTitle">Nicholas White Software Projects</h2>
-        </div>
+      <h3 id="portfolioTitle">Portfolio</h3>
+      <h2 id="projectsTitle">Nicholas White Software Projects</h2>
 
         <div className='projectRow'>
           <div className='project'>

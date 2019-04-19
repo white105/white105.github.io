@@ -14,19 +14,22 @@
 }
 
 .employerCompany {
-  font-family: 'Raleway', sans-serif;
+  //font-family: 'Raleway', sans-serif;
+  font-family: "Quicksand", Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .employmentRow {
   flex: 1;
   height: 5rem;
   width: 80%;
-  border: 3px solid rgb(73, 110, 178);
   margin: 5rem;
   padding: 1rem;
-  overflow: scroll;
+  overflow: visible;
 }
 
+/*
 .employmentRow:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
@@ -34,103 +37,121 @@
   transition: 1s ease;
   cursor: pointer;
 }
+*/
 
 #backyard-crypto {
-  background: #2988FA;
-  color: white;
+  background: #F1F3F2;
+  color: black;
 }
 
 #horizn-consulting {
-  background: #E1B93F;
-  color: white;
-  border-top: 3px solid rgb(73, 110, 178);
+  background: #F1F3F2;
+  color: black;
 }
 
 #ncsa-row {
-  background: #15294A;
-  color: white;
+  background: #F1F3F2;
+  color: black;
 }
 
 #barstool-sports-row {
-  background: #0F1C30;
-  color: white;
+  background: #F1F3F2;
+  color: black;
 }
 
 #canisius-row {
-  background: #002144;
-  color: white;
+  background: #F1F3F2;
+  color: black;
 }
 
 #ub-row {
-  background: #005ABC;
-  color: white;
+  background: #F1F3F2;
+  color: black;
 }
 
 
 .employmentDetails {
-  margin-top: 2rem;
-  position: relative;
-  width: 80%;
-  margin: auto;
+  padding: 1rem;
+  text-align: center;
 }
 
 .employment-details {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  text-align: left;
+  text-align: center;
 }
 
 .job-info {
   position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  text-align: center;
   width: 100%;
   height: 6rem;
+  text-align: center;
+  margin: auto;
 }
 
 
 
 .sub-job-info {
-  flex: 7;
   height: 6rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  text-align: center;
 }
 
 .jobTitle {
-  flex: 1;
   font-size: 1.1rem;
-  font-family: 'Raleway', sans-serif;
-  text-align: left;
+  //font-family: 'Raleway', sans-serif;
+  font-family: "Quicksand", Arial, sans-serif;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 1rem;
 }
 
 .jobLocation {
-  flex: 1;
   font-size: 1rem;
-  text-align: left;
-  font-family: 'Raleway', sans-serif;
+  //font-family: 'Raleway', sans-serif;
+  font-family: "Quicksand", Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 1rem;
 }
 
 .employer-logo-container {
-  margin-top: 5rem;
-  margin-top: .5rem;
   width: 5rem;
   height: 5rem;
-  flex: 3;
+  margin: auto;
+  background: green;
 }
 
 .employment-logo {
   width: 5rem;
   height: 5rem;
-  border: 1px solid white;
-  border-radius: .5rem;
-  float: right;
-  margin-right: 2.7rem;
+  border: 1px solid rgb(73, 110, 178);
 }
 
 .employment-details {
   font-size: 1.2rem;
+}
+
+#backyard-crypto-logo {
+  border: 2px solid #2988FA;
+}
+
+#horizns-consulting-logo {
+  border: 2px solid #E1B93F;
+}
+
+#ncsa-logo {
+  border: 2px solid #15294A;
+}
+
+#barstool-sports-logo {
+  border: 2px solid #0F1C30;
+}
+
+#canisius-logo {
+  border: 2px solid #002144;
+}
+
+#ub-logo {
+  border: 2px sol #005ABC;
 }

@@ -41,7 +41,7 @@ class Hackathons extends Component {
       return (
         <div className='hackathonComponent'>
 
-        <h2 className='sketchItHeader'>Hackathon Pictures and Projects from 2018</h2>
+        <h2 id='hackathonMainTitle'>Hackathon Pictures and Projects from 2018</h2>
 
         <p className='hackathonParagraph'>Hover over the photos for a background and description of the event.
         Click on the project pictures below and you will be redirected to a usable version.</p>

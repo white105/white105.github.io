@@ -59,7 +59,7 @@ class HeaderComponent extends Component {
 
     if (current_page == "expirience") {
       mainHeaderList = <ul id='mainHeaderSubList'>
-      <li><div id='current_page_icon_top'></div><Link to='/expirience' className='headerTab'>Experience</Link><div id='current_page_icon_bottom'></div></li>
+      <li><div id='current_page_icon_top'></div><Link id="underlined" to='/expirience' className='headerTab'>Experience</Link><div id='current_page_icon_bottom'></div></li>
         <li><Link to='/projects' className='headerTab'>projects</Link></li>
         <li><Link to='/research' className='headerTab'>Research</Link></li>
         <li><Link to='/hackathons' className='headerTab'>Hackathons</Link></li>
@@ -68,7 +68,7 @@ class HeaderComponent extends Component {
     } else if (current_page == "projects") {
       mainHeaderList = <ul id='mainHeaderSubList'>
       <li><Link to='/expirience' className='headerTab'>Experience</Link></li>
-        <li><div id='current_page_icon_top'></div><Link to='/projects' className='headerTab'>projects</Link><div id='current_page_icon_bottom'></div></li>
+        <li><div id='current_page_icon_top'></div><Link id="underlined" to='/projects' className='headerTab'>projects</Link><div id='current_page_icon_bottom'></div></li>
         <li><Link to='/research' className='headerTab'>Research</Link></li>
         <li><Link to='/hackathons' className='headerTab'>Hackathons</Link></li>
         <li><Link to='/articles' className='headerTab'>Articles</Link></li>
@@ -77,7 +77,7 @@ class HeaderComponent extends Component {
       mainHeaderList = <ul id='mainHeaderSubList'>
       <li><Link to='/expirience' className='headerTab'>Experience</Link></li>
         <li><Link to='/projects' className='headerTab'>projects</Link></li>
-        <li><div id='current_page_icon_top'></div><Link to='/research' className='headerTab'>Research</Link><div id='current_page_icon_bottom'></div></li>
+        <li><div id='current_page_icon_top'></div><Link id="underlined" to='/research' className='headerTab'>Research</Link><div id='current_page_icon_bottom'></div></li>
         <li><Link to='/hackathons' className='headerTab'>Hackathons</Link></li>
         <li><Link to='/articles' className='headerTab'>Articles</Link></li>
       </ul>
@@ -86,7 +86,7 @@ class HeaderComponent extends Component {
         <li><Link to='/expirience' className='headerTab'>Experience</Link></li>
           <li><Link to='/projects' className='headerTab'>projects</Link></li>
           <li><Link to='/research' className='headerTab'>Research</Link></li>
-          <li><div id='current_page_icon_top'></div><Link to='/hackathons' className='headerTab'>Hackathons</Link><div id='current_page_icon_bottom'></div></li>
+          <li><div id='current_page_icon_top'></div><Link id="underlined" to='/hackathons' className='headerTab'>Hackathons</Link><div id='current_page_icon_bottom'></div></li>
         <li><Link to='/articles' className='headerTab'>Articles</Link></li>
       </ul>
     } else if (current_page == "articles") {
@@ -95,30 +95,30 @@ class HeaderComponent extends Component {
           <li><Link to='/projects' className='headerTab'>projects</Link></li>
           <li><Link to='/research' className='headerTab'>Research</Link></li>
           <li><Link to='/hackathons' className='headerTab'>Hackathons</Link></li>
-          <li><div id='current_page_icon_top'></div><Link to='/articles' className='headerTab'>Articles</Link><div id='current_page_icon_bottom'></div></li>
+          <li><div id='current_page_icon_top'></div><Link id="underlined" to='/articles' className='headerTab'>Articles</Link><div id='current_page_icon_bottom'></div></li>
       </ul>
     } else if (current_page == "design") {
       mainHeaderList = <ul id='mainHeaderSubList'>
         <li><Link to='/portfolio' className='headerTab'>Portfolio</Link></li>
         <li><Link to='/articles' className='headerTab'>Articles</Link></li>
-        <li><div id='current_page_icon_top'></div><Link to='/design' className='headerTab'>Designs</Link><div id='current_page_icon_bottom'></div></li>
+        <li><div id='current_page_icon_top'></div><Link id="underlined" to='/design' className='headerTab'>Designs</Link><div id='current_page_icon_bottom'></div></li>
         <li><Link to='/contact' className='headerTab'>Contact</Link></li>
       </ul>
     } else if (current_page == "contact") {
       mainHeaderList = <ul id='mainHeaderSubList'>
         <li><Link to='/portfolio' className='headerTab'>Portfolio</Link></li>
         <li><Link to='/services' className='headerTab'>Services</Link></li>
-        <li><div id='current_page_icon_top'></div><Link to='/contact' className='headerTab'>Contact</Link><div id='current_page_icon_bottom'></div></li>
+        <li><div id='current_page_icon_top'></div><Link id="underlined" to='/contact' className='headerTab'>Contact</Link><div id='current_page_icon_bottom'></div></li>
       </ul>
     } else if (current_page == "services") {
       mainHeaderList = <ul id='mainHeaderSubList'>
         <li><Link to='/portfolio' className='headerTab'>Portfolio</Link></li>
-        <li><div id='current_page_icon_top'></div><Link to='/services' className='headerTab'>Services</Link><div id='current_page_icon_bottom'></div></li>
+        <li><div id='current_page_icon_top'></div><Link id="underlined" to='/services' className='headerTab'>Services</Link><div id='current_page_icon_bottom'></div></li>
         <li><Link to='/contact' className='headerTab'>Contact</Link></li>
       </ul>
     } else if (current_page == "portfolio") {
       mainHeaderList = <ul id='mainHeaderSubList'>
-        <li><div id='current_page_icon_top'></div><Link to='/portfolio' className='headerTab'>Portfolio</Link><div id='current_page_icon_bottom'></div></li>
+        <li><div id='current_page_icon_top'></div><Link id="underlined" to='/portfolio' className='headerTab'>Portfolio</Link><div id='current_page_icon_bottom'></div></li>
         <li><Link to='/services' className='headerTab'>Services</Link></li>
         <li><Link to='/contact' className='headerTab'>Contact</Link></li>
       </ul>
