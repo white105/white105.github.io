@@ -43,8 +43,7 @@ class Hackathons extends Component {
       return (
         <div className='hackathonComponent'>
 
-        <h3 id="portfolioTitle">Hackathon Projects</h3>
-        <h2 id="projectsTitle">Nicholas White Software Projects</h2>
+        <h3 id="hackathonProjectsTitle">Hackathon Projects</h3>
 
         <div className="projectRow">
 
@@ -111,9 +110,7 @@ class Hackathons extends Component {
 
         <hr></hr>
 
-        <h3 id="portfolioTitle">Hackathon Photos</h3>
-        <h2 id="projectsTitle">Nicholas White Software Projects</h2>
-
+        <h3 id="hackathonPhotosTitle">Hackathon Photos</h3>
 
         <div className="projectRow">
 
@@ -126,10 +123,12 @@ class Hackathons extends Component {
 
         <div className='project'>
           <div className='hover-content'>
-            <h3 className="hover-content-title">Dandy Hacks</h3>
+            <h3 className="hover-content-title">Big Red Hacks</h3>
           </div>
-          <a href='https://backyardcrypto.com/'><img src={require('../../assets/hackathon-pics/dandyhacksgroup.jpg')} className='projectImage' alt='#'/></a>
+          <a href='https://backyardcrypto.com/'><img src={require('../../assets/hackathon-pics/big-red-2.jpg')} className='projectImage' alt='#'/></a>
         </div>
+
+
 
         </div>
 
@@ -140,14 +139,14 @@ class Hackathons extends Component {
           <div className='hover-content'>
             <h3 className="hover-content-title">Dandy Hacks</h3>
           </div>
-          <a href='https://backyardcrypto.com/'><img src={require('../../assets/hackathon-pics/presentation.jpg')} className='projectImage' alt='#'/></a>
+          <a href='https://backyardcrypto.com/'><img src={require('../../assets/hackathon-pics/dandyhacksgroup.jpg')} className='projectImage' alt='#'/></a>
         </div>
 
         <div className='project'>
           <div className='hover-content'>
-            <h3 className="hover-content-title">UB Hacking</h3>
+            <h3 className="hover-content-title">Dandy Hacks</h3>
           </div>
-          <a href='https://backyardcrypto.com/'><img src={require('../../assets/hackathon-pics/ubhacking1.jpg')} className='projectImage' alt='#'/></a>
+          <a href='https://backyardcrypto.com/'><img src={require('../../assets/hackathon-pics/presentation.jpg')} className='projectImage' alt='#'/></a>
         </div>
 
         </div>
@@ -161,7 +160,17 @@ class Hackathons extends Component {
           <a href='https://backyardcrypto.com/'><img src={require('../../assets/hackathon-pics/ubhacking2.jpg')} className='projectImage' alt='#'/></a>
         </div>
 
+
+        <div className='project'>
+          <div className='hover-content'>
+            <h3 className="hover-content-title">UB Hacking</h3>
+          </div>
+          <a href='https://backyardcrypto.com/'><img src={require('../../assets/hackathon-pics/ubhacking1.jpg')} className='projectImage' alt='#'/></a>
         </div>
+
+        </div>
+
+
 
 
         </div>
