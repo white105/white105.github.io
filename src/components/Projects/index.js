@@ -79,73 +79,6 @@ class Projects extends Component {
 
           <div className='project'>
             <div className='hover-content'>
-              <h3 className="hover-content-title">Whip</h3>
-              <p className="hover-content-type">Project Type - Hackathon</p>
-
-              <p className="hover-content-paragraph">
-              I worked together with 3 teammates at the University of Rochester's annual 48 hour hackathon
-              to build Whip. Whip is a web application build with MongoDB, Express, React, and NodeJS that
-              utilizes flight data, event data, and both the uber and lyft APIs to provide users the knowlege
-              they need to plan their work schedule.
-              </p>
-
-              <p className="hover-content-paragraph">
-              The application uses a python microservice to gather flight data from a variety of resources.
-              Whip provides charts that diagram peak airport activity time and calls an event API to find nearby events
-              sorted in order of number of people attending. Whip also has a customized Google Map that plots all nearby events and airports as well
-              as other nearby uber and lyft drivers.
-              </p>
-
-              <p className="hover-content-paragraph">
-              Won Two Awards - Best use of multiple APIs and Best use of Google Cloud Platform
-              </p>
-
-
-
-
-            </div>
-            <img className='projectImage' src={WhipSiteProjectImage}></img>
-          </div>
-
-
-
-
-        </div>
-
-        <div className='projectRow'>
-
-        <div className='project'>
-          <div className='hover-content'>
-            <h3 className="hover-content-title">Sketch It</h3>
-            <p className="hover-content-type">Project Type - Hackathon</p>
-
-            <p className="hover-content-paragraph">
-            I worked together with 3 teammates at the University at Buffalo's annual 48 hour hackathon
-            to build Sketch It. Sketch It is a web application build with VanillaJS, MongoDB, and NodeJS that
-
-            utilizes the canvas API, Google Cloud Platform, and SocketIO to provide users with a platform to connect through
-            shared whiteboarding.
-            </p>
-
-            <p className="hover-content-paragraph">
-            A random url is generated for each whiteboarding session. Users can connect to this specific url and communicate
-            through drawings and messaging. Canvas coordinates are sent through SocketIO to other users and are stored in MongoDB in case
-            users want their session to persist.
-            </p>
-
-            <p className="hover-content-paragraph">
-            Finalist out of over 50 team projects - Won Third Place
-            </p>
-
-          </div>
-          <a href='https://backyardcrypto.com/'><img className='projectImage' src={SketchItProjectImage}></img></a>
-        </div>
-
-
-
-
-          <div className='project'>
-            <div className='hover-content'>
               <h3 className="hover-content-title">Buffalo Niagara Medical Campus Job Board</h3>
               <p className="hover-content-type">Project Type - Consulting</p>
 
@@ -161,6 +94,10 @@ class Projects extends Component {
             </div>
             <img className='projectImage' src={BNMCProjectImage}></img>
           </div>
+
+
+
+
         </div>
 
         <div className='projectRow'>
