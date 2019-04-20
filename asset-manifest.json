@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.e58a4ca6.css",
   "main.css.map": "static/css/main.e58a4ca6.css.map",
-  "main.js": "static/js/main.b7c8b817.js",
-  "main.js.map": "static/js/main.b7c8b817.js.map",
+  "main.js": "static/js/main.a1898b71.js",
+  "main.js.map": "static/js/main.a1898b71.js.map",
   "static/media/MeemzIO.png": "static/media/MeemzIO.3b2509b4.png",
   "static/media/Rubric-Calculator.png": "static/media/Rubric-Calculator.44beeb7c.png",
   "static/media/backyard-crypto.png": "static/media/backyard-crypto.a815eaec.png",
@@ -40,12 +40,10 @@
   "static/media/sketch-it-game.png": "static/media/sketch-it-game.5dae9a91.png",
   "static/media/sketch-it-project-image.png": "static/media/sketch-it-project-image.63fc3ac6.png",
   "static/media/sketchit.png": "static/media/sketchit.59dcf61c.png",
-  "static/media/square_map.png": "static/media/square_map.6353b71a.png",
   "static/media/turtlebot.mp4": "static/media/turtlebot.5788b6e0.mp4",
   "static/media/ub-project-image.png": "static/media/ub-project-image.bbd72d21.png",
   "static/media/ubhacking1.jpg": "static/media/ubhacking1.1679e584.jpg",
   "static/media/ubhacking2.jpg": "static/media/ubhacking2.fa6fe8fe.jpg",
   "static/media/whip-site-project-image.png": "static/media/whip-site-project-image.aa763ea4.png",
-  "static/media/whipLogo.png": "static/media/whipLogo.a3219ae9.png",
-  "static/media/wip_logo.png": "static/media/wip_logo.7fcb048d.png"
+  "static/media/whipLogo.png": "static/media/whipLogo.a3219ae9.png"
 }
