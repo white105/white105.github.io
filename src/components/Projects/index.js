@@ -58,64 +58,161 @@ class Projects extends Component {
       <div className='projectsContainer'>
 
         <div className='projectRow'>
-          <div className='project'>
-            <a href='https://backyardcrypto.com/'><img className='projectImage' src={BackyardCryptoProjectImage}></img></a>
 
-            <div className="project_img__description" id='img_bottom_description'>
-              <p className='photoText'>This is a group photo of my teamates Michael Henry, Daniel Kiselev, and I during the second half of Dandy Hacks. Unfortunately our other team member Yipeng Zhang wasn't around for the picture, but he is certainly included in our presentational picture on the next slide.</p>
-              <p className='photoText'>Michael Henry and Daniel Kiselev are both seniors at the University of Rochester graduating in May of 2019 with Bachelors degrees in Computer Science. Yipeng Zhang is currently a sophomore at the University of Rochester expected to graduate with a degree in both Mathematics and Computer Science in 2021.</p>
-              <p className='photoText'>When I planned to come to Dandy Hacks, I came with the intention of winning an award after my first hackathon resulted in a loss the prior week. When I arrived I asked many teams if I could join, but there wasn't really a good fit for me anywhere. After talking to about twenty different teams I found Mike and Dan.
-              They said they were interested in trying to win an award and they already had the cool idea for our project. To make things easier on our team we decided to look for one more member. Yipeng was the first person I talked to and while he didn't have any prior javascript experience, he definitely seemed like a smart kid.</p>
-              <p className='photoText'>I never expected our team to do as well as we did. We all got along great and it was the most fun I've had at a hackathon so far. It was the perfect balance of work and fun which is exactly what a hackathon is supposed to be.</p>
-              <p className='photoText'>The next slide shows a picture of us giving a demo of our project "Whip" at the end of Dandy Hacks. It will also provide a description of the project as well as a link to the demo.</p>
+
+
+          <div className='project'>
+            <div className='hover-content'>
+              <h3 className="hover-content-title">Backyard Crypto</h3>
+              <p className="hover-content-type">Project Type - Freelance</p>
+
+              <p className="hover-content-paragraph">
+              I joined Backyard Crypto to re-architect the entire site and re-write their front end from scratch in ReactJS.
+              The backend of the site is built entirely using Ruby on Rails and PostgreSQL.
+              </p>
             </div>
-
+            <a href='https://backyardcrypto.com/'><img className='projectImage' src={BackyardCryptoProjectImage}></img></a>
           </div>
+
 
           <div className='project'>
-            <a href='https://rubric-calculator.herokuapp.com/'><img className='projectImage' src={BNMCProjectImage}></img></a>
+            <div className='hover-content'>
+              <h3 className="hover-content-title">Buffalo Niagara Medical Campus Job Board</h3>
+              <p className="hover-content-type">Project Type - Consulting</p>
+
+              <p className="hover-content-paragraph">
+              I built data analysis software for Buffalo Niagara Medical Campus from scratch using MongoDB,
+              Express, React, and NodeJS. This application was very data intensive and had to handle several
+              different data formats, data sources, and file types. I gave an initial demo to the CFO of Buffalo
+              Niagara Medical Campus to receive project funding and then passed the project off for updates and maintanance.</p>
+
+              <p className="hover-content-paragraph">The application implemented a user sign in job board with a drag and drop section for data files.
+              Boostrap was used for the User Interface design and ChartJS was used to provide statistical feedback.</p>
+
+            </div>
+            <img className='projectImage' src={BNMCProjectImage}></img>
           </div>
-
-
-
         </div>
 
         <div className='projectRow'>
-
-
           <div className='project'>
-            <a href='https://rubric-calculator.herokuapp.com/'><img className='projectImage' src={ODMWebProjectImage}></img></a>
+            <div className='hover-content'>
+              <h3 className="hover-content-title">One Dental Match Website</h3>
+              <p className="hover-content-type">Project Type - Consulting</p>
+
+              <p className="hover-content-paragraph">
+              I was thrown into this project towards the end of development.
+              I was given designs and features to implement using and lists
+              of front end and back end issues to fix and resolve.
+              I worked directly with the company founders throughout the development process.
+              </p>
+
+              <p className="hover-content-paragraph">
+                The website was built using an AngularJS front end, NodeJS+Express back end,
+                and a MYSQL database. The site also utilizes several different social media platforms
+                for user authentication and user account creation.
+              </p>
+
+            </div>
+            <img className='projectImage' src={ODMWebProjectImage}></img>
           </div>
 
           <div className='project'>
-           <a href='https://rubric-calculator.herokuapp.com/'><img className='projectImage' src={ODMMobileProjectImage}></img></a>
+            <div className='hover-content'>
+              <h3 className="hover-content-title">One Dental Match Mobile Application</h3>
+              <p className="hover-content-type">Project Type - Consulting</p>
+
+              <p className="hover-content-paragraph">
+              I was thrown into this project towards the end of development.
+              I was given designs and features to implement using and lists
+              of front end and back end issues to fix and resolve.
+              I worked directly with the company founders throughout the development process.
+              </p>
+
+              <p className="hover-content-paragraph">
+                The mobile application was built using an Ionic, Cordova, and Google Firebase.
+              </p>
+
+            </div>
+            <img className='projectImage' src={ODMMobileProjectImage}></img>
           </div>
-
-
         </div>
 
         <div className='projectRow'>
           <div className='project'>
-           <a href='https://rubric-calculator.herokuapp.com/'><img className='projectImage' src={UBProjectImage}></img></a>
+            <div className='hover-content'>
+              <h3 className="hover-content-title">University at Buffalo Blockchain Buildathon Website</h3>
+              <p className="hover-content-type">Project Type - Consulting</p>
+
+              <p className="hover-content-paragraph">
+              I was given this project towards the end of development where I polished the overall design of the website
+              and added company, speaker, and event content.
+              </p>
+
+            </div>
+           <a href='http://www.hackbuf.com/'><img className='projectImage' src={UBProjectImage}></img></a>
           </div>
 
           <div className='project'>
+            <div className='hover-content'>
+              <h3 className="hover-content-title">Canisius College Grading Software</h3>
+              <p className="hover-content-type">Project Type - Software Engineering</p>
+              <p className="hover-content-paragraph">
+              I developed this application to help Canisius Collge move towards paperless.
+              The software was built using MongoDB, Express, React, and NodeJS and was deployed
+              directly to Canisius College owned linux servers.
+              </p>
+
+              <p className="hover-content-paragraph">
+              The app allows both students and professors to create accounts. Professors are able to generate dynamic, interactive rubrics
+              for assignments to allow for easy, paperless grading. Grades are stored in a MongoDB database and class and student statistics
+              are provided through ChartJS.
+              </p>
+            </div>
             <a href='https://rubric-calculator.herokuapp.com/'><img className='projectImage' src={CanisiusCollegeGradingImage}></img></a>
           </div>
         </div>
 
         <div className='projectRow'>
-
           <div className='mobileProject'>
-           <a href='https://www.hackbuf.com/'><img className='mobileProjectImage' src={BarTabsProjectImage}></img></a>
+            <div className='hover-content'>
+              <h3 className="hover-content-title">Bar Tabs IOS Mobile Application</h3>
+              <p className="hover-content-type">Project Type - Personal</p>
+
+              <p className="hover-content-paragraph">
+              This application uses geolocation, Google Maps API, Google Places API, and Google Firebase to give realtime data on people
+              attending bars in the users vacinity. Some of this data includes ratings, comments, and the number of users currently attending
+              a particular bar.
+              </p>
+
+              <p className="hover-content-paragraph">
+              I developed the entire application from the ground up using Swift and the Google Cloud Platform.
+              </p>
+
+            </div>
+            <img className='mobileProjectImage' src={BarTabsProjectImage}></img>
           </div>
 
           <div className='project'>
-           <a href='https://rubric-calculator.herokuapp.com/'><img className='projectImage' src={BarstoolProjectImage}></img></a>
+            <div className='hover-content'>
+              <h3 className="hover-content-title">Barstool Sports Official Website</h3>
+              <p className="hover-content-type">Project Type - Software Engineering</p>
+
+              <p className="hover-content-paragraph">
+              I arrived at Bartool Sports during a huge push to transition the site from PHP and Wordpress
+              to a single page react site.
+              </p>
+
+              <p className="hover-content-paragraph">
+                During my time at Barstool Sports I designed full pages of the website, added API routing to the backend,
+                and developed a data scraping application in python to score company bloggers based on likes, comments, and views.
+
+              </p>
+
+            </div>
+           <a href='https://www.barstoolsports.com/'><img className='projectImage' src={BarstoolProjectImage}></img></a>
           </div>
         </div>
-
-
 
       </div>
     );

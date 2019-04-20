@@ -65,7 +65,7 @@ class Research extends Component {
 
         <h2 className='turtlebotHeader' id='hackathonMainTitle'>Turtlebot Robotics 2017</h2>
 
-        <video width = "500" height = "300" controls preload='preload' className='turtlebotVideo'>
+        <video width="560" height="315" controls preload='preload' className='turtlebotVideo'>
          <source src = {require('../../assets/videos/turtlebot.mp4')} type = "video/mp4"></source>
          This browser doesn't support video tag.
          </video>

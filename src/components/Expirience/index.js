@@ -156,7 +156,7 @@ class Expirience extends Component {
 
           <div className='employmentDetails'>
             <p className='employment-details'>- Implemented turtlebot autonomy using ROS and linux</p>
-            <p className='employment-details'>- Helped assemble initial turtlebot hardware and software</p>
+            <p className='employment-details'>- Helped assemble initial turtlebot hardware and software including a Kobuki base turtlebot, an asus camera, a rasberry pi, and a computer we installed linux on</p>
           </div>
 
           </div>
