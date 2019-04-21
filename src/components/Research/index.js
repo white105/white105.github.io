@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
 import { Carousel } from 'react-responsive-carousel';
 
+import ResearchPhoto1 from '../../assets/uiuc_research_photos/photo1.jpg';
+import ResearchPhoto2 from '../../assets/uiuc_research_photos/photo2.jpg';
+import ResearchPhoto3 from '../../assets/uiuc_research_photos/photo3.jpg';
+import ResearchPhoto4 from '../../assets/uiuc_research_photos/photo4.jpg';
+import ResearchPhoto5 from '../../assets/uiuc_research_photos/photo5.jpg';
+import ResearchPhoto6 from '../../assets/uiuc_research_photos/photo6.jpg';
+import ResearchPhoto7 from '../../assets/uiuc_research_photos/photo7.jpg';
+
 class Research extends Component {
 
   render() {
@@ -8,35 +16,14 @@ class Research extends Component {
     let infiniteLoop = true
 
     return (
-      <div className='researchContainer'>
-        <p className='researchParagraph'>National Center for Supercomputing Applications Gravity Group - Modeling and Detection of Black Hole Collisions Using Blue Water Supercomputer</p>
+      <div>
+        <p className='researchParagraph' id='researchTitle'>National Center for Supercomputing Applications Gravity Group - Modeling and Detection of Black Hole Collisions Using Blue Water Supercomputer</p>
 
-        <Carousel autoPlay={true} interval={3000} infiniteLoop={true} showThumbs={false} className='researchCarousel'>
-                <div className='researchCarouselImageDiv'>
-                    <img src={require('../../assets/uiuc_research_photos/photo1.jpg')} className='researchCarouselImage' alt='#'/>
-                </div>
-                <div className='researchCarouselImageDiv'>
-                    <img src={require('../../assets/uiuc_research_photos/photo2.jpg')} className='researchCarouselImage' alt='#'/>
-                </div>
-                <div className='researchCarouselImageDiv'>
-                    <img src={require('../../assets/uiuc_research_photos/photo3.jpg')} className='researchCarouselImage' alt='#'/>
-                </div>
-                <div className='researchCarouselImageDiv'>
-                    <img src={require('../../assets/uiuc_research_photos/photo4.jpg')} className='researchCarouselImage' alt='#'/>
-                </div>
-                <div className='researchCarouselImageDiv'>
-                    <img src={require('../../assets/uiuc_research_photos/photo5.jpg')} className='researchCarouselImage' alt='#'/>
-                </div>
-                <div className='researchCarouselImageDiv'>
-                    <img src={require('../../assets/uiuc_research_photos/photo6.jpg')} className='carouselImage' alt='#'/>
-                </div>
-                <div className='researchCarouselImageDiv'>
-                    <img src={require('../../assets/uiuc_research_photos/photo7.jpg')} className='carouselImage' alt='#'/>
-                </div>
-        </Carousel>
+        <img className='projectImage' src={ResearchPhoto4}></img>
 
         <br></br>
         <hr></hr>
+        <br></br>
 
         <h2 className='researchExplanationHeader'><a id='enigmaLink' href='https://arxiv.org/abs/1711.06276'>ENIGMA</a></h2>
 
@@ -70,12 +57,65 @@ class Research extends Component {
          This browser doesn't support video tag.
          </video>
 
-         <p className="projectsParagraph">During the Fall semester of 2017 I worked as a student researcher implementing turtlebot autonomy with ROS and Linux</p>
+         <p className='researchParagraph'>During the Fall semester of 2017 I worked as a student researcher implementing turtlebot autonomy with ROS and Linux</p>
 
-         <p className='projectsParagraph'><u id='hackathonMainTitle'>Contributions</u></p>
-         <p className='projectsParagraph'>I helped assemble the original hardware and software including the asus camera, raspberry pi, and installation of Linux.
+         <h3 id='contributionsTitle'>Contributions</h3>
+
+         <p className='researchParagraph'>I helped assemble the original hardware and software including the asus camera, raspberry pi, and installation of Linux.
          I then worked through ROS tutorials and implemented mapping and navigation. Our research team consisted of four people and including myself, my classmate,
          and two professors.</p>
+
+         <br></br>
+         <hr></hr>
+         <br></br>
+
+         <h3 id='researchPhotosTitle'>Research Photos</h3>
+
+
+         <div className="projectRow">
+
+           <div className='project'>
+             <img className='projectImage' src={ResearchPhoto1}></img>
+           </div>
+
+           <div className='project'>
+             <img className='projectImage' src={ResearchPhoto2}></img>
+           </div>
+
+         </div>
+
+         <div className="projectRow">
+
+           <div className='project'>
+             <img className='projectImage' src={ResearchPhoto3}></img>
+           </div>
+
+           <div className='project'>
+             <img className='projectImage' src={ResearchPhoto4}></img>
+           </div>
+
+         </div>
+
+         <div className="projectRow">
+
+           <div className='project'>
+             <img className='projectImage' src={ResearchPhoto5}></img>
+           </div>
+
+           <div className='project'>
+             <img className='projectImage' src={ResearchPhoto7}></img>
+           </div>
+
+         </div>
+
+         <div className="projectRow">
+
+           <div className='project'>
+             <img className='projectImage' src={ResearchPhoto6}></img>
+           </div>
+
+         </div>
+
 
       </div>
     );

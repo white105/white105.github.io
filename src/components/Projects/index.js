@@ -30,7 +30,7 @@ import BNMCProjectImage from '../../assets/projects-assets/bnmc-project-image.pn
 import ODMBothProjectImage from '../../assets/projects-assets/odm-both-project-image.png'
 import WhipSiteProjectImage from '../../assets/projects-assets/whip-site-project-image.png'
 import SketchItProjectImage from '../../assets/projects-assets/sketch-it-project-image.png'
-
+import ALCProjectImage from '../../assets/projects-assets/alc-project-image.png'
 /*
 
 <div className='githubProjectsDiv'>
@@ -100,28 +100,10 @@ class Projects extends Component {
 
         </div>
 
+
+
+
         <div className='projectRow'>
-          <div className='project'>
-            <div className='hover-content'>
-              <h3 className="hover-content-title">One Dental Match Website</h3>
-              <p className="hover-content-type">Project Type - Consulting</p>
-
-              <p className="hover-content-paragraph">
-              I was thrown into this project towards the end of development.
-              I was given designs and features to implement using and lists
-              of front end and back end issues to fix and resolve.
-              I worked directly with the company founders throughout the development process.
-              </p>
-
-              <p className="hover-content-paragraph">
-                The website was built using an AngularJS front end, NodeJS+Express back end,
-                and a MYSQL database. The site also utilizes several different social media platforms
-                for user authentication and user account creation.
-              </p>
-
-            </div>
-            <img className='projectImage' src={ODMWebProjectImage}></img>
-          </div>
 
           <div className='project'>
             <div className='hover-content'>
@@ -141,62 +123,6 @@ class Projects extends Component {
 
             </div>
             <img className='projectImage' src={ODMMobileProjectImage}></img>
-          </div>
-        </div>
-
-        <div className='projectRow'>
-          <div className='project'>
-            <div className='hover-content'>
-              <h3 className="hover-content-title">University at Buffalo Blockchain Buildathon Website</h3>
-              <p className="hover-content-type">Project Type - Consulting</p>
-
-              <p className="hover-content-paragraph">
-              I was given this project towards the end of development where I polished the overall design of the website
-              and added company, speaker, and event content.
-              </p>
-
-            </div>
-           <a href='http://www.hackbuf.com/'><img className='projectImage' src={UBProjectImage}></img></a>
-          </div>
-
-          <div className='project'>
-            <div className='hover-content'>
-              <h3 className="hover-content-title">Canisius College Grading Software</h3>
-              <p className="hover-content-type">Project Type - Software Engineering</p>
-              <p className="hover-content-paragraph">
-              I developed this application to help Canisius Collge move towards paperless.
-              The software was built using MongoDB, Express, React, and NodeJS and was deployed
-              directly to Canisius College owned linux servers.
-              </p>
-
-              <p className="hover-content-paragraph">
-              The app allows both students and professors to create accounts. Professors are able to generate dynamic, interactive rubrics
-              for assignments to allow for easy, paperless grading. Grades are stored in a MongoDB database and class and student statistics
-              are provided through ChartJS.
-              </p>
-            </div>
-            <a href='https://rubric-calculator.herokuapp.com/'><img className='projectImage' src={CanisiusCollegeGradingImage}></img></a>
-          </div>
-        </div>
-
-        <div className='projectRow'>
-          <div className='mobileProject'>
-            <div className='hover-content'>
-              <h3 className="hover-content-title">Bar Tabs IOS Mobile Application</h3>
-              <p className="hover-content-type">Project Type - Personal</p>
-
-              <p className="hover-content-paragraph">
-              This application uses geolocation, Google Maps API, Google Places API, and Google Firebase to give realtime data on people
-              attending bars in the users vacinity. Some of this data includes ratings, comments, and the number of users currently attending
-              a particular bar.
-              </p>
-
-              <p className="hover-content-paragraph">
-              I developed the entire application from the ground up using Swift and the Google Cloud Platform.
-              </p>
-
-            </div>
-            <img className='mobileProjectImage' src={BarTabsProjectImage}></img>
           </div>
 
           <div className='project'>
@@ -218,6 +144,185 @@ class Projects extends Component {
             </div>
            <a href='https://www.barstoolsports.com/'><img className='projectImage' src={BarstoolProjectImage}></img></a>
           </div>
+        </div>
+
+        <div className='projectRow'>
+
+        <div className='project'>
+          <div className='hover-content'>
+            <h3 className="hover-content-title">Academic Live Chat</h3>
+            <p className="hover-content-type">Project Type - Hackathon</p>
+
+            <p className="hover-content-paragraph">
+            I worked together with 3 teammates at the Cornell University's annual 48 hour hackathon
+            to build Academic Live Chat. ALC is a web application built with MongoDB, Express, React, NodeJS, SocketIO,
+            Google Cloud Platform, and IBM Watson provides a variety of features to connect you with someone to talk
+            about a topic of similar interest.
+            </p>
+
+            <p className="hover-content-paragraph">
+            The application uses profile matching through user account similarities and Socket IO to pair individuals.
+            Socket IO is also used for messaging and peer to peer video chatting between users.
+            </p>
+
+
+
+
+          </div>
+          <img className='projectImage' src={ALCProjectImage}></img>
+        </div>
+
+        <div className='project'>
+          <div className='hover-content'>
+            <h3 className="hover-content-title">One Dental Match Website</h3>
+            <p className="hover-content-type">Project Type - Consulting</p>
+
+            <p className="hover-content-paragraph">
+            I was thrown into this project towards the end of development.
+            I was given designs and features to implement using and lists
+            of front end and back end issues to fix and resolve.
+            I worked directly with the company founders throughout the development process.
+            </p>
+
+            <p className="hover-content-paragraph">
+              The website was built using an AngularJS front end, NodeJS+Express back end,
+              and a MYSQL database. The site also utilizes several different social media platforms
+              for user authentication and user account creation.
+            </p>
+
+          </div>
+          <img className='projectImage' src={ODMWebProjectImage}></img>
+        </div>
+
+
+
+
+
+        </div>
+
+
+
+
+        <div className="projectRow">
+
+
+
+        <div className='project'>
+          <div className='hover-content'>
+            <h3 className="hover-content-title">Whip</h3>
+            <p className="hover-content-type">Project Type - Hackathon</p>
+
+            <p className="hover-content-paragraph">
+            I worked together with 3 teammates at the University of Rochester's annual 48 hour hackathon
+            to build Whip. Whip is a web application built with MongoDB, Express, React, and NodeJS that
+            utilizes flight data, event data, and both the uber and lyft APIs to provide users the knowlege
+            they need to plan their work schedule.
+            </p>
+
+            <p className="hover-content-paragraph">
+            The application uses a python microservice to gather flight data from a variety of resources.
+            Whip provides charts that diagram peak airport activity time and calls an event API to find nearby events
+            sorted in order of number of people attending. Whip also has a customized Google Map that plots all nearby events and airports as well
+            as other nearby uber and lyft drivers.
+            </p>
+
+            <p className="hover-content-paragraph">
+            Won Two Awards - Best use of multiple APIs and Best use of Google Cloud Platform
+            </p>
+
+          </div>
+          <img className='projectImage' src={WhipSiteProjectImage}></img>
+        </div>
+
+        <div className='project'>
+          <div className='hover-content'>
+            <h3 className="hover-content-title">University at Buffalo Blockchain Buildathon Website</h3>
+            <p className="hover-content-type">Project Type - Consulting</p>
+
+            <p className="hover-content-paragraph">
+            I was given this project towards the end of development where I polished the overall design of the website
+            and added company, speaker, and event content.
+            </p>
+
+          </div>
+         <a href='http://www.hackbuf.com/'><img className='projectImage' src={UBProjectImage}></img></a>
+        </div>
+
+
+
+        </div>
+
+        <div className='projectRow'>
+
+        <div className='mobileProject'>
+          <div className='hover-content'>
+            <h3 className="hover-content-title">Bar Tabs IOS Mobile Application</h3>
+            <p className="hover-content-type">Project Type - Personal</p>
+
+            <p className="hover-content-paragraph">
+            This application uses geolocation, Google Maps API, Google Places API, and Google Firebase to give realtime data on people
+            attending bars in the users vacinity. Some of this data includes ratings, comments, and the number of users currently attending
+            a particular bar.
+            </p>
+
+            <p className="hover-content-paragraph">
+            I developed the entire application from the ground up using Swift and the Google Cloud Platform.
+            </p>
+
+          </div>
+          <img className='mobileProjectImage' src={BarTabsProjectImage}></img>
+        </div>
+
+        </div>
+
+        <div className="projectRow">
+
+        <div className='project'>
+          <div className='hover-content'>
+            <h3 className="hover-content-title">Canisius College Grading Software</h3>
+            <p className="hover-content-type">Project Type - Software Engineering</p>
+            <p className="hover-content-paragraph">
+            I developed this application to help Canisius Collge move towards paperless.
+            The software was built using MongoDB, Express, React, and NodeJS and was deployed
+            directly to Canisius College owned linux servers.
+            </p>
+
+            <p className="hover-content-paragraph">
+            The app allows both students and professors to create accounts. Professors are able to generate dynamic, interactive rubrics
+            for assignments to allow for easy, paperless grading. Grades are stored in a MongoDB database and class and student statistics
+            are provided through ChartJS.
+            </p>
+          </div>
+          <a href='https://rubric-calculator.herokuapp.com/'><img className='projectImage' src={CanisiusCollegeGradingImage}></img></a>
+        </div>
+
+        <div className='project'>
+          <div className='hover-content'>
+            <h3 className="hover-content-title">Sketch It</h3>
+            <p className="hover-content-type">Project Type - Hackathon</p>
+
+            <p className="hover-content-paragraph">
+            I worked together with 3 teammates at the University at Buffalo's annual 48 hour hackathon
+            to build Sketch It. Sketch It is a web application build with VanillaJS, MongoDB, and NodeJS that
+
+            utilizes the canvas API, Google Cloud Platform, and SocketIO to provide users with a platform to connect through
+            shared whiteboarding.
+            </p>
+
+            <p className="hover-content-paragraph">
+            A random url is generated for each whiteboarding session. Users can connect to this specific url and communicate
+            through drawings and messaging. Canvas coordinates are sent through SocketIO to other users and are stored in MongoDB in case
+            users want their session to persist.
+            </p>
+
+            <p className="hover-content-paragraph">
+            Finalist out of over 50 team projects - Won Third Place
+            </p>
+
+          </div>
+          <a href='https://backyardcrypto.com/'><img className='projectImage' src={SketchItProjectImage}></img></a>
+        </div>
+
         </div>
 
       </div>

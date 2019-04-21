@@ -139,27 +139,6 @@ class Expirience extends Component {
 
           </div>
 
-          <div className='employmentRow' id='ub-row'>
-          <h3 className='employerCompany'>University at Buffalo</h3>
-          <div className='job-info'>
-
-            <div className='sub-job-info'>
-              <h4 className='jobTitle'>Student Researcher - Turtlebot Robotics</h4>
-              <h4 className='jobLocation'>Buffalo, New York  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sep 2017 - Dec 2017</h4>
-            </div>
-
-          </div>
-
-          <div className='employer-logo-container'>
-            <img id="ub-logo" className='employment-logo' src={require('../../assets/employment-logos/ub-logo.png')}></img>
-          </div>
-
-          <div className='employmentDetails'>
-            <p className='employment-details'>- Implemented turtlebot autonomy using ROS and linux</p>
-            <p className='employment-details'>- Helped assemble initial turtlebot hardware and software including a Kobuki base turtlebot, an asus camera, a rasberry pi, and a computer we installed linux on</p>
-          </div>
-
-          </div>
 
         </div>
 

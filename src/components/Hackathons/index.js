@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import FontAwesome from 'react-fontawesome';
 import WhipSiteProjectImage from '../../assets/projects-assets/whip-site-project-image.png'
 import SketchItProjectImage from '../../assets/projects-assets/sketch-it-project-image.png'
+import ALCProjectImage from '../../assets/projects-assets/alc-project-image.png'
 
 class Hackathons extends Component {
 
@@ -49,8 +50,61 @@ class Hackathons extends Component {
 
         <div className='project'>
           <div className='hover-content'>
+            <h3 className="hover-content-title">Academic Live Chat</h3>
+
+            <p className="hover-content-paragraph">
+            I worked together with 3 teammates at the Cornell University's annual 48 hour hackathon
+            to build Academic Live Chat. ALC is a web application built with MongoDB, Express, React, NodeJS, SocketIO,
+            Google Cloud Platform, and IBM Watson provides a variety of features to connect you with someone to talk
+            about a topic of similar interest.
+            </p>
+
+            <p className="hover-content-paragraph">
+            The application uses profile matching through user account similarities and Socket IO to pair individuals.
+            Socket IO is also used for messaging and peer to peer video chatting between users.
+            </p>
+
+
+
+
+          </div>
+          <img className='projectImage' src={ALCProjectImage}></img>
+        </div>
+
+
+        <div className='project'>
+          <div className='hover-content'>
+            <h3 className="hover-content-title">Whip</h3>
+
+            <p className="hover-content-paragraph">
+            I worked together with 3 teammates at the University of Rochester's annual 48 hour hackathon
+            to build Whip. Whip is a web application built with MongoDB, Express, React, and NodeJS that
+            utilizes flight data, event data, and both the uber and lyft APIs to provide users the knowlege
+            they need to plan their work schedule.
+            </p>
+
+            <p className="hover-content-paragraph">
+            The application uses a python microservice to gather flight data from a variety of resources.
+            Whip provides charts that diagram peak airport activity time and calls an event API to find nearby events
+            sorted in order of number of people attending. Whip also has a customized Google Map that plots all nearby events and airports as well
+            as other nearby uber and lyft drivers.
+            </p>
+
+            <p className="hover-content-paragraph">
+            Won Two Awards - Best use of multiple APIs and Best use of Google Cloud Platform
+            </p>
+
+          </div>
+          <img className='projectImage' src={WhipSiteProjectImage}></img>
+        </div>
+
+        </div>
+
+        <div className="projectRow">
+
+        <div className='project'>
+          <div className='hover-content'>
             <h3 className="hover-content-title">Sketch It</h3>
-            <p className="hover-content-type">Project Type - Hackathon</p>
 
             <p className="hover-content-paragraph">
             I worked together with 3 teammates at the University at Buffalo's annual 48 hour hackathon
@@ -72,37 +126,6 @@ class Hackathons extends Component {
 
           </div>
           <a href='https://backyardcrypto.com/'><img className='projectImage' src={SketchItProjectImage}></img></a>
-        </div>
-
-
-        <div className='project'>
-          <div className='hover-content'>
-            <h3 className="hover-content-title">Whip</h3>
-            <p className="hover-content-type">Project Type - Hackathon</p>
-
-            <p className="hover-content-paragraph">
-            I worked together with 3 teammates at the University of Rochester's annual 48 hour hackathon
-            to build Whip. Whip is a web application build with MongoDB, Express, React, and NodeJS that
-            utilizes flight data, event data, and both the uber and lyft APIs to provide users the knowlege
-            they need to plan their work schedule.
-            </p>
-
-            <p className="hover-content-paragraph">
-            The application uses a python microservice to gather flight data from a variety of resources.
-            Whip provides charts that diagram peak airport activity time and calls an event API to find nearby events
-            sorted in order of number of people attending. Whip also has a customized Google Map that plots all nearby events and airports as well
-            as other nearby uber and lyft drivers.
-            </p>
-
-            <p className="hover-content-paragraph">
-            Won Two Awards - Best use of multiple APIs and Best use of Google Cloud Platform
-            </p>
-
-
-
-
-          </div>
-          <img className='projectImage' src={WhipSiteProjectImage}></img>
         </div>
 
         </div>

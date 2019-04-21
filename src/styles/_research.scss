@@ -1,6 +1,7 @@
 .researchContainer {
   width: 60rem;
   margin: auto;
+  background: red;
 }
 
 .researchCarousel {
@@ -21,10 +22,12 @@
 
 .researchParagraph {
   font-size: 1.25rem;
-  width: 50rem;
+  width: 80%;
   margin: auto;
-  margin-top: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
   text-align: center;
+  font-size: 1.5rem;
 }
 
 #enigmaLink {
@@ -48,4 +51,27 @@
   width: 10rem;
   height: 10rem;
   border-radius: 1rem;
+}
+
+#hackathonMainTitle {
+  font-size: 2rem;
+}
+
+#contributionsTitle, #researchPhotosTitle {
+  margin: 0;
+  text-align: none;
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+  color: #999999;
+  font-weight: 500;
+  letter-spacing: 5px;
+  margin-bottom: 15px;
+  display: block;
+  font-size: 1.2rem;
+}
+
+#researchPhotosTitle {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
 }
