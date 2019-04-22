@@ -32,6 +32,9 @@ import WhipSiteProjectImage from '../../assets/projects-assets/whip-site-project
 import SketchItProjectImage from '../../assets/projects-assets/sketch-it-project-image.png'
 import ALCProjectImage from '../../assets/projects-assets/alc-project-image.png'
 import TurtlebotProjectImage from '../../assets/projects-assets/turtle-bot-project-image.jpg'
+import CodecompProjectImage from '../../assets/projects-assets/codecomp-project-image.png'
+import EnigmaProjectImage from '../../assets/projects-assets/enigma-project-image.png'
+
 /*
 
 <div className='githubProjectsDiv'>
@@ -94,6 +97,53 @@ class Projects extends Component {
 
             </div>
             <img className='projectImage' src={BNMCProjectImage}></img>
+          </div>
+
+
+
+
+        </div>
+
+        <div className='projectRow'>
+
+
+
+          <div className='project'>
+            <div className='hover-content'>
+              <h3 className="hover-content-title">Codecomp</h3>
+              <p className="hover-content-type">Project Type - Personal</p>
+
+              <p className="hover-content-paragraph">
+              Codecomp is a peer to peer platform where users compete with friends and strangers from around the world
+              through coding problems.
+              </p>
+              <p className="hover-content-paragraph">
+              I built codecomp using React, Bootstrap, MongoDB and Golang. Plugins and APIs are
+              used for text editors and code compilation. Socket IO is used for peer to peer connection.
+              </p>
+            </div>
+            <img className='projectImage' src={CodecompProjectImage}></img>
+          </div>
+
+          <div className='project'>
+            <div className='hover-content'>
+              <h3 className="hover-content-title">ENIGMA</h3>
+              <p className="hover-content-type">Project Type - Research</p>
+
+              <p className="hover-content-paragraph">
+              ENIGMA is a machine learning model written in C built to help identify eccentricity in binary black hole mergers.
+              I joined LIGO in 2018 and rewrote a ~15000 line code base to meet the specifications of LALSuite
+              (LIGO's Algorithm Library).
+              </p>
+
+              <p className="hover-content-paragraph">
+              I continue to work on this project in my spare time. I hope to make a more powerful impact
+              on LIGO in the future when I have a better understanding of digital signal processing and general
+              relativity.
+              </p>
+
+            </div>
+            <img className='projectImage' src={EnigmaProjectImage}></img>
           </div>
 
 
