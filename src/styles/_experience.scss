@@ -21,12 +21,13 @@
 }
 
 .employmentRow {
-  flex: 1;
-  height: 5rem;
-  width: 80%;
+  display: block;
   margin: 5rem;
   padding: 1rem;
   overflow: visible;
+  background: red;
+  width: 85%;
+  height: 37.5rem;
 }
 
 /*
@@ -73,6 +74,8 @@
 .employmentDetails {
   padding: 1rem;
   text-align: center;
+  width: 42.5rem;
+  margin: auto;
 }
 
 .employment-details {
