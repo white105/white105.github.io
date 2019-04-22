@@ -8,6 +8,7 @@ import ResearchPhoto4 from '../../assets/uiuc_research_photos/photo4.jpg';
 import ResearchPhoto5 from '../../assets/uiuc_research_photos/photo5.jpg';
 import ResearchPhoto6 from '../../assets/uiuc_research_photos/photo6.jpg';
 import ResearchPhoto7 from '../../assets/uiuc_research_photos/photo7.jpg';
+import ResearchPhoto8 from '../../assets/projects-assets/turtlebot-image.jpg';
 
 class Research extends Component {
 
@@ -19,7 +20,17 @@ class Research extends Component {
       <div>
         <p className='researchParagraph' id='researchTitle'>National Center for Supercomputing Applications Gravity Group - Modeling and Detection of Black Hole Collisions Using Blue Water Supercomputer</p>
 
-        <img className='projectImage' src={ResearchPhoto4}></img>
+        <div className="projectRow">
+
+          <div className='project'>
+            <img className='projectImage' src={ResearchPhoto1}></img>
+          </div>
+
+          <div className='project'>
+            <img className='projectImage' src={ResearchPhoto4}></img>
+          </div>
+
+        </div>
 
         <br></br>
         <hr></hr>

@@ -31,6 +31,7 @@ import ODMBothProjectImage from '../../assets/projects-assets/odm-both-project-i
 import WhipSiteProjectImage from '../../assets/projects-assets/whip-site-project-image.png'
 import SketchItProjectImage from '../../assets/projects-assets/sketch-it-project-image.png'
 import ALCProjectImage from '../../assets/projects-assets/alc-project-image.png'
+import TurtlebotProjectImage from '../../assets/projects-assets/turtle-bot-project-image.jpg'
 /*
 
 <div className='githubProjectsDiv'>
@@ -150,30 +151,6 @@ class Projects extends Component {
 
         <div className='project'>
           <div className='hover-content'>
-            <h3 className="hover-content-title">Academic Live Chat</h3>
-            <p className="hover-content-type">Project Type - Hackathon</p>
-
-            <p className="hover-content-paragraph">
-            I worked together with 3 teammates at the Cornell University's annual 48 hour hackathon
-            to build Academic Live Chat. ALC is a web application built with MongoDB, Express, React, NodeJS, SocketIO,
-            Google Cloud Platform, and IBM Watson provides a variety of features to connect you with someone to talk
-            about a topic of similar interest.
-            </p>
-
-            <p className="hover-content-paragraph">
-            The application uses profile matching through user account similarities and Socket IO to pair individuals.
-            Socket IO is also used for messaging and peer to peer video chatting between users.
-            </p>
-
-
-
-
-          </div>
-          <img className='projectImage' src={ALCProjectImage}></img>
-        </div>
-
-        <div className='project'>
-          <div className='hover-content'>
             <h3 className="hover-content-title">One Dental Match Website</h3>
             <p className="hover-content-type">Project Type - Consulting</p>
 
@@ -195,8 +172,19 @@ class Projects extends Component {
         </div>
 
 
+        <div className='project'>
+          <div className='hover-content'>
+            <h3 className="hover-content-title">University at Buffalo Blockchain Buildathon Website</h3>
+            <p className="hover-content-type">Project Type - Consulting</p>
 
+            <p className="hover-content-paragraph">
+            I was given this project towards the end of development where I polished the overall design of the website
+            and added company, speaker, and event content.
+            </p>
 
+          </div>
+         <a href='http://www.hackbuf.com/'><img className='projectImage' src={UBProjectImage}></img></a>
+        </div>
 
         </div>
 
@@ -205,7 +193,24 @@ class Projects extends Component {
 
         <div className="projectRow">
 
+        <div className='mobileProject'>
+          <div className='hover-content'>
+            <h3 className="hover-content-title">Bar Tabs IOS Mobile Application</h3>
+            <p className="hover-content-type">Project Type - Personal</p>
 
+            <p className="hover-content-paragraph">
+            This application uses geolocation, Google Maps API, Google Places API, and Google Firebase to give realtime data on people
+            attending bars in the users vacinity. Some of this data includes ratings, comments, and the number of users currently attending
+            a particular bar.
+            </p>
+
+            <p className="hover-content-paragraph">
+            I developed the entire application from the ground up using Swift and the Google Cloud Platform.
+            </p>
+
+          </div>
+          <img className='mobileProjectImage' src={BarTabsProjectImage}></img>
+        </div>
 
         <div className='project'>
           <div className='hover-content'>
@@ -234,44 +239,53 @@ class Projects extends Component {
           <img className='projectImage' src={WhipSiteProjectImage}></img>
         </div>
 
-        <div className='project'>
-          <div className='hover-content'>
-            <h3 className="hover-content-title">University at Buffalo Blockchain Buildathon Website</h3>
-            <p className="hover-content-type">Project Type - Consulting</p>
-
-            <p className="hover-content-paragraph">
-            I was given this project towards the end of development where I polished the overall design of the website
-            and added company, speaker, and event content.
-            </p>
-
-          </div>
-         <a href='http://www.hackbuf.com/'><img className='projectImage' src={UBProjectImage}></img></a>
-        </div>
-
 
 
         </div>
 
         <div className='projectRow'>
 
-        <div className='mobileProject'>
+        <div className='project'>
           <div className='hover-content'>
-            <h3 className="hover-content-title">Bar Tabs IOS Mobile Application</h3>
-            <p className="hover-content-type">Project Type - Personal</p>
+            <h3 className="hover-content-title">Academic Live Chat</h3>
+            <p className="hover-content-type">Project Type - Hackathon</p>
 
             <p className="hover-content-paragraph">
-            This application uses geolocation, Google Maps API, Google Places API, and Google Firebase to give realtime data on people
-            attending bars in the users vacinity. Some of this data includes ratings, comments, and the number of users currently attending
-            a particular bar.
+            I worked together with 3 teammates at the Cornell University's annual 48 hour hackathon
+            to build Academic Live Chat. ALC is a web application built with MongoDB, Express, React, NodeJS, SocketIO,
+            Google Cloud Platform, and IBM Watson provides a variety of features to connect you with someone to talk
+            about a topic of similar interest.
             </p>
 
             <p className="hover-content-paragraph">
-            I developed the entire application from the ground up using Swift and the Google Cloud Platform.
+            The application uses profile matching through user account similarities and Socket IO to pair individuals.
+            Socket IO is also used for messaging and peer to peer video chatting between users.
             </p>
 
           </div>
-          <img className='mobileProjectImage' src={BarTabsProjectImage}></img>
+          <img className='projectImage' src={ALCProjectImage}></img>
         </div>
+
+
+        <div className='project'>
+          <div className='hover-content'>
+            <h3 className="hover-content-title">Turtlebot Robotics</h3>
+            <p className="hover-content-type">Project Type - Research</p>
+            <p className="hover-content-paragraph">
+            I worked on a research team that consisted of two professors and a fellow classmate.
+            My classmate and I assembled a turtlebot using a kobuki base, asus camera, rasberry pi,
+            and a computer that we installed Ubuntu linux on.
+            </p>
+
+            <p className="hover-content-paragraph">
+            We installed ROS (Robot Operating System) on our computers and used pre-built
+            libraries to visualize and map University hallways. We used navigation
+            libraries to get our turtlebot to autonomously move itself from point A to point B.
+            </p>
+          </div>
+          <a href='https://rubric-calculator.herokuapp.com/'><img className='projectImage' src={TurtlebotProjectImage}></img></a>
+        </div>
+
 
         </div>
 
