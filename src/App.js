@@ -63,10 +63,19 @@ class App extends Component {
             />
           </a>
 
-          <a className='iconLink' href='https://twitter.com/nickdoubleyouu' id='twitterIcon'>
+          <a className='iconLink' href='https://twitter.com/nicholaswwhite' id='twitterIcon'>
             <FontAwesome
               className='fontAwesomeIcon'
               name='twitter'
+              style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+            />
+          </a>
+
+          <a className='iconLink' href='https://www.instagram.com/nickwwhite'>
+            <FontAwesome
+              className='fontAwesomeIcon'
+              name='instagram'
+              id='instagramIcon'
               style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
             />
           </a>
