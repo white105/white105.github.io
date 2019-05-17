@@ -28,11 +28,12 @@ class Expirience extends Component {
 
 
             <div className='employmentDetails'>
-              <p className='employment-details'>-Came in and re-architected the main code base by tearing out the front end views (Rails+HTML) and created an entirely new pure ReactJS front end application that communicates with a Ruby on Rails API through service requests</p>
-              <p className='employment-details'>-Rewrote the entire sites frontend in React in less than 40 hours</p>
-              <p className='employment-details'>-Currently working on containerizing applications using docker and designing a micro service based architecture for server convenience as
-              website scales</p>
+              <p className='employment-details'>-Came in and re-architected the main code base by tearing out the front end views (Rails+HTML) and creating an entirely new single page React
+  application front end application that communicates with a Ruby on Rails API through service requests</p>
+              <p className='employment-details'>-Set up redux data store and updated deployment to Amazon Web Services</p>
             </div>
+
+
 
 
           </div>
