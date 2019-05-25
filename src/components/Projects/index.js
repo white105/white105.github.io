@@ -34,6 +34,7 @@ import ALCProjectImage from '../../assets/projects-assets/alc-project-image.png'
 import TurtlebotProjectImage from '../../assets/projects-assets/turtle-bot-project-image.jpg'
 import CodecompProjectImage from '../../assets/projects-assets/codecomp-project-image.png'
 import EnigmaProjectImage from '../../assets/projects-assets/enigma-project-image.png'
+import SDDProjectImage from '../../assets/projects-assets/sdd-project-image.png'
 
 /*
 
@@ -63,6 +64,25 @@ class Projects extends Component {
   render() {
     return (
       <div className='projectsContainer'>
+
+      <div className='projectRow'>
+
+
+
+        <div className='project'>
+          <div className='hover-content'>
+            <h3 className="hover-content-title">Same Day Dental</h3>
+            <p className="hover-content-type">Project Type - Freelance</p>
+
+            <p className="hover-content-paragraph">Worked with company representative to design an appointment scheduling system</p>
+            <p className="hover-content-paragraph">Implemented the scheduling system through Webflow and integrated the ClockwiseMD API into a simple popup form</p>
+          </div>
+          <a href='https://backyardcrypto.com/'><img className='projectImage' src={SDDProjectImage}></img></a>
+        </div>
+
+
+
+      </div>
 
         <div className='projectRow'>
 
