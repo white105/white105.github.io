@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.b1ed5e4a.css",
-  "main.css.map": "static/css/main.b1ed5e4a.css.map",
-  "main.js": "static/js/main.b028b737.js",
-  "main.js.map": "static/js/main.b028b737.js.map",
+  "main.css": "static/css/main.c61bbf13.css",
+  "main.css.map": "static/css/main.c61bbf13.css.map",
+  "main.js": "static/js/main.9b23e77b.js",
+  "main.js.map": "static/js/main.9b23e77b.js.map",
   "static/media/MeemzIO.png": "static/media/MeemzIO.3b2509b4.png",
   "static/media/Rubric-Calculator.png": "static/media/Rubric-Calculator.44beeb7c.png",
   "static/media/alc-project-image.png": "static/media/alc-project-image.42c5d80e.png",
@@ -15,6 +15,7 @@
   "static/media/barstoolsports-logo.png": "static/media/barstoolsports-logo.81ae53e2.png",
   "static/media/big-red-2.jpg": "static/media/big-red-2.967ed26b.jpg",
   "static/media/big_red.jpg": "static/media/big_red.91ba7bfb.jpg",
+  "static/media/bills-logo.jpeg": "static/media/bills-logo.a05a05dc.jpeg",
   "static/media/blockchainub.png": "static/media/blockchainub.54987724.png",
   "static/media/bnmc-project-image.png": "static/media/bnmc-project-image.15b945e3.png",
   "static/media/canisius-college-grading-image.png": "static/media/canisius-college-grading-image.6dd689a1.png",
@@ -51,6 +52,8 @@
   "static/media/ub-project-image.png": "static/media/ub-project-image.bbd72d21.png",
   "static/media/ubhacking1.jpg": "static/media/ubhacking1.1679e584.jpg",
   "static/media/ubhacking2.jpg": "static/media/ubhacking2.fa6fe8fe.jpg",
+  "static/media/usacentral.png": "static/media/usacentral.4c422b39.png",
+  "static/media/usalink-ios.png": "static/media/usalink-ios.95d228a5.png",
   "static/media/whip-site-project-image.png": "static/media/whip-site-project-image.aa763ea4.png",
   "static/media/whipLogo.png": "static/media/whipLogo.a3219ae9.png"
 }
