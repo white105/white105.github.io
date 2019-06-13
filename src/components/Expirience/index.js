@@ -9,6 +9,60 @@ class Expirience extends Component {
 
         <div className='employmentContainer'>
 
+        <div className='employmentRow' id='backyard-crypto'>
+
+          <h3 className='employerCompany'>Buffalo Bills</h3>
+
+          <div className='job-info'>
+
+            <div className='sub-job-info'>
+              <h4 className='jobTitle'>Analytics Intern</h4>
+              <h4 className='jobLocation'>Buffalo, New York &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; June 2019 - Present</h4>
+            </div>
+
+          </div>
+
+          <div className='employer-logo-container'>
+            <img id="backyard-crypto-logo" className='employment-logo' src={require('../../assets/employment-logos/bills-logo.jpeg')}></img>
+          </div>
+
+
+          <div className='employmentDetails'>
+            <p className='employment-details'>-Developing a cross platform Player Onboarding Application using Xamarin Forms and Microsoft Technologies</p>
+          </div>
+
+
+
+
+        </div>
+
+        <div className='employmentRow' id='backyard-crypto'>
+
+          <h3 className='employerCompany'>Kirkwork LLC</h3>
+
+          <div className='job-info'>
+
+            <div className='sub-job-info'>
+              <h4 className='jobTitle'>Software Developer</h4>
+              <h4 className='jobLocation'>Syracuse, New York &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; May 2019 - Present</h4>
+            </div>
+
+          </div>
+
+          <div className='employer-logo-container'>
+            <img id="kirkwork-logo" className='employment-logo' src={require('../../assets/employment-logos/kirkwork.png')}></img>
+          </div>
+
+
+          <div className='employmentDetails'>
+            <p className='employment-details'>-Working on a variety of native IOS & Android mobile applications for different companies</p>
+          </div>
+
+
+
+
+        </div>
+
           <div className='employmentRow' id='backyard-crypto'>
 
             <h3 className='employerCompany'>Backyard Crypto</h3>
@@ -17,7 +71,7 @@ class Expirience extends Component {
 
               <div className='sub-job-info'>
                 <h4 className='jobTitle'>Freelance Software Developer</h4>
-                <h4 className='jobLocation'>Buffalo, New York &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; April 2019 - Present</h4>
+                <h4 className='jobLocation'>Buffalo, New York &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; April 2019 - May 2019</h4>
               </div>
 
             </div>

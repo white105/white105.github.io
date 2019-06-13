@@ -35,6 +35,8 @@ import TurtlebotProjectImage from '../../assets/projects-assets/turtle-bot-proje
 import CodecompProjectImage from '../../assets/projects-assets/codecomp-project-image.png'
 import EnigmaProjectImage from '../../assets/projects-assets/enigma-project-image.png'
 import SDDProjectImage from '../../assets/projects-assets/sdd-project-image.png'
+import USALinkProjectImage from '../../assets/projects-assets/usalink-ios.png'
+import USACentralProjectImage from '../../assets/projects-assets/usacentral.png'
 
 /*
 
@@ -78,6 +80,35 @@ class Projects extends Component {
             <p className="hover-content-paragraph">Implemented the scheduling system through Webflow and integrated the ClockwiseMD API into a simple popup form</p>
           </div>
           <a href='https://backyardcrypto.com/'><img className='projectImage' src={SDDProjectImage}></img></a>
+        </div>
+
+
+
+      </div>
+
+
+      <div className='projectRow'>
+
+
+              <div className='project'>
+                <div className='hover-content'>
+                  <h3 className="hover-content-title">Alarm Central USA</h3>
+                  <p className="hover-content-type">Project Type - Software Development</p>
+                  <p className="hover-content-paragraph">Native IOS and Android Development under Kirkwork LLC</p>
+                </div>
+                <a href='https://backyardcrypto.com/'><img className='projectImage' src={USACentralProjectImage}></img></a>
+              </div>
+
+
+
+
+        <div className='project'>
+          <div className='hover-content'>
+            <h3 className="hover-content-title">USALink</h3>
+            <p className="hover-content-type">Project Type - Software Development</p>
+            <p className="hover-content-paragraph">Native IOS and Android Development under Kirkwork LLC</p>
+          </div>
+          <a href='https://backyardcrypto.com/'><img className='projectImage' src={USALinkProjectImage}></img></a>
         </div>
 
 
