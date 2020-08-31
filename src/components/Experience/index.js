@@ -11,12 +11,42 @@ class Experience extends Component {
 
         <div className='employmentRow' id='backyard-crypto'>
 
+        <h3 className='employerCompany'>YouTube</h3>
+
+        <div className='job-info'>
+
+          <div className='sub-job-info'>
+            <h4 className='jobTitle'>Content Creator</h4>
+            <h4 className='jobLocation'>Self Employed, Remotego
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; June 2019 - Present</h4>
+          </div>
+
+        </div>
+
+        <div className='employer-logo-container'>
+          <img id="youtube-logo" className='employment-logo' src={require('../../assets/employment-logos/youtube-logo.png')}></img>
+        </div>
+
+
+        <div className='employmentDetails'>
+          <p className='employment-details'>-Make programming related videos including advice videos, leetcode solutions, and general coding tutorials</p>
+          <p className='employment-details'>-Grew an audience of 95 thousand subscribers and over 5 million views in 1 year</p>
+          <p className='employment-details'>-Helped many professionals get hired at top companies including Facebook, Google, Amazon, etc.</p>
+        </div>
+
+
+
+
+        </div>
+
+        <div className='employmentRow' id='backyard-crypto'>
+
           <h3 className='employerCompany'>Buffalo Bills</h3>
 
           <div className='job-info'>
 
             <div className='sub-job-info'>
-              <h4 className='jobTitle'>Analytics Intern</h4>
+              <h4 className='jobTitle'>Mobile Applications Developer Intern</h4>
               <h4 className='jobLocation'>Buffalo, New York &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; June 2019 - Present</h4>
             </div>
 
