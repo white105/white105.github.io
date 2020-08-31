@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-class Expirience extends Component {
+class Experience extends Component {
 
   render() {
 
     return (
-      <div className='expirienceContainer'>
+      <div className='experienceContainer'>
 
         <div className='employmentContainer'>
 
@@ -204,4 +204,4 @@ class Expirience extends Component {
   }
 }
 
-export default Expirience;
+export default Experience;

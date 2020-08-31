@@ -12,7 +12,7 @@ import Resume from '../../components/Resume/index.js';
 import Design from '../../components/Design/index.js';
 import Services from '../../components/Services/index.js';
 import Contact from '../../components/Contact/index.js';
-import Expirience from '../../components/Expirience/index.js';
+import Experience from '../../components/Experience/index.js';
 import Noogle from '../../components/Noogle/index.js';
 import GPACalculator from '../../components/GPACalculator/index.js';
 
@@ -27,10 +27,10 @@ function Container({ location }) {
         <CSSTransition key={location.key} timeout={500} classNames="move">
 
         <div id='content'>
-          <Route exact path="/" render={() => (<Redirect to="/expirience"></Redirect>)} />
+          <Route exact path="/" render={() => (<Redirect to="/experience"></Redirect>)} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/services" component={Services} />
-          <Route exact path="/expirience" component={Expirience} />
+          <Route exact path="/experience" component={Experience} />
           <Route exact path="/projects" component={Projects} />
           <Route exact path='/hackathons' component={Hackathons} />
           <Route exact path="/research" component={Research} />

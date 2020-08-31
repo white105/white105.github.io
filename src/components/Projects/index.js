@@ -6,7 +6,7 @@ import MeemzIO from '../../assets/projects-assets/MeemzIO.png'
 import { Link } from 'react-router-dom';
 import 'react-github-cards/dist/default.css';
 import GPACalculator from '../../assets/projects-assets/gpa-calculator.png'
-import RubricCalculator from '../../assets/projects-assets/Rubric-Calculator.png'
+import RubricCalculator from '../../assets/projects-assets/rubric-calculator.png'
 import Chess from '../Chess/index.js'
 import Noogle from '../../assets/projects-assets/noogle.png'
 import BlockChain from '../../assets/projects-assets/blockchainub.png'
