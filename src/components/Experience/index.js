@@ -17,7 +17,7 @@ class Experience extends Component {
 
           <div className='sub-job-info'>
             <h4 className='jobTitle'>Content Creator</h4>
-            <h4 className='jobLocation'>Self Employed, Remotego
+            <h4 className='jobLocation'>Self Employed, Remote
              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; June 2019 - Present</h4>
           </div>
 
@@ -31,13 +31,40 @@ class Experience extends Component {
         <div className='employmentDetails'>
           <p className='employment-details'>-Make programming related videos including advice videos, leetcode solutions, and general coding tutorials</p>
           <p className='employment-details'>-Grew an audience of 95 thousand subscribers and over 5 million views in 1 year</p>
-          <p className='employment-details'>-Helped many professionals get hired at top companies including Facebook, Google, Amazon, etc.</p>
+          <p className='employment-details'>-Helped many professionals prepare for their technical interviews and land jobs at top companies</p>
         </div>
 
 
 
 
         </div>
+
+        <div className='employmentRow' id='backyard-crypto'>
+
+<h3 className='employerCompany'>Kirkwork LLC</h3>
+
+<div className='job-info'>
+
+  <div className='sub-job-info'>
+    <h4 className='jobTitle'>Software Developer</h4>
+    <h4 className='jobLocation'>Syracuse, New York &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; May 2019 - Present</h4>
+  </div>
+
+</div>
+
+<div className='employer-logo-container'>
+  <img id="kirkwork-logo" className='employment-logo' src={require('../../assets/employment-logos/kirkwork.png')}></img>
+</div>
+
+
+<div className='employmentDetails'>
+  <p className='employment-details'>-Working on a variety of native IOS & Android mobile applications for different companies</p>
+</div>
+
+
+
+
+</div>
 
         <div className='employmentRow' id='backyard-crypto'>
 
@@ -66,32 +93,7 @@ class Experience extends Component {
 
         </div>
 
-        <div className='employmentRow' id='backyard-crypto'>
 
-          <h3 className='employerCompany'>Kirkwork LLC</h3>
-
-          <div className='job-info'>
-
-            <div className='sub-job-info'>
-              <h4 className='jobTitle'>Software Developer</h4>
-              <h4 className='jobLocation'>Syracuse, New York &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; May 2019 - Present</h4>
-            </div>
-
-          </div>
-
-          <div className='employer-logo-container'>
-            <img id="kirkwork-logo" className='employment-logo' src={require('../../assets/employment-logos/kirkwork.png')}></img>
-          </div>
-
-
-          <div className='employmentDetails'>
-            <p className='employment-details'>-Working on a variety of native IOS & Android mobile applications for different companies</p>
-          </div>
-
-
-
-
-        </div>
 
           <div className='employmentRow' id='backyard-crypto'>
 
