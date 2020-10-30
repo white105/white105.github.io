@@ -73,7 +73,7 @@ class Experience extends Component {
           <div className='job-info'>
 
             <div className='sub-job-info'>
-              <h4 className='jobTitle'>Mobile Applications Developer Intern</h4>
+              <h4 className='jobTitle'>Mobile Applications Developer</h4>
               <h4 className='jobLocation'>Buffalo, New York &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; June 2019 - Present</h4>
             </div>
 
