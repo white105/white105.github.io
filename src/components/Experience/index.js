@@ -17,7 +17,7 @@ class Experience extends Component {
             <div className='sub-job-info'>
               <h4 className='jobTitle'>Algorithms Instructor</h4>
               <h4 className='jobLocation'>Remote
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Oct 2019 - Present</h4>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Oct 2020 - Present</h4>
             </div>
 
           </div>
