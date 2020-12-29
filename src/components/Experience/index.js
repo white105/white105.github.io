@@ -8,6 +8,34 @@ class Experience extends Component {
       <div className='experienceContainer'>
 
         <div className='employmentContainer'>
+        <div className='employmentRow' id='backyard-crypto'>
+
+          <h3 className='employerCompany'>AlgoExpert</h3>
+
+          <div className='job-info'>
+
+            <div className='sub-job-info'>
+              <h4 className='jobTitle'>Algorithms Instructor</h4>
+              <h4 className='jobLocation'>Remote
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Oct 2019 - Present</h4>
+            </div>
+
+          </div>
+
+          <div className='employer-logo-container'>
+            <img id="youtube-logo" className='employment-logo' src={require('../../assets/employment-logos/algoexpert-logo.png')}></img>
+          </div>
+
+
+          <div className='employmentDetails'>
+            <p className='employment-details'>-Create coding interview questions</p>
+            <p className='employment-details'>-Film and produce long format video explanations</p>
+          </div>
+
+
+
+
+          </div>
 
         <div className='employmentRow' id='backyard-crypto'>
 

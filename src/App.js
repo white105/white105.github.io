@@ -50,7 +50,7 @@ class App extends Component {
       <div className='siteFooter'>
 
         <div className='footerCopyright'>
-          <h3 className='copyrightHeader'>&copy; NICHOLAS WHITE 2019</h3>
+          <h3 className='copyrightHeader'>&copy; NICHOLAS WHITE 2020</h3>
         </div>
 
         <div className='fontAwesomeIconDiv'>
@@ -88,7 +88,7 @@ class App extends Component {
             />
           </a>
 
-          <a className='iconLink' href='https://www.twitch.tv/matrixman' id='twitchIcon'>
+          <a className='iconLink' href='https://www.twitch.tv/nickwhitettv' id='twitchIcon'>
             <FontAwesome
               className='fontAwesomeIcon'
               name='twitch'
@@ -96,7 +96,7 @@ class App extends Component {
             />
           </a>
 
-          <a className='iconLink' href='https://www.youtube.com/channel/UC1fLEeYICmo3O9cUsqIi7HA?view_as=subscriber' id='youtubeIcon'>
+          <a className='iconLink' href='https://www.youtube.com/nickwhite' id='youtubeIcon'>
             <FontAwesome
               className='fontAwesomeIcon'
               name='youtube'
