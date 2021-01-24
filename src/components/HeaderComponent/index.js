@@ -54,7 +54,6 @@ class HeaderComponent extends Component {
     <li><Link to='/projects' className='headerTab'>projects</Link></li>
     <li><Link to='/research' className='headerTab'>Research</Link></li>
     <li><Link to='/hackathons' className='headerTab'>Hackathons</Link></li>
-    <li><Link to='/articles' className='headerTab'>Articles</Link></li>
     </ul>
 
     if (current_page === "experience") {
@@ -63,7 +62,6 @@ class HeaderComponent extends Component {
         <li><Link to='/projects' className='headerTab'>projects</Link></li>
         <li><Link to='/research' className='headerTab'>Research</Link></li>
         <li><Link to='/hackathons' className='headerTab'>Hackathons</Link></li>
-        <li><Link to='/articles' className='headerTab'>Articles</Link></li>
       </ul>
     } else if (current_page === "projects") {
       mainHeaderList = <ul id='mainHeaderSubList'>
@@ -71,7 +69,6 @@ class HeaderComponent extends Component {
         <li><div id='current_page_icon_top'></div><Link id="underlined" to='/projects' className='headerTab'>projects</Link><div id='current_page_icon_bottom'></div></li>
         <li><Link to='/research' className='headerTab'>Research</Link></li>
         <li><Link to='/hackathons' className='headerTab'>Hackathons</Link></li>
-        <li><Link to='/articles' className='headerTab'>Articles</Link></li>
       </ul>
     } else if (current_page === "research") {
       mainHeaderList = <ul id='mainHeaderSubList'>
@@ -79,7 +76,6 @@ class HeaderComponent extends Component {
         <li><Link to='/projects' className='headerTab'>projects</Link></li>
         <li><div id='current_page_icon_top'></div><Link id="underlined" to='/research' className='headerTab'>Research</Link><div id='current_page_icon_bottom'></div></li>
         <li><Link to='/hackathons' className='headerTab'>Hackathons</Link></li>
-        <li><Link to='/articles' className='headerTab'>Articles</Link></li>
       </ul>
     } else if (current_page === "hackathons") {
       mainHeaderList = <ul id='mainHeaderSubList'>
@@ -87,20 +83,10 @@ class HeaderComponent extends Component {
           <li><Link to='/projects' className='headerTab'>projects</Link></li>
           <li><Link to='/research' className='headerTab'>Research</Link></li>
           <li><div id='current_page_icon_top'></div><Link id="underlined" to='/hackathons' className='headerTab'>Hackathons</Link><div id='current_page_icon_bottom'></div></li>
-        <li><Link to='/articles' className='headerTab'>Articles</Link></li>
-      </ul>
-    } else if (current_page === "articles") {
-      mainHeaderList = <ul id='mainHeaderSubList'>
-        <li><Link to='/experience' className='headerTab'>Experience</Link></li>
-          <li><Link to='/projects' className='headerTab'>projects</Link></li>
-          <li><Link to='/research' className='headerTab'>Research</Link></li>
-          <li><Link to='/hackathons' className='headerTab'>Hackathons</Link></li>
-          <li><div id='current_page_icon_top'></div><Link id="underlined" to='/articles' className='headerTab'>Articles</Link><div id='current_page_icon_bottom'></div></li>
       </ul>
     } else if (current_page === "design") {
       mainHeaderList = <ul id='mainHeaderSubList'>
         <li><Link to='/portfolio' className='headerTab'>Portfolio</Link></li>
-        <li><Link to='/articles' className='headerTab'>Articles</Link></li>
         <li><div id='current_page_icon_top'></div><Link id="underlined" to='/design' className='headerTab'>Designs</Link><div id='current_page_icon_bottom'></div></li>
         <li><Link to='/contact' className='headerTab'>Contact</Link></li>
       </ul>
@@ -128,7 +114,7 @@ class HeaderComponent extends Component {
     if (isDesktop) {
       return (
         <div className='headerDiv' id='headerDiv'>
-          <h1 id='headerName'><Link to='/' id='headerLink'>Nicholas White</Link></h1>
+          <h1 id='headerName'><Link to='/' className='headerLink'>Nicholas White</Link></h1>
 
           {mainHeaderList}
         </div>
@@ -146,7 +132,7 @@ class HeaderComponent extends Component {
                 name='arrow-circle-up'
                 style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
               />
-              <h1 id='headerName'><Link to='/' id='headerLink'>Nicholas White</Link></h1>
+              <h1 id='headerName'><Link to='/' className='headerLink'>Nicholas White</Link></h1>
             </div>
 
             <ul id='mainHeaderSubList'>
@@ -154,7 +140,7 @@ class HeaderComponent extends Component {
               <li><Link to='/projects' className='headerTab'>projects</Link></li>
               <li><Link to='/research' className='headerTab'>Research</Link></li>
               <li><Link to='/hackathons' className='headerTab'>Hackathons</Link></li>
-              <li><Link to='/articles' className='headerTab'>Articles</Link></li>
+  
             </ul>
 
           </div>
@@ -171,7 +157,7 @@ class HeaderComponent extends Component {
                 style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
               />
 
-              <h1 id='headerName'><Link to='/' id='headerLink'>Nicholas White</Link></h1>
+              <h1 id='headerName'><Link to='/' className='headerLink'>Nicholas White</Link></h1>
             </div>
           </div>
         );

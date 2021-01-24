@@ -359,10 +359,10 @@ body a:hover {
     font-family: 'Montserrat', sans-serif;
   }
 
-  #headerLink {
+  .headerLink {
     font-family: 'Montserrat', sans-serif;
     color: white !important;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
   }
 
   #mainHeaderSubList {

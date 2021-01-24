@@ -15,7 +15,7 @@
 
 .employerCompany {
   font-family: "Quicksand", Arial, sans-serif;
-  text-transform: uppercase;
+
   font-weight: 500;
 }
 
@@ -69,6 +69,9 @@
 
 .employment-details {
   text-align: center;
+  font-size: 1.2rem;
+  font-family: 'Open Sans', 'Roboto', sans-serif;
+  font-weight: lighter;
 }
 
 .job-info {
@@ -91,14 +94,12 @@
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 500;
   text-align: center;
-  text-transform: uppercase;
   margin-top: 1rem;
 }
 
 .jobLocation {
   font-size: 1rem;
   font-family: "Quicksand", Arial, sans-serif;
-  text-transform: uppercase;
   font-weight: 500;
   text-align: center;
   margin-top: 1rem;
@@ -115,10 +116,6 @@
   width: 5rem;
   height: 5rem;
   border: 1px solid rgb(73, 110, 178);
-}
-
-.employment-details {
-  font-size: 1.2rem;
 }
 
 #backyard-crypto-logo {

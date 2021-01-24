@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 class Experience extends Component {
-
+  
   render() {
 
     return (
@@ -16,7 +16,7 @@ class Experience extends Component {
 
             <div className='sub-job-info'>
               <h4 className='jobTitle'>Algorithms Instructor</h4>
-              <h4 className='jobLocation'>Remote
+              <h4 className='jobLocation'>Contract, Remote
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Oct 2020 - Present</h4>
             </div>
 
@@ -69,7 +69,7 @@ class Experience extends Component {
 
         <div className='employmentRow' id='backyard-crypto'>
 
-<h3 className='employerCompany'>Kirkwork LLC</h3>
+<h3 className='employerCompany'>Kirkwork</h3>
 
 <div className='job-info'>
 
