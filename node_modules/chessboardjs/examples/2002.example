@@ -1,0 +1,15 @@
+=== Name
+Notation
+
+=== Description
+Use the <a href="docs#config:showNotation"><code class="js plain">showNotation</code></a> property to turn board notation on or off.
+
+=== HTML
+<div id="board" style="width: 400px"></div>
+
+=== JS
+var cfg = {
+  showNotation: false,
+  position: 'start'
+};
+var board = ChessBoard('board', cfg);

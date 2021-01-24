@@ -1,0 +1,15 @@
+=== Name
+Orientation
+
+=== Description
+Use the <a href="docs#config:orientation"><code class="js plain">orientation</code></a> property to set board orientation.
+
+=== HTML
+<div id="board" style="width: 400px"></div>
+
+=== JS
+var cfg = {
+  orientation: 'black',
+  position: 'start'
+};
+var board = ChessBoard('board', cfg);

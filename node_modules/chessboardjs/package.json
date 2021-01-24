@@ -1,0 +1,26 @@
+{
+  "name": "chessboardjs",
+  "version": "0.0.1",
+  "description": "JavaScript Chess Board http://chessboardjs.com",
+  "main": "www/js/chessboard.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deanius/chessboardjs.git"
+  },
+  "keywords": [
+    "chess",
+    "chessboard"
+  ],
+  "author": "Chris Oakmac <chris@oakmac.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deanius/chessboardjs/issues"
+  },
+  "homepage": "https://github.com/deanius/chessboardjs#readme"
+}

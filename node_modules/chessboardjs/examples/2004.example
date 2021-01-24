@@ -1,0 +1,15 @@
+=== Name
+Piece Theme String
+
+=== Description
+Use the <a href="docs#config:pieceTheme"><code class="js plain">pieceTheme</code></a> property to set the source of piece images.
+
+=== HTML
+<div id="board" style="width: 400px"></div>
+
+=== JS
+var cfg = {
+  pieceTheme: 'img/chesspieces/alpha/{piece}.png',
+  position: 'start'
+};
+var board = ChessBoard('board', cfg);
