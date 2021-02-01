@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import FontAwesome from 'react-fontawesome';
+import React, { Component } from "react";
+import FontAwesome from "react-fontawesome";
 
 /*
 <h4 className='homePageHeader'>Welcome to my personal site!</h4>
@@ -13,55 +13,42 @@ using the tabs above. For more information you can contact me through the social
 */
 
 class Home extends Component {
+	constructor() {
+		super();
+		this.state = {
+			contactFormActive: false,
+			senderName: "",
+			senderSubject: "",
+			senderMessage: "",
+		};
 
-  constructor() {
-    super()
-    this.state = {
-      contactFormActive : false,
-      senderName: '',
-      senderSubject: '',
-      senderMessage: ''
-    }
+		this.activateContactForm = this.activateContactForm.bind(this);
+	}
 
+	activateContactForm() {
+		window.open("mailto:nickwhite1423@gmail.com");
+		this.setState({ contactFormActive: true });
+	}
 
-    this.activateContactForm = this.activateContactForm.bind(this)
+	sendContactMessage() {
+		if (
+			this.senderName != "" &&
+			this.senderSubject != "" &&
+			this.senderMessage != ""
+		) {
+			var file = new File("./message.txt");
+			file.open("w");
+			var str = this.state.senderName + this.senderSubject + this.senderMessage;
+			file.write(str);
+			file.close();
 
-  }
+			this.setState({ senderName: "", senderSubject: "", senderMessage: "" });
+		}
+	}
 
-
-  activateContactForm() {
-    window.open('mailto:nickwhite1423@gmail.com');
-    this.setState({ contactFormActive : true })
-  }
-
-
-  sendContactMessage() {
-    if (this.senderName != '' && this.senderSubject != '' && this.senderMessage != '') {
-      var file = new File("./message.txt");
-      file.open("w")
-      var str = this.state.senderName + this.senderSubject + this.senderMessage
-      file.write(str);
-      file.close()
-
-
-      this.setState({senderName: '',
-      senderSubject: '',
-      senderMessage: ''})
-    }
-  }
-
-
-
-  render() {
-
-    return (
-      <div className='homePageContainer'>
-
-
-
-      </div>
-    )
-  }
+	render() {
+		return <div className='homePageContainer'></div>;
+	}
 }
 
 export default Home;

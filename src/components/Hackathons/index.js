@@ -1,245 +1,292 @@
-import React, { Component } from 'react';
-import { Carousel } from 'react-responsive-carousel';
-import SketchItLogo from '../../assets/hackathon-pics/sketchit.png'
-import WhipLogo from '../../assets/hackathon-pics/whipLogo.png'
-import { Link } from 'react-router-dom';
-import FontAwesome from 'react-fontawesome';
-import WhipSiteProjectImage from '../../assets/projects-assets/whip-site-project-image.png'
-import SketchItProjectImage from '../../assets/projects-assets/sketch-it-project-image.png'
-import ALCProjectImage from '../../assets/projects-assets/alc-project-image.png'
+import React, { Component } from "react";
+import { Carousel } from "react-responsive-carousel";
+import SketchItLogo from "../../assets/hackathon-pics/sketchit.png";
+import WhipLogo from "../../assets/hackathon-pics/whipLogo.png";
+import { Link } from "react-router-dom";
+import FontAwesome from "react-fontawesome";
+import WhipSiteProjectImage from "../../assets/projects-assets/whip-site-project-image.png";
+import SketchItProjectImage from "../../assets/projects-assets/sketch-it-project-image.png";
+import ALCProjectImage from "../../assets/projects-assets/alc-project-image.png";
 
 class Hackathons extends Component {
-
-  constructor(props) {
-    super(props)
-    this.state = {
-      isDesktop: false
-    }
-
-    this.updatePredicate = this.updatePredicate.bind(this);
-  }
-
-  componentDidMount() {
-    this.updatePredicate();
-    window.addEventListener("resize", this.updatePredicate);
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener("resize", this.updatePredicate);
-  }
-
-  updatePredicate() {
-    this.setState({ isDesktop: window.innerWidth > 600 });
-    if (window.innerWidth > 600) {
-      let headerDiv = document.getElementById("headerDiv")
-      headerDiv.style.height = '6rem'
-    }
-  }
-
-  /*<div className='mlhLogoContainer'><img className='mlhlogo' src={require('../../mlh-logo.jpg')}></img></div>*/
-
-  render() {
-    const isDesktop = this.state.isDesktop;
-    if (isDesktop) {
-      return (
-        <div className='hackathonComponent'>
-
-        <h3 id="hackathonProjectsTitle">Hackathon Projects</h3>
-
-        <div className="projectRow">
-
-        <div className='project'>
-          <div className='hover-content'>
-            <h3 className="hover-content-title">Academic Live Chat</h3>
-
-            <p className="hover-content-paragraph">
-            I worked together with 3 teammates at the Cornell University's annual 48 hour hackathon
-            to build Academic Live Chat. ALC is a web application built with MongoDB, Express, React, NodeJS, SocketIO,
-            Google Cloud Platform, and IBM Watson provides a variety of features to connect you with someone to talk
-            about a topic of similar interest.
-            </p>
-
-            <p className="hover-content-paragraph">
-            The application uses profile matching through user account similarities and Socket IO to pair individuals.
-            Socket IO is also used for messaging and peer to peer video chatting between users.
-            </p>
-
-
-
-
-          </div>
-          <img className='projectImage' src={ALCProjectImage}></img>
-        </div>
-
-
-        <div className='project'>
-          <div className='hover-content'>
-            <h3 className="hover-content-title">Whip</h3>
-
-            <p className="hover-content-paragraph">
-            I worked together with 3 teammates at the University of Rochester's annual 48 hour hackathon
-            to build Whip. Whip is a web application built with MongoDB, Express, React, and NodeJS that
-            utilizes flight data, event data, and both the uber and lyft APIs to provide users the knowlege
-            they need to plan their work schedule.
-            </p>
-
-            <p className="hover-content-paragraph">
-            The application uses a python microservice to gather flight data from a variety of resources.
-            Whip provides charts that diagram peak airport activity time and calls an event API to find nearby events
-            sorted in order of number of people attending. Whip also has a customized Google Map that plots all nearby events and airports as well
-            as other nearby uber and lyft drivers.
-            </p>
-
-            <p className="hover-content-paragraph">
-            Won Two Awards - Best use of multiple APIs and Best use of Google Cloud Platform
-            </p>
-
-          </div>
-          <img className='projectImage' src={WhipSiteProjectImage}></img>
-        </div>
-
-        </div>
-
-        <div className="projectRow">
-
-        <div className='project'>
-          <div className='hover-content'>
-            <h3 className="hover-content-title">Sketch It</h3>
-
-            <p className="hover-content-paragraph">
-            I worked together with 3 teammates at the University at Buffalo's annual 48 hour hackathon
-            to build Sketch It. Sketch It is a web application build with VanillaJS, MongoDB, and NodeJS that
-
-            utilizes the canvas API, Google Cloud Platform, and SocketIO to provide users with a platform to connect through
-            shared whiteboarding.
-            </p>
-
-            <p className="hover-content-paragraph">
-            A random url is generated for each whiteboarding session. Users can connect to this specific url and communicate
-            through drawings and messaging. Canvas coordinates are sent through SocketIO to other users and are stored in MongoDB in case
-            users want their session to persist.
-            </p>
-
-            <p className="hover-content-paragraph">
-            Finalist out of over 50 team projects - Won Third Place
-            </p>
-
-          </div>
-          <a href='https://backyardcrypto.com/'><img className='projectImage' src={SketchItProjectImage}></img></a>
-        </div>
-
-        </div>
-
-
-        <hr></hr>
-
-        <h3 id="hackathonPhotosTitle">Hackathon Photos</h3>
-
-        <div className="projectRow">
-
-        <div className='project'>
-          <div className='hover-content'>
-            <h3 className="hover-content-title">Big Red Hacks</h3>
-          </div>
-          <a href='https://backyardcrypto.com/'><img src={require('../../assets/hackathon-pics/big_red.jpg')} className='projectImage' alt='#'/></a>
-        </div>
-
-        <div className='project'>
-          <div className='hover-content'>
-            <h3 className="hover-content-title">Big Red Hacks</h3>
-          </div>
-          <a href='https://backyardcrypto.com/'><img src={require('../../assets/hackathon-pics/big-red-2.jpg')} className='projectImage' alt='#'/></a>
-        </div>
-
-
-
-        </div>
-
-
-        <div className="projectRow">
-
-        <div className='project'>
-          <div className='hover-content'>
-            <h3 className="hover-content-title">Dandy Hacks</h3>
-          </div>
-          <a href='https://backyardcrypto.com/'><img src={require('../../assets/hackathon-pics/dandyhacksgroup.jpg')} className='projectImage' alt='#'/></a>
-        </div>
-
-        <div className='project'>
-          <div className='hover-content'>
-            <h3 className="hover-content-title">Dandy Hacks</h3>
-          </div>
-          <a href='https://backyardcrypto.com/'><img src={require('../../assets/hackathon-pics/presentation.jpg')} className='projectImage' alt='#'/></a>
-        </div>
-
-        </div>
-
-        <div className="projectRow">
-
-        <div className='project'>
-          <div className='hover-content'>
-            <h3 className="hover-content-title">UB Hacking</h3>
-          </div>
-          <a href='https://backyardcrypto.com/'><img src={require('../../assets/hackathon-pics/ubhacking2.jpg')} className='projectImage' alt='#'/></a>
-        </div>
-
-
-        <div className='project'>
-          <div className='hover-content'>
-            <h3 className="hover-content-title">UB Hacking</h3>
-          </div>
-          <a href='https://backyardcrypto.com/'><img src={require('../../assets/hackathon-pics/ubhacking1.jpg')} className='projectImage' alt='#'/></a>
-        </div>
-
-        </div>
-
-
-
-
-        </div>
-      );
-    } else {
-      return (
-        <div>
-
-          <div className='hackathonContainer'>
-
-          <Carousel autoPlay={true} interval={3000} infiniteLoop={true} showThumbs={false} className='hackathonCarousel'>
-                  <div className='hackathonCarouselImageDiv'>
-                      <img src={require('../../assets/hackathon-pics/big_red.jpg')} className='hackathonCarouselImage' alt='#'/>
-                  </div>
-
-                  <div className='hackathonCarouselImageDiv'>
-                      <img src={require('../../assets/hackathon-pics/dandyhacksgroup.jpg')} className='hackathonCarouselImage' alt='#'/>
-                  </div>
-
-                  <div className='hackathonCarouselImageDiv'>
-                      <img src={require('../../assets/hackathon-pics/presentation.jpg')} className='hackathonCarouselImage' alt='#'/>
-                  </div>
-
-                  <div className='hackathonCarouselImageDiv'>
-                      <img src={require('../../assets/hackathon-pics/ubhacking1.jpg')} className='hackathonCarouselImage' alt='#'/>
-                  </div>
-
-                  <div className='hackathonCarouselImageDiv'>
-                      <img src={require('../../assets/hackathon-pics/ubhacking2.jpg')} className='hackathonCarouselImage' alt='#'/>
-                  </div>
-          </Carousel>
-
-          <div className='mobileHackathonDetails'>
-            <h4 id='mobileAwardsHeader'>Awards</h4>
-            <p className='mobileAward'>UB Hacks - Finalist (Third Place)</p>
-            <p className='mobileAward'>Dandy Hacks - Google Cloud Platform Award</p>
-            <p className='mobileAward'>Dandy Hacks - FactSet API Award</p>
-          </div>
-
-
-          </div>
-        </div>
-      )
-    }
-
-    /*
+	constructor(props) {
+		super(props);
+		this.state = {
+			isDesktop: false,
+		};
+
+		this.updatePredicate = this.updatePredicate.bind(this);
+	}
+
+	componentDidMount() {
+		this.updatePredicate();
+		window.addEventListener("resize", this.updatePredicate);
+	}
+
+	componentWillUnmount() {
+		window.removeEventListener("resize", this.updatePredicate);
+	}
+
+	updatePredicate() {
+		this.setState({ isDesktop: window.innerWidth > 600 });
+		if (window.innerWidth > 600) {
+			let headerDiv = document.getElementById("headerDiv");
+			headerDiv.style.height = "6rem";
+		}
+	}
+
+	/*<div className='mlhLogoContainer'><img className='mlhlogo' src={require('../../mlh-logo.jpg')}></img></div>*/
+
+	render() {
+		const isDesktop = this.state.isDesktop;
+		if (isDesktop) {
+			return (
+				<div className='hackathonComponent'>
+					<h3 id='hackathonProjectsTitle'>Hackathon Projects</h3>
+
+					<div className='projectRow'>
+						<div className='project'>
+							<div className='hover-content'>
+								<h3 className='hover-content-title'>Academic Live Chat</h3>
+
+								<p className='hover-content-paragraph'>
+									I worked together with 3 teammates at the Cornell University's
+									annual 48 hour hackathon to build Academic Live Chat. ALC is a
+									web application built with MongoDB, Express, React, NodeJS,
+									SocketIO, Google Cloud Platform, and IBM Watson provides a
+									variety of features to connect you with someone to talk about
+									a topic of similar interest.
+								</p>
+
+								<p className='hover-content-paragraph'>
+									The application uses profile matching through user account
+									similarities and Socket IO to pair individuals. Socket IO is
+									also used for messaging and peer to peer video chatting
+									between users.
+								</p>
+							</div>
+							<img className='projectImage' src={ALCProjectImage}></img>
+						</div>
+
+						<div className='project'>
+							<div className='hover-content'>
+								<h3 className='hover-content-title'>Whip</h3>
+
+								<p className='hover-content-paragraph'>
+									I worked together with 3 teammates at the University of
+									Rochester's annual 48 hour hackathon to build Whip. Whip is a
+									web application built with MongoDB, Express, React, and NodeJS
+									that utilizes flight data, event data, and both the uber and
+									lyft APIs to provide users the knowlege they need to plan
+									their work schedule.
+								</p>
+
+								<p className='hover-content-paragraph'>
+									The application uses a python microservice to gather flight
+									data from a variety of resources. Whip provides charts that
+									diagram peak airport activity time and calls an event API to
+									find nearby events sorted in order of number of people
+									attending. Whip also has a customized Google Map that plots
+									all nearby events and airports as well as other nearby uber
+									and lyft drivers.
+								</p>
+
+								<p className='hover-content-paragraph'>
+									Won Two Awards - Best use of multiple APIs and Best use of
+									Google Cloud Platform
+								</p>
+							</div>
+							<img className='projectImage' src={WhipSiteProjectImage}></img>
+						</div>
+					</div>
+
+					<div className='projectRow'>
+						<div className='project'>
+							<div className='hover-content'>
+								<h3 className='hover-content-title'>Sketch It</h3>
+
+								<p className='hover-content-paragraph'>
+									I worked together with 3 teammates at the University at
+									Buffalo's annual 48 hour hackathon to build Sketch It. Sketch
+									It is a web application build with VanillaJS, MongoDB, and
+									NodeJS that utilizes the canvas API, Google Cloud Platform,
+									and SocketIO to provide users with a platform to connect
+									through shared whiteboarding.
+								</p>
+
+								<p className='hover-content-paragraph'>
+									A random url is generated for each whiteboarding session.
+									Users can connect to this specific url and communicate through
+									drawings and messaging. Canvas coordinates are sent through
+									SocketIO to other users and are stored in MongoDB in case
+									users want their session to persist.
+								</p>
+
+								<p className='hover-content-paragraph'>
+									Finalist out of over 50 team projects - Won Third Place
+								</p>
+							</div>
+							<a href='https://backyardcrypto.com/'>
+								<img className='projectImage' src={SketchItProjectImage}></img>
+							</a>
+						</div>
+					</div>
+
+					<hr></hr>
+
+					<h3 id='hackathonPhotosTitle'>Hackathon Photos</h3>
+
+					<div className='projectRow'>
+						<div className='project'>
+							<div className='hover-content'>
+								<h3 className='hover-content-title'>Big Red Hacks</h3>
+							</div>
+							<a href='https://backyardcrypto.com/'>
+								<img
+									src={require("../../assets/hackathon-pics/big_red.jpg")}
+									className='projectImage'
+									alt='#'
+								/>
+							</a>
+						</div>
+
+						<div className='project'>
+							<div className='hover-content'>
+								<h3 className='hover-content-title'>Big Red Hacks</h3>
+							</div>
+							<a href='https://backyardcrypto.com/'>
+								<img
+									src={require("../../assets/hackathon-pics/big-red-2.jpg")}
+									className='projectImage'
+									alt='#'
+								/>
+							</a>
+						</div>
+					</div>
+
+					<div className='projectRow'>
+						<div className='project'>
+							<div className='hover-content'>
+								<h3 className='hover-content-title'>Dandy Hacks</h3>
+							</div>
+							<a href='https://backyardcrypto.com/'>
+								<img
+									src={require("../../assets/hackathon-pics/dandyhacksgroup.jpg")}
+									className='projectImage'
+									alt='#'
+								/>
+							</a>
+						</div>
+
+						<div className='project'>
+							<div className='hover-content'>
+								<h3 className='hover-content-title'>Dandy Hacks</h3>
+							</div>
+							<a href='https://backyardcrypto.com/'>
+								<img
+									src={require("../../assets/hackathon-pics/presentation.jpg")}
+									className='projectImage'
+									alt='#'
+								/>
+							</a>
+						</div>
+					</div>
+
+					<div className='projectRow'>
+						<div className='project'>
+							<div className='hover-content'>
+								<h3 className='hover-content-title'>UB Hacking</h3>
+							</div>
+							<a href='https://backyardcrypto.com/'>
+								<img
+									src={require("../../assets/hackathon-pics/ubhacking2.jpg")}
+									className='projectImage'
+									alt='#'
+								/>
+							</a>
+						</div>
+
+						<div className='project'>
+							<div className='hover-content'>
+								<h3 className='hover-content-title'>UB Hacking</h3>
+							</div>
+							<a href='https://backyardcrypto.com/'>
+								<img
+									src={require("../../assets/hackathon-pics/ubhacking1.jpg")}
+									className='projectImage'
+									alt='#'
+								/>
+							</a>
+						</div>
+					</div>
+				</div>
+			);
+		} else {
+			return (
+				<div>
+					<div className='hackathonContainer'>
+						<Carousel
+							autoPlay={true}
+							interval={3000}
+							infiniteLoop={true}
+							showThumbs={false}
+							className='hackathonCarousel'
+						>
+							<div className='hackathonCarouselImageDiv'>
+								<img
+									src={require("../../assets/hackathon-pics/big_red.jpg")}
+									className='hackathonCarouselImage'
+									alt='#'
+								/>
+							</div>
+
+							<div className='hackathonCarouselImageDiv'>
+								<img
+									src={require("../../assets/hackathon-pics/dandyhacksgroup.jpg")}
+									className='hackathonCarouselImage'
+									alt='#'
+								/>
+							</div>
+
+							<div className='hackathonCarouselImageDiv'>
+								<img
+									src={require("../../assets/hackathon-pics/presentation.jpg")}
+									className='hackathonCarouselImage'
+									alt='#'
+								/>
+							</div>
+
+							<div className='hackathonCarouselImageDiv'>
+								<img
+									src={require("../../assets/hackathon-pics/ubhacking1.jpg")}
+									className='hackathonCarouselImage'
+									alt='#'
+								/>
+							</div>
+
+							<div className='hackathonCarouselImageDiv'>
+								<img
+									src={require("../../assets/hackathon-pics/ubhacking2.jpg")}
+									className='hackathonCarouselImage'
+									alt='#'
+								/>
+							</div>
+						</Carousel>
+
+						<div className='mobileHackathonDetails'>
+							<h4 id='mobileAwardsHeader'>Awards</h4>
+							<p className='mobileAward'>UB Hacks - Finalist (Third Place)</p>
+							<p className='mobileAward'>
+								Dandy Hacks - Google Cloud Platform Award
+							</p>
+							<p className='mobileAward'>Dandy Hacks - FactSet API Award</p>
+						</div>
+					</div>
+				</div>
+			);
+		}
+
+		/*
     <div className='mobileHackathonDetails'>
       <div id='ubhackingDetails'>
         <p className='photoText'>This is a photo of our team at Big Red Hacks in 2018!</p>
@@ -290,8 +337,7 @@ class Hackathons extends Component {
       </div>
     </div>
     */
-
-  }
+	}
 }
 
 export default Hackathons;

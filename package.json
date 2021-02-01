@@ -34,5 +34,9 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-plugin-react": "^7.22.0"
   }
 }
