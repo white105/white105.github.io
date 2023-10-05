@@ -57,6 +57,7 @@ class GPACalculator extends Component {
     */
 
 		console.log("calculating gpa...");
+		console.log("hello world");
 	}
 
 	renderCourseInput(i) {
