@@ -10,6 +10,7 @@ class Chess extends Component {
 
 	componentDidMount() {
 		var board,
+		whateever
 			game = new Chess();
 
 		var minimaxRoot = function (depth, game, isMaximisingPlayer) {
